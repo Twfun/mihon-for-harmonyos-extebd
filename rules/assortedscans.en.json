@@ -43,5 +43,6 @@
   "chapterUrl": "@tmpl:https://assortedscans.com/api/v2/chapters/{{$.id}}/pages",
   "chapterReverse": true,
   "pageList": "$.results[*].image",
-  "description": "Ported from Keiyoushi en.assortedscans (MangAdventure API v2)."
+  "description": "英文精选汉化站，聚合多组连载与完结日式漫画",
+  "iconUrl": "https://cdn.jsdelivr.net/gh/keiyoushi/extensions-source@main/src/en/assortedscans/res/mipmap-xhdpi/ic_launcher.png"
 }

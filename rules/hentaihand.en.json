@@ -39,5 +39,6 @@
   "chapterName": "$.title",
   "chapterUrl": "@tmpl:https://hentaihand.com/api/comics/{{$.slug}}/images",
   "pageList": "$.images[*].source_url",
-  "description": "Ported from Keiyoushi all.hentaihand (English)."
+  "description": "英文高清同人志、单行本与全彩短篇资料库",
+  "iconUrl": "https://cdn.jsdelivr.net/gh/keiyoushi/extensions-source@main/src/all/hentaihand/res/mipmap-xhdpi/ic_launcher.png"
 }

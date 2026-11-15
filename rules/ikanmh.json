@@ -38,5 +38,6 @@
   "chapterUrl": "@href",
   "chapterReverse": false,
   "pageList": ".comicpage img@data-original || .comicpage img@src",
-  "description": "Keiyoushi 移植 · 漫小肆韓漫（同源镜像 jjmhw2.top 已合并去重）"
+  "description": "中文全彩韩漫在线阅读站，已合入同源镜像域名",
+  "iconUrl": "https://cdn.jsdelivr.net/gh/keiyoushi/extensions-source@main/src/zh/ikanmh/res/mipmap-xhdpi/ic_launcher.png"
 }

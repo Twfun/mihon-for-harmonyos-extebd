@@ -50,5 +50,6 @@
   "chapterUrl": "@tmpl:https://reader.hipmh.top/chapter/{{$.hid}}",
   "contentUrl": "@tmpl:https://hipapi1.s3file.top/v2/chapter?hid={{[data-api-hid]@data-api-hid}}",
   "pageList": "$.data.images",
-  "description": "嬉皮漫畫 SSR + hipmh-v2 声明式规则（改编自 copymanga-copy20）"
+  "description": "繁体中文热门韩漫、少女与综合条漫阅读站",
+  "iconUrl": "https://cdn.jsdelivr.net/gh/keiyoushi/extensions-source@main/src/zh/xipimanhua/res/mipmap-xhdpi/ic_launcher.png"
 }

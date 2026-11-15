@@ -38,5 +38,6 @@
   "chapterUrl": "@href",
   "chapterReverse": true,
   "pageList": ".reading-content img.wp-manga-chapter-img@data-src || .reading-content img.wp-manga-chapter-img@data-lazy-src || .reading-content img.wp-manga-chapter-img@src || .reading-content img@data-src || .reading-content img@data-lazy-src || .reading-content img@src",
-  "description": "Ported from Keiyoushi en.manhuahot (WordPress Madara inline)."
+  "description": "英文热门国漫与韩漫每日更新站",
+  "iconUrl": "https://cdn.jsdelivr.net/gh/keiyoushi/extensions-source@main/src/en/manhuahot/res/mipmap-xhdpi/ic_launcher.png"
 }

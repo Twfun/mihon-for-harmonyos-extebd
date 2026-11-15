@@ -54,5 +54,6 @@
   "chapterName": ".chapter-name@text",
   "chapterUrl": "@tmpl:/api/comic/image/{{@data-id}}?page=1&page_size=200",
   "pageList": "$.data.images[*].url",
-  "description": "漫蛙2+ JSON/HTML 声明式规则，配合原生 AES-256-CBC manwa-public 解密（改编自 copymanga-copy20）"
+  "description": "中文高速全彩韩漫与热门条漫阅读站",
+  "iconUrl": "https://cdn.jsdelivr.net/gh/keiyoushi/extensions-source@main/src/zh/manwamanhua/res/mipmap-xhdpi/ic_launcher.png"
 }

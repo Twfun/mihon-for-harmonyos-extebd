@@ -42,5 +42,6 @@
   "chapterName": "$.title",
   "chapterUrl": "@tmpl:https://master.toonspace.io/api/episodes/{{$.documentId}}?locale=zh&populate[pages][fields][0]=url",
   "pageList": "$.data.pages[*].url",
-  "description": "Ported from Keiyoushi all.toonspace (zh)."
+  "description": "中文成年向同人志与全彩漫画资源站",
+  "iconUrl": "https://cdn.jsdelivr.net/gh/keiyoushi/extensions-source@main/src/all/toonspace/res/mipmap-xhdpi/ic_launcher.png"
 }

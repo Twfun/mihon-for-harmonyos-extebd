@@ -38,5 +38,6 @@
   "chapterUrl": "@href",
   "chapterReverse": true,
   "pageList": ".reading-content img.wp-manga-chapter-img@data-src || .reading-content img.wp-manga-chapter-img@data-lazy-src || .reading-content img.wp-manga-chapter-img@src || .reading-content img@data-src || .reading-content img@data-lazy-src || .reading-content img@src",
-  "description": "Ported from Keiyoushi en.pornhwaz (WordPress Madara inline)."
+  "description": "英文全彩韩漫与成年向条漫阅读站",
+  "iconUrl": "https://cdn.jsdelivr.net/gh/keiyoushi/extensions-source@main/src/en/pornhwaz/res/mipmap-xhdpi/ic_launcher.png"
 }

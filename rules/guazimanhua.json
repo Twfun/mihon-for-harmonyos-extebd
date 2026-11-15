@@ -36,5 +36,6 @@
   "chapterUrl": "@href",
   "chapterReverse": true,
   "pageList": "img.reading-image@src",
-  "description": "Keiyoushi 移植 · 瓜子漫画（国漫/日漫/全彩韩漫在线阅读）"
+  "description": "中文国漫、日漫与全彩韩漫高清在线阅读站",
+  "iconUrl": "https://cdn.jsdelivr.net/gh/keiyoushi/extensions-source@main/src/zh/guazimanhua/res/mipmap-xhdpi/ic_launcher.png"
 }

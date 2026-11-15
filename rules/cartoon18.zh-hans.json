@@ -40,5 +40,6 @@
   "chapterUrl": "@href",
   "chapterReverse": true,
   "pageList": "img[src*='/images/image/']@src || img[data-src*='/images/image/']@data-src",
-  "description": "Ported from Keiyoushi zh.cartoon18 (zh-Hans)."
+  "description": "简体中文韩漫与成年向漫画资源站",
+  "iconUrl": "https://cdn.jsdelivr.net/gh/keiyoushi/extensions-source@main/src/zh/cartoon18/res/mipmap-xhdpi/ic_launcher.png"
 }

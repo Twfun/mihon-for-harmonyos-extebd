@@ -66,5 +66,6 @@
   "chapterUrl": "@tmpl:/api/v3/comic/{{$.comic_path_word}}/chapter2/{{$.uuid}}?platform=1",
   "chapterTime": "$.datetime_created",
   "pageList": "$.results.chapter.contents[*].url",
-  "description": "拷贝漫画官方 API 声明式规则（改编自 copymanga-copy20）"
+  "description": "中文高清日漫、轻改与热门连载漫画平台",
+  "iconUrl": "https://cdn.jsdelivr.net/gh/keiyoushi/extensions-source@main/src/zh/kaobeimanhua/res/mipmap-xhdpi/ic_launcher.png"
 }

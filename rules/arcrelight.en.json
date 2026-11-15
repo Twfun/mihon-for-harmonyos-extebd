@@ -40,5 +40,6 @@
   "chapterUrl": "@tmpl:https://arc-relight.com/api/v2/chapters/{{$.id}}/pages",
   "chapterReverse": true,
   "pageList": "$.results[*].image",
-  "description": "Ported from Keiyoushi en.arcrelight (MangAdventure API v2)."
+  "description": "英文独立汉化组站，专注高质量翻译与重制日漫",
+  "iconUrl": "https://cdn.jsdelivr.net/gh/keiyoushi/extensions-source@main/src/en/arcrelight/res/mipmap-xhdpi/ic_launcher.png"
 }

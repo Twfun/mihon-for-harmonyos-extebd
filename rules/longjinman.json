@@ -37,5 +37,6 @@
   "chapterUrl": "@href",
   "chapterReverse": false,
   "pageList": ".img-wrap img@data-src || .img-wrap img@src",
-  "description": "Keiyoushi 移植 · 龙禁漫（直连图源）"
+  "description": "中文全彩韩漫与成年向条漫直连阅读站",
+  "iconUrl": "https://cdn.jsdelivr.net/gh/keiyoushi/extensions-source@main/src/zh/longjinman/res/mipmap-xhdpi/ic_launcher.png"
 }

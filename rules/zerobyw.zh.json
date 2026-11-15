@@ -33,5 +33,6 @@
   "chapterUrl": "@href",
   "chapterReverse": true,
   "pageList": "#image-container img.manga-image@src || #image-container img@src || img.manga-image@src",
-  "description": "Ported from Keiyoushi zh.zerobyw."
+  "description": "中文综合漫展搬运站，收录海量连载与生肉汉化漫画",
+  "iconUrl": "https://cdn.jsdelivr.net/gh/keiyoushi/extensions-source@main/src/zh/zerobyw/res/mipmap-xhdpi/ic_launcher.png"
 }

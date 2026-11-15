@@ -40,5 +40,6 @@
   "chapterName": "$.title.pretty || $.title.english || $.title.japanese",
   "chapterUrl": "@tmpl:https://same.yui.pw/api/v6/book/{{$.id}}",
   "pageList": "$.images.pages[*].t",
-  "description": "Ported from Keiyoushi all.cinblue (en)."
+  "description": "英文同人本与成年向彩色短篇漫画库",
+  "iconUrl": "https://cdn.jsdelivr.net/gh/keiyoushi/extensions-source@main/src/all/cinblue/res/mipmap-xhdpi/ic_launcher.png"
 }

@@ -36,5 +36,6 @@
   "chapterUrl": "@href",
   "chapterReverse": false,
   "pageList": ".comic-content img.comic-image@src",
-  "description": "Keiyoushi 移植 · 漫画社"
+  "description": "中文综合漫画站，收录热门国漫、韩漫与完结作品",
+  "iconUrl": "https://cdn.jsdelivr.net/gh/keiyoushi/extensions-source@main/src/zh/manhuashe/res/mipmap-xhdpi/ic_launcher.png"
 }

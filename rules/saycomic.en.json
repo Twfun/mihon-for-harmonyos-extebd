@@ -37,5 +37,6 @@
   "chapterUrl": "@href",
   "chapterReverse": true,
   "pageList": ".reader-pages img@src || .reader-pages img@data-src",
-  "description": "Ported from Keiyoushi all.saymanhwa (Say Comics, en). Note: source enforces 5s chapter rate limit."
+  "description": "英文全彩韩漫阅读站（站点限制每 5 秒拉取章节）",
+  "iconUrl": "https://cdn.jsdelivr.net/gh/keiyoushi/extensions-source@main/src/all/saymanhwa/res/mipmap-xhdpi/ic_launcher.png"
 }

@@ -38,5 +38,6 @@
   "chapterUrl": "@href",
   "chapterReverse": true,
   "pageList": ".reading-content img.wp-manga-chapter-img@data-src || .reading-content img.wp-manga-chapter-img@data-lazy-src || .reading-content img.wp-manga-chapter-img@src || .reading-content img@data-src || .reading-content img@data-lazy-src || .reading-content img@src",
-  "description": "Ported from Keiyoushi en.manhuaplus (WordPress Madara inline)."
+  "description": "英文热门国漫、武侠仙侠与玄幻条漫站",
+  "iconUrl": "https://cdn.jsdelivr.net/gh/keiyoushi/extensions-source@main/src/en/manhuaplus/res/mipmap-xhdpi/ic_launcher.png"
 }

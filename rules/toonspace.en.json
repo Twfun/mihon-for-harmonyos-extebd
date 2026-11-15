@@ -42,5 +42,6 @@
   "chapterName": "$.title",
   "chapterUrl": "@tmpl:https://master.toonspace.io/api/episodes/{{$.documentId}}?locale=en&populate[pages][fields][0]=url",
   "pageList": "$.data.pages[*].url",
-  "description": "Ported from Keiyoushi all.toonspace (en)."
+  "description": "英文成人向同人志与全彩插画漫画站",
+  "iconUrl": "https://cdn.jsdelivr.net/gh/keiyoushi/extensions-source@main/src/all/toonspace/res/mipmap-xhdpi/ic_launcher.png"
 }

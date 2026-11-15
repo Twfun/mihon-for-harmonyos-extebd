@@ -65,5 +65,6 @@
   "chapterName": "div@text||span@text",
   "chapterUrl": "@href",
   "pageList": "ul.comic-contain amp-img@src||div.comic-contain amp-img@src||amp-img.comic-contain__item@src||img.comic-page@src",
-  "description": "包子漫画 SSR 声明式规则（改编自 copymanga-copy20）"
+  "description": "中文全彩国漫、韩漫与日漫免费在线阅读平台",
+  "iconUrl": "https://cdn.jsdelivr.net/gh/keiyoushi/extensions-source@main/src/zh/baozimanhua/res/mipmap-xhdpi/ic_launcher.png"
 }

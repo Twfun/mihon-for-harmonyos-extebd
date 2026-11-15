@@ -36,5 +36,6 @@
   "chapterUrl": "@href",
   "chapterReverse": true,
   "pageList": "picture img@data-src || img.js-page@data-src || picture img@src",
-  "description": "Ported from Keiyoushi en.mangapill."
+  "description": "英文高清热门日漫、韩漫与经典完结漫画站",
+  "iconUrl": "https://cdn.jsdelivr.net/gh/keiyoushi/extensions-source@main/src/en/mangapill/res/mipmap-xhdpi/ic_launcher.png"
 }

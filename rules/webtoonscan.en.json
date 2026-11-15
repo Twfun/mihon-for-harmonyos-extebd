@@ -38,5 +38,6 @@
   "chapterUrl": "@href",
   "chapterReverse": true,
   "pageList": ".reading-content img.wp-manga-chapter-img@data-src || .reading-content img.wp-manga-chapter-img@data-lazy-src || .reading-content img.wp-manga-chapter-img@src || .reading-content img@data-src || .reading-content img@data-lazy-src || .reading-content img@src",
-  "description": "Ported from Keiyoushi en.webtoonscan (WordPress Madara inline)."
+  "description": "英文条漫与成年向全彩韩漫阅读站",
+  "iconUrl": "https://cdn.jsdelivr.net/gh/keiyoushi/extensions-source@main/src/en/webtoonscan/res/mipmap-xhdpi/ic_launcher.png"
 }

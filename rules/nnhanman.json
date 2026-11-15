@@ -37,5 +37,6 @@
   "chapterUrl": "@href",
   "chapterReverse": true,
   "pageList": ".img-wrap img@data-src || .img-wrap img@src",
-  "description": "Keiyoushi 移植 · 鸟鸟韩漫"
+  "description": "中文韩漫连载与完结作品在线阅读站",
+  "iconUrl": "https://cdn.jsdelivr.net/gh/keiyoushi/extensions-source@main/src/zh/nnhanman/res/mipmap-xhdpi/ic_launcher.png"
 }
