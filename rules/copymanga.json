@@ -1,0 +1,70 @@
+{
+  "schema": "kazumi-comic-v1",
+  "id": "copymanga",
+  "name": "拷贝漫画",
+  "version": "1.0.0",
+  "versionCode": 1,
+  "lang": "zh",
+  "baseURL": "https://api.2026copy.com",
+  "allowedHosts": [
+    "api.2026copy.com",
+    "www.2026copy.com",
+    "sc.mangafunb.fun"
+  ],
+  "headers": {
+    "User-Agent": "COPY/2.3.0",
+    "Referer": "https://api.2026copy.com/",
+    "platform": "1",
+    "version": "2026.01.20",
+    "webp": "1"
+  },
+  "searchURL": "https://api.2026copy.com/api/v3/search/comic?platform=1&q={{key}}&limit=20&offset={{offset:20}}&q_type=",
+  "searchList": "$.results.list[*]",
+  "searchName": "$.name",
+  "searchResult": "@tmpl:/api/v3/comic2/{{$.path_word}}",
+  "searchCover": "$.cover",
+  "searchAuthor": "$.author[*].name",
+  "exploreCategories": [
+    {
+      "name": "全部",
+      "url": "/api/v3/comics?limit=20&offset={{offset:20}}&ordering=-datetime_updated"
+    },
+    {
+      "name": "少年",
+      "url": "/api/v3/comics?limit=20&offset={{offset:20}}&ordering=-datetime_updated&theme=shaonian"
+    },
+    {
+      "name": "青年",
+      "url": "/api/v3/comics?limit=20&offset={{offset:20}}&ordering=-datetime_updated&theme=qingnian"
+    },
+    {
+      "name": "少女",
+      "url": "/api/v3/comics?limit=20&offset={{offset:20}}&ordering=-datetime_updated&theme=shaonv"
+    },
+    {
+      "name": "搞笑",
+      "url": "/api/v3/comics?limit=20&offset={{offset:20}}&ordering=-datetime_updated&theme=gaoxiao"
+    },
+    {
+      "name": "爱情",
+      "url": "/api/v3/comics?limit=20&offset={{offset:20}}&ordering=-datetime_updated&theme=aiqing"
+    }
+  ],
+  "exploreList": "$.results.list[*]",
+  "exploreName": "$.name",
+  "exploreResult": "@tmpl:/api/v3/comic2/{{$.path_word}}",
+  "exploreCover": "$.cover",
+  "detailTitle": "$.results.comic.name",
+  "detailCover": "$.results.comic.cover",
+  "detailAuthor": "$.results.comic.author[*].name",
+  "detailIntro": "$.results.comic.brief",
+  "detailStatus": "$.results.comic.status.display",
+  "detailTags": "$.results.comic.theme[*].name",
+  "tocUrl": "@tmpl:/api/v3/comic/{{$.results.comic.path_word}}/group/default/chapters?limit=500&offset=0",
+  "chapterList": "$.results.list[*]",
+  "chapterName": "$.name",
+  "chapterUrl": "@tmpl:/api/v3/comic/{{$.comic_path_word}}/chapter2/{{$.uuid}}?platform=1",
+  "chapterTime": "$.datetime_created",
+  "pageList": "$.results.chapter.contents[*].url",
+  "description": "拷贝漫画官方 API 声明式规则（改编自 copymanga-copy20）"
+}

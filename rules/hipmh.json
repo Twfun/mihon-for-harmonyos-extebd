@@ -1,0 +1,54 @@
+{
+  "schema": "kazumi-comic-v1",
+  "id": "hipmh",
+  "name": "嬉皮漫畫",
+  "version": "1.0.0",
+  "versionCode": 1,
+  "lang": "zh",
+  "baseURL": "https://m.hipmh.com",
+  "allowedHosts": [
+    "m.hipmh.com",
+    "hipapi1.s3file.top",
+    "reader.hipmh.top",
+    "cover.s3imgs.top",
+    "hip-tx-1.s3imgs.top",
+    "hip-cf-1.s3imgs.top"
+  ],
+  "headers": {
+    "User-Agent": "Mozilla/5.0 (Linux; Android 13; Pixel 7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+    "Referer": "https://m.hipmh.com/"
+  },
+  "contentFormat": "hipmh-v2",
+  "searchURL": "https://hipapi1.s3file.top/v1/search?q={{key}}&page={{page}}&page_size=20",
+  "searchList": "$.data.data[*]",
+  "searchName": "$.title",
+  "searchResult": "@tmpl:https://m.hipmh.com/works/{{$.id}}",
+  "searchCover": "@tmpl:https://cover.s3imgs.top{{$.vertical_image_url}}",
+  "searchAuthor": "$.authors[*].name",
+  "exploreCategories": [
+    {
+      "name": "人气榜",
+      "url": "/popularity?page={{page}}"
+    },
+    {
+      "name": "首页推荐",
+      "url": "/"
+    }
+  ],
+  "exploreList": "a.manga-card-link",
+  "exploreName": "h3.manga-card-title@text||h3@text",
+  "exploreResult": "@href",
+  "exploreCover": "img.manga-card-image@src||img@src",
+  "detailTitle": "h1@text",
+  "detailCover": "#chapters-config@data-cover",
+  "detailAuthor": "a[href*='/search?q=']@text||a[href*='author']@text",
+  "detailIntro": "div.prose p@text||p.whitespace-pre-line@text||meta[name=\"description\"]@content",
+  "detailTags": "a[href*='/genre/']@text||a[href*='/tag/']@text",
+  "tocUrl": "@tmpl:https://hipapi1.s3file.top/v1/manga/chapters?mid={{#chapters-config@data-mid}}&page=1&per_page=1000&order=asc",
+  "chapterList": "$.data.items[*]",
+  "chapterName": "$.title",
+  "chapterUrl": "@tmpl:https://reader.hipmh.top/chapter/{{$.hid}}",
+  "contentUrl": "@tmpl:https://hipapi1.s3file.top/v2/chapter?hid={{[data-api-hid]@data-api-hid}}",
+  "pageList": "$.data.images",
+  "description": "嬉皮漫畫 SSR + hipmh-v2 声明式规则（改编自 copymanga-copy20）"
+}

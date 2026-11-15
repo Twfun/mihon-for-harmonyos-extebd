@@ -1,0 +1,59 @@
+{
+  "formatVersion": 1,
+  "repoName": "Mihon HarmonyOS 图源规则仓",
+  "updatedAt": "2026-11-15",
+  "rules": [
+    {
+      "id": "copymanga",
+      "name": "拷贝漫画",
+      "lang": "zh",
+      "baseUrl": "https://api.2026copy.com",
+      "version": "1.0.0",
+      "versionCode": 1,
+      "schema": "kazumi-comic-v1",
+      "ruleUrl": "rules/copymanga.json",
+      "sha256": "d56ef224d0433de6ad73d21220c22fef9dbda90c2f06c4d6f003f94150d656da",
+      "description": "拷贝漫画官方 API 声明式规则（改编自 copymanga-copy20）",
+      "nsfw": false
+    },
+    {
+      "id": "baozimanhua",
+      "name": "包子漫画+",
+      "lang": "zh",
+      "baseUrl": "https://tw.webmota.com",
+      "version": "1.0.0",
+      "versionCode": 1,
+      "schema": "kazumi-comic-v1",
+      "ruleUrl": "rules/baozimanhua.json",
+      "sha256": "d4c9068fa15a36728407dabf2e51573ed25f403b8b7d9d38dfad526a8efab533",
+      "description": "包子漫画 SSR 声明式规则（改编自 copymanga-copy20）",
+      "nsfw": false
+    },
+    {
+      "id": "manwa2",
+      "name": "漫蛙2+",
+      "lang": "zh",
+      "baseUrl": "https://manwadz.cc",
+      "version": "1.0.0",
+      "versionCode": 1,
+      "schema": "kazumi-comic-v1",
+      "ruleUrl": "rules/manwa2.json",
+      "sha256": "4143d20544d218f322af7c010e9d7c05e4393887ad7b57d028dba3020093708d",
+      "description": "漫蛙2+ JSON/HTML 声明式规则，配合原生 AES-256-CBC manwa-public 解密（改编自 copymanga-copy20）",
+      "nsfw": true
+    },
+    {
+      "id": "hipmh",
+      "name": "嬉皮漫畫",
+      "lang": "zh",
+      "baseUrl": "https://m.hipmh.com",
+      "version": "1.0.0",
+      "versionCode": 1,
+      "schema": "kazumi-comic-v1",
+      "ruleUrl": "rules/hipmh.json",
+      "sha256": "7ce4002787d5f3a4535e64e03ce3213793513935f90d27f222e29872df0448a7",
+      "description": "嬉皮漫畫 SSR + hipmh-v2 声明式规则（改编自 copymanga-copy20）",
+      "nsfw": false
+    }
+  ]
+}

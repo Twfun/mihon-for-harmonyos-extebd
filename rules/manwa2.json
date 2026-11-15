@@ -1,0 +1,58 @@
+{
+  "schema": "kazumi-comic-v1",
+  "id": "manwa2",
+  "name": "漫蛙2+",
+  "version": "1.0.0",
+  "versionCode": 1,
+  "lang": "zh",
+  "baseURL": "https://manwadz.cc",
+  "allowedHosts": [
+    "manwadz.cc",
+    "manwari.cc",
+    "manwauu.cc",
+    "tu.mwzu.cc",
+    "ce.mwzu.cc",
+    "tu.mhttu.cc",
+    "mwtuwu.cc"
+  ],
+  "headers": {
+    "User-Agent": "Mozilla/5.0 (Linux; Android 13; Pixel 7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+    "Referer": "https://manwadz.cc/"
+  },
+  "imageFormat": "manwa-public",
+  "searchURL": "https://manwadz.cc/api/search?type=mh&page={{page}}&pageSize=20&keyword={{key}}",
+  "searchList": "$.data.list[*]",
+  "searchName": "$.title",
+  "searchResult": "$.url",
+  "searchCover": "$.cover",
+  "searchAuthor": "$.author",
+  "exploreCategories": [
+    {
+      "name": "人气榜",
+      "url": "/api/rank?page={{page}}"
+    },
+    {
+      "name": "更新榜",
+      "url": "/api/rank?type=update&page={{page}}"
+    },
+    {
+      "name": "新作榜",
+      "url": "/api/rank?type=new&page={{page}}"
+    }
+  ],
+  "exploreList": "$.data.list[*]",
+  "exploreName": "$.title",
+  "exploreResult": "$.url",
+  "exploreCover": "$.pic",
+  "detailTitle": "#page-title@text",
+  "detailCover": "img.comic-cover@data-src||img.comic-cover@src",
+  "detailAuthor": "#author-container a@text",
+  "detailIntro": "p.comic-desc@text",
+  "detailStatus": "#status@text",
+  "detailTags": "#tagsContainer .tag@text",
+  "chapterList": "#chapter-grid-container a.chapter-item",
+  "chapterName": ".chapter-name@text",
+  "chapterUrl": "@tmpl:/api/comic/image/{{@data-id}}?page=1&page_size=200",
+  "pageList": "$.data.images[*].url",
+  "description": "漫蛙2+ JSON/HTML 声明式规则，配合原生 AES-256-CBC manwa-public 解密（改编自 copymanga-copy20）"
+}

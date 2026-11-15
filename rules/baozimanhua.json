@@ -1,0 +1,69 @@
+{
+  "schema": "kazumi-comic-v1",
+  "id": "baozimanhua",
+  "name": "包子漫画+",
+  "version": "1.0.0",
+  "versionCode": 1,
+  "lang": "zh",
+  "baseURL": "https://tw.webmota.com",
+  "allowedHosts": [
+    "tw.webmota.com",
+    "tw.twbzmg.com",
+    "cn.baozimh.com",
+    "www.baozimh.com",
+    "static-tw.baozimh.com",
+    "s1.bzcdn.net",
+    "s2.bzcdn.net"
+  ],
+  "headers": {
+    "User-Agent": "Mozilla/5.0 (Linux; Android 13; Pixel 7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+    "Referer": "https://tw.webmota.com/"
+  },
+  "searchURL": "https://tw.webmota.com/search?q={{key}}",
+  "searchList": "div.comics-card",
+  "searchName": ".comics-card__title@text",
+  "searchResult": "a.comics-card__poster@href",
+  "searchCover": "a.comics-card__poster > amp-img@src",
+  "searchAuthor": "small.tags@text",
+  "exploreCategories": [
+    {
+      "name": "全部",
+      "url": "/classify?type=all&region=all&state=all&filter=*&page={{page}}"
+    },
+    {
+      "name": "连载中",
+      "url": "/classify?type=all&region=all&state=serial&filter=*&page={{page}}"
+    },
+    {
+      "name": "已完结",
+      "url": "/classify?type=all&region=all&state=pub&filter=*&page={{page}}"
+    },
+    {
+      "name": "国漫",
+      "url": "/classify?type=all&region=cn&state=all&filter=*&page={{page}}"
+    },
+    {
+      "name": "日漫",
+      "url": "/classify?type=all&region=jp&state=all&filter=*&page={{page}}"
+    },
+    {
+      "name": "韩漫",
+      "url": "/classify?type=all&region=kr&state=all&filter=*&page={{page}}"
+    }
+  ],
+  "exploreList": "div.comics-card",
+  "exploreName": ".comics-card__title@text",
+  "exploreResult": "a.comics-card__poster@href",
+  "exploreCover": "a.comics-card__poster > amp-img@src",
+  "detailTitle": "h1.comics-detail__title@text",
+  "detailCover": "meta[name=\"og:image\"]@content||div.de-info__box > div > amp-img@src",
+  "detailAuthor": "h2.comics-detail__author@text",
+  "detailIntro": "p.comics-detail__desc@text",
+  "detailStatus": "div.tag-list > span.tag:first-child@text",
+  "detailTags": "div.tag-list span.tag@text",
+  "chapterList": "#chapter-items a.comics-chapters__item, #chapters_other_list a.comics-chapters__item||a.comics-chapters__item",
+  "chapterName": "div@text||span@text",
+  "chapterUrl": "@href",
+  "pageList": "ul.comic-contain amp-img@src||div.comic-contain amp-img@src||amp-img.comic-contain__item@src||img.comic-page@src",
+  "description": "包子漫画 SSR 声明式规则（改编自 copymanga-copy20）"
+}
