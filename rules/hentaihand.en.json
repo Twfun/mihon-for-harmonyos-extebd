@@ -1,0 +1,43 @@
+{
+  "schema": "kazumi-comic-v1",
+  "id": "keiyoushi.en.hentaihand",
+  "name": "HentaiHand",
+  "version": "1.0.0",
+  "versionCode": 1,
+  "lang": "en",
+  "baseURL": "https://hentaihand.com",
+  "headers": {
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+    "Accept": "application/json",
+    "X-Requested-With": "XMLHttpRequest"
+  },
+  "searchURL": "https://hentaihand.com/api/comics?page=@page&sort=popularity&order=desc&duration=all&q=@keyword&languages%5B-1%5D=2&languages%5B-2%5D=27",
+  "searchList": "$.data[*]",
+  "searchName": "$.title",
+  "searchResult": "@tmpl:https://hentaihand.com/api/comics/{{$.slug}}",
+  "searchCover": "$.image_url",
+  "exploreCategories": [
+    {
+      "name": "Popular",
+      "url": "https://hentaihand.com/api/comics?page=@page&sort=popularity&order=desc&duration=all&languages%5B-1%5D=2&languages%5B-2%5D=27"
+    },
+    {
+      "name": "Latest",
+      "url": "https://hentaihand.com/api/comics?page=@page&sort=uploaded_at&order=desc&duration=all&languages%5B-1%5D=2&languages%5B-2%5D=27"
+    }
+  ],
+  "exploreList": "$.data[*]",
+  "exploreName": "$.title",
+  "exploreResult": "@tmpl:https://hentaihand.com/api/comics/{{$.slug}}",
+  "exploreCover": "$.image_url",
+  "detailTitle": "$.title",
+  "detailCover": "$.image_url",
+  "detailAuthor": "$.artists[0].name || $.authors[0].name",
+  "detailIntro": "$.description",
+  "detailTags": "$.tags[*].name",
+  "chapterList": "$",
+  "chapterName": "$.title",
+  "chapterUrl": "@tmpl:https://hentaihand.com/api/comics/{{$.slug}}/images",
+  "pageList": "$.images[*].source_url",
+  "description": "Ported from Keiyoushi all.hentaihand (English)."
+}

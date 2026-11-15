@@ -1,0 +1,37 @@
+{
+  "schema": "kazumi-comic-v1",
+  "id": "keiyoushi.zh.zerobyw",
+  "name": "zero搬运网",
+  "version": "1.0.0",
+  "versionCode": 1,
+  "lang": "zh",
+  "baseURL": "http://www.zerobyw33.com",
+  "headers": {
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/121.0"
+  },
+  "searchURL": "http://www.zerobyw33.com/pc/pc/?keyword=@keyword&page=@page",
+  "searchList": "a[href*=/details/?kuid=]",
+  "searchName": "h3@text",
+  "searchResult": "@href",
+  "searchCover": "img@src || img@data-src",
+  "exploreCategories": [
+    {
+      "name": "全部更新",
+      "url": "http://www.zerobyw33.com/pc/pc/?page=@page"
+    }
+  ],
+  "exploreList": "a[href*=/details/?kuid=]",
+  "exploreName": "h3@text",
+  "exploreResult": "@href",
+  "exploreCover": "img@src || img@data-src",
+  "detailTitle": "main h1@text",
+  "detailCover": "main img@src || main img@data-src",
+  "detailIntro": "p@text",
+  "detailTags": "main span@text",
+  "chapterList": "div.grid a[href*=/view/index.php]",
+  "chapterName": "@text",
+  "chapterUrl": "@href",
+  "chapterReverse": true,
+  "pageList": "#image-container img.manga-image@src || #image-container img@src || img.manga-image@src",
+  "description": "Ported from Keiyoushi zh.zerobyw."
+}

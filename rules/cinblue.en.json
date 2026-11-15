@@ -1,0 +1,44 @@
+{
+  "schema": "kazumi-comic-v1",
+  "id": "keiyoushi.en.cinblue",
+  "name": "Cin.blue",
+  "version": "1.0.0",
+  "versionCode": 1,
+  "lang": "en",
+  "baseURL": "https://cin.blue",
+  "allowedHosts": [
+    "same.yui.pw"
+  ],
+  "headers": {
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+    "Referer": "https://cin.blue/",
+    "Origin": "https://cin.blue"
+  },
+  "searchURL": "https://same.yui.pw/api/v6/search/language%3A%22english%22%20@keyword/@page/popular-today",
+  "searchList": "$.result[*]",
+  "searchName": "$.title.pretty || $.title.english || $.title.japanese",
+  "searchResult": "@tmpl:https://same.yui.pw/api/v6/book/{{$.id}}",
+  "searchCover": "$.cover.t",
+  "exploreCategories": [
+    {
+      "name": "Popular Today",
+      "url": "https://same.yui.pw/api/v6/search/language%3A%22english%22/@page/popular-today"
+    },
+    {
+      "name": "Latest",
+      "url": "https://same.yui.pw/api/v6/search/language%3A%22english%22/@page/date"
+    }
+  ],
+  "exploreList": "$.result[*]",
+  "exploreName": "$.title.pretty || $.title.english || $.title.japanese",
+  "exploreResult": "@tmpl:https://same.yui.pw/api/v6/book/{{$.id}}",
+  "exploreCover": "$.cover.t",
+  "detailTitle": "$.title.english || $.title.japanese || $.title.pretty",
+  "detailCover": "$.cover.t || $.images.cover.t",
+  "detailTags": "$.tags[*].name",
+  "chapterList": "$",
+  "chapterName": "$.title.pretty || $.title.english || $.title.japanese",
+  "chapterUrl": "@tmpl:https://same.yui.pw/api/v6/book/{{$.id}}",
+  "pageList": "$.images.pages[*].t",
+  "description": "Ported from Keiyoushi all.cinblue (en)."
+}

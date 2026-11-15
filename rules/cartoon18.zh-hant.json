@@ -1,0 +1,44 @@
+{
+  "schema": "kazumi-comic-v1",
+  "id": "keiyoushi.zh-hant.cartoon18",
+  "name": "Cartoon18",
+  "version": "1.0.0",
+  "versionCode": 1,
+  "lang": "zh-Hant",
+  "baseURL": "https://www.cartoon18.com",
+  "headers": {
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+  },
+  "searchURL": "https://www.cartoon18.com?q=@keyword&page=@page",
+  "searchList": "div.card",
+  "searchName": "div.card-body a[href*='/v/']@text || img.lazyimage@alt",
+  "searchResult": "div.card-body a[href*='/v/']@href",
+  "searchCover": "img.lazyimage@data-src || img.lazyimage@src",
+  "exploreCategories": [
+    {
+      "name": "推薦",
+      "url": "https://www.cartoon18.com?sort=score&page=@page"
+    },
+    {
+      "name": "熱門",
+      "url": "https://www.cartoon18.com?sort=hits&page=@page"
+    },
+    {
+      "name": "最新",
+      "url": "https://www.cartoon18.com?sort=created&page=@page"
+    }
+  ],
+  "exploreList": "div.card",
+  "exploreName": "div.card-body a[href*='/v/']@text || img.lazyimage@alt",
+  "exploreResult": "div.card-body a[href*='/v/']@href",
+  "exploreCover": "img.lazyimage@data-src || img.lazyimage@src",
+  "detailTitle": "title@text || div.content h1.title@text",
+  "detailCover": "div.content img@data-src || div.content img@src",
+  "detailTags": "div.content div.my-2 a@text",
+  "chapterList": "div.content a[href*='/story/']",
+  "chapterName": "@text",
+  "chapterUrl": "@href",
+  "chapterReverse": true,
+  "pageList": "img[src*='/images/image/']@src || img[data-src*='/images/image/']@data-src",
+  "description": "Ported from Keiyoushi zh.cartoon18 (zh-Hant)."
+}

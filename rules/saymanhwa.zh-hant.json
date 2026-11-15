@@ -1,0 +1,41 @@
+{
+  "schema": "kazumi-comic-v1",
+  "id": "keiyoushi.zh-hant.saymanhwa",
+  "name": "SayManhwa",
+  "version": "1.0.0",
+  "versionCode": 1,
+  "lang": "zh-Hant",
+  "baseURL": "https://saymanhwa.net",
+  "headers": {
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+  },
+  "searchURL": "https://saymanhwa.net/zh-tw/series?q=@keyword&page=@page",
+  "searchList": "article.series-card",
+  "searchName": ".series-card-body h2 a@text",
+  "searchResult": ".series-card-cover@href",
+  "searchCover": ".series-card-cover img@src || .series-card-cover img@data-src",
+  "exploreCategories": [
+    {
+      "name": "熱門",
+      "url": "https://saymanhwa.net/zh-tw/series?sort=popular&page=@page"
+    },
+    {
+      "name": "最新",
+      "url": "https://saymanhwa.net/zh-tw/series?sort=latest&page=@page"
+    }
+  ],
+  "exploreList": "article.series-card",
+  "exploreName": ".series-card-body h2 a@text",
+  "exploreResult": ".series-card-cover@href",
+  "exploreCover": ".series-card-cover img@src || .series-card-cover img@data-src",
+  "detailTitle": "h1@text",
+  "detailCover": ".series-v72-cover img@src || .series-v72-cover img@data-src",
+  "detailIntro": ".series-v72-description@text",
+  "detailTags": ".series-v72-genres span@text || .series-v72-tag@text",
+  "chapterList": ".series-v72-chapter-list a.series-v72-chapter-row",
+  "chapterName": ".series-chapter-number-text@text || @text",
+  "chapterUrl": "@href",
+  "chapterReverse": true,
+  "pageList": ".reader-pages img@src || .reader-pages img@data-src",
+  "description": "Ported from Keiyoushi all.saymanhwa (SayManhwa, zh-Hant). Note: source enforces 5s chapter rate limit."
+}

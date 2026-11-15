@@ -1,0 +1,41 @@
+{
+  "schema": "kazumi-comic-v1",
+  "id": "keiyoushi.zh.longjinman",
+  "name": "龙禁漫",
+  "version": "1.6.10",
+  "versionCode": 106010,
+  "lang": "zh",
+  "baseURL": "https://long52.com",
+  "allowedHosts": [
+    "long52.com",
+    "*.niaopic.com",
+    "*.nnpic.xyz"
+  ],
+  "headers": {
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36"
+  },
+  "exploreCategories": [
+    {
+      "name": "最新发布",
+      "url": "https://long52.com/cata.php?sort=2&page=@page"
+    },
+    {
+      "name": "热门点击",
+      "url": "https://long52.com/cata.php?sort=1&page=@page"
+    }
+  ],
+  "searchURL": "https://long52.com/cata.php?key=@keyword&page=@page",
+  "searchList": ".module-poster-item",
+  "searchName": "@title",
+  "searchResult": "@href",
+  "searchCover": "img@data-original || img@src",
+  "detailTitle": "h1@text",
+  "detailCover": ".module-item-pic img@data-original || .module-item-pic img@src",
+  "detailDescription": ".module-info-introduction-content@text",
+  "chapterList": "a.module-play-list-link",
+  "chapterName": "span@text || @title",
+  "chapterUrl": "@href",
+  "chapterReverse": false,
+  "pageList": ".img-wrap img@data-src || .img-wrap img@src",
+  "description": "Keiyoushi 移植 · 龙禁漫（直连图源）"
+}

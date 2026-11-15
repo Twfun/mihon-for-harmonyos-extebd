@@ -1,0 +1,40 @@
+{
+  "schema": "kazumi-comic-v1",
+  "id": "keiyoushi.en.mangapill",
+  "name": "MangaPill",
+  "version": "1.0.0",
+  "versionCode": 1,
+  "lang": "en",
+  "baseURL": "https://mangapill.com",
+  "allowedHosts": [
+    "cdn.readdetectiveconan.com"
+  ],
+  "headers": {
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+  },
+  "searchURL": "https://mangapill.com/search?q=@keyword&page=@page",
+  "searchList": "div.grid > div",
+  "searchName": "div.line-clamp-2@text || a.mb-2@text",
+  "searchResult": "a.mb-2@href",
+  "searchCover": "img@data-src || img@src",
+  "exploreCategories": [
+    {
+      "name": "Popular Manga",
+      "url": "https://mangapill.com/search?type=manga&page=@page"
+    }
+  ],
+  "exploreList": "div.grid > div",
+  "exploreName": "div.line-clamp-2@text || a.mb-2@text",
+  "exploreResult": "a.mb-2@href",
+  "exploreCover": "img@data-src || img@src",
+  "detailTitle": "h1@text",
+  "detailCover": "div.container img@data-src || div.container img@src",
+  "detailIntro": "div.container p@text",
+  "detailTags": "a[href*='genre']@text",
+  "chapterList": "#chapters a",
+  "chapterName": "@text",
+  "chapterUrl": "@href",
+  "chapterReverse": true,
+  "pageList": "picture img@data-src || img.js-page@data-src || picture img@src",
+  "description": "Ported from Keiyoushi en.mangapill."
+}

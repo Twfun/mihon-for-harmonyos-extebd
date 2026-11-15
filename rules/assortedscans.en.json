@@ -1,0 +1,47 @@
+{
+  "schema": "kazumi-comic-v1",
+  "id": "keiyoushi.en.assortedscans",
+  "name": "Assorted Scans",
+  "version": "1.0.0",
+  "versionCode": 1,
+  "lang": "en",
+  "baseURL": "https://assortedscans.com",
+  "allowedHosts": [
+    "i3.wp.com"
+  ],
+  "headers": {
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+  },
+  "searchURL": "https://assortedscans.com/api/v2/series?page=@page&title=@keyword",
+  "searchList": "$.results[*]",
+  "searchName": "$.title",
+  "searchResult": "@tmpl:https://assortedscans.com/api/v2/series/{{$.slug}}",
+  "searchCover": "$.cover",
+  "exploreCategories": [
+    {
+      "name": "Popular",
+      "url": "https://assortedscans.com/api/v2/series?limit=24&page=@page&sort=-views"
+    },
+    {
+      "name": "Latest",
+      "url": "https://assortedscans.com/api/v2/series?limit=24&page=@page&sort=-updated"
+    }
+  ],
+  "exploreList": "$.results[*]",
+  "exploreName": "$.title",
+  "exploreResult": "@tmpl:https://assortedscans.com/api/v2/series/{{$.slug}}",
+  "exploreCover": "$.cover",
+  "detailTitle": "$.title",
+  "detailCover": "$.cover",
+  "detailAuthor": "$.authors[*]",
+  "detailIntro": "$.description",
+  "detailStatus": "$.status",
+  "detailTags": "$.categories[*]",
+  "tocUrl": "@tmpl:https://assortedscans.com/api/v2/chapters?series={{$.slug}}",
+  "chapterList": "@json:$.results[*]",
+  "chapterName": "$.full_title || $.title",
+  "chapterUrl": "@tmpl:https://assortedscans.com/api/v2/chapters/{{$.id}}/pages",
+  "chapterReverse": true,
+  "pageList": "$.results[*].image",
+  "description": "Ported from Keiyoushi en.assortedscans (MangAdventure API v2)."
+}

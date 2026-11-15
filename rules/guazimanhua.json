@@ -1,0 +1,40 @@
+{
+  "schema": "kazumi-comic-v1",
+  "id": "keiyoushi.zh.guazimanhua",
+  "name": "瓜子漫画",
+  "version": "1.6.7",
+  "versionCode": 106007,
+  "lang": "zh",
+  "baseURL": "https://www.guazimanhua.com",
+  "allowedHosts": [
+    "www.guazimanhua.com",
+    "img.guazicdn.com"
+  ],
+  "headers": {
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36"
+  },
+  "exploreCategories": [
+    {
+      "name": "分类更新",
+      "url": "https://www.guazimanhua.com/category.php?page=@page"
+    },
+    {
+      "name": "日榜热门",
+      "url": "https://www.guazimanhua.com/category.php?sort=daily&page=@page"
+    }
+  ],
+  "searchURL": "https://www.guazimanhua.com/category.php?keyword=@keyword&page=@page",
+  "searchList": "article.card",
+  "searchName": "h3 a@text",
+  "searchResult": "h3 a@href",
+  "searchCover": "img.cover@src",
+  "detailTitle": "#cinema-title@text",
+  "detailCover": ".cinema-info img.cover@src || img.cover@src",
+  "detailDescription": ".cinema-info p@text",
+  "chapterList": "section.chapters a[href*=chapter.php]",
+  "chapterName": "@text",
+  "chapterUrl": "@href",
+  "chapterReverse": true,
+  "pageList": "img.reading-image@src",
+  "description": "Keiyoushi 移植 · 瓜子漫画（国漫/日漫/全彩韩漫在线阅读）"
+}

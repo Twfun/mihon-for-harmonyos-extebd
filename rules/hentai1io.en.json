@@ -1,0 +1,42 @@
+{
+  "schema": "kazumi-comic-v1",
+  "id": "keiyoushi.en.hentai1io",
+  "name": "Hentai1.io",
+  "version": "1.0.0",
+  "versionCode": 1,
+  "lang": "en",
+  "baseURL": "https://hentai1.io",
+  "headers": {
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+  },
+  "searchURL": "https://hentai1.io/?s=@keyword&post_type=wp-manga",
+  "searchList": "div.c-tabs-item__content",
+  "searchName": ".post-title h3 a@text || .post-title a@text",
+  "searchResult": ".tab-thumb a@href || .post-title a@href",
+  "searchCover": ".tab-thumb img@data-src || .tab-thumb img@data-lazy-src || .tab-thumb img@src",
+  "exploreCategories": [
+    {
+      "name": "Popular",
+      "url": "https://hentai1.io/manga/?m_orderby=views"
+    },
+    {
+      "name": "Latest",
+      "url": "https://hentai1.io/manga/?m_orderby=latest"
+    }
+  ],
+  "exploreList": "div.page-item-detail",
+  "exploreName": ".post-title h3 a@text || .post-title a@text",
+  "exploreResult": ".item-thumb a@href || .post-title a@href",
+  "exploreCover": ".item-thumb img@data-src || .item-thumb img@data-lazy-src || .item-thumb img@src",
+  "detailTitle": ".post-title h1@text",
+  "detailCover": ".summary_image img@data-src || .summary_image img@data-lazy-src || .summary_image img@src",
+  "detailAuthor": ".author-content a@text",
+  "detailIntro": ".description-summary@text",
+  "detailTags": ".genres-content a@text",
+  "chapterList": "li.wp-manga-chapter a",
+  "chapterName": "@text",
+  "chapterUrl": "@href",
+  "chapterReverse": true,
+  "pageList": ".reading-content img.wp-manga-chapter-img@data-src || .reading-content img.wp-manga-chapter-img@data-lazy-src || .reading-content img.wp-manga-chapter-img@src || .reading-content img@data-src || .reading-content img@data-lazy-src || .reading-content img@src",
+  "description": "Ported from Keiyoushi en.hentai1io (WordPress Madara inline)."
+}

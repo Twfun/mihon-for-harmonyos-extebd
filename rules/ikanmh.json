@@ -1,0 +1,42 @@
+{
+  "schema": "kazumi-comic-v1",
+  "id": "keiyoushi.zh.ikanmh",
+  "name": "漫小肆韓漫",
+  "version": "1.6.15",
+  "versionCode": 106015,
+  "lang": "zh",
+  "baseURL": "https://ikanmh.xyz",
+  "allowedHosts": [
+    "ikanmh.xyz",
+    "www.jjmhw2.top",
+    "*.jjmhw12.top",
+    "*.jjmhw2.top"
+  ],
+  "headers": {
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36"
+  },
+  "exploreCategories": [
+    {
+      "name": "全部韩漫",
+      "url": "https://ikanmh.xyz/booklist?page=@page"
+    },
+    {
+      "name": "最新更新",
+      "url": "https://ikanmh.xyz/update?page=@page"
+    }
+  ],
+  "searchURL": "https://ikanmh.xyz/search?keyword=@keyword",
+  "searchList": ".mh-item",
+  "searchName": ".title a@text",
+  "searchResult": ".title a@href",
+  "searchCover": ".mh-cover img@src",
+  "detailTitle": ".banner_detail_form .info h1@text",
+  "detailCover": ".banner_detail_form .cover img@src",
+  "detailDescription": ".banner_detail_form .info .content@text",
+  "chapterList": "#detail-list-select li a",
+  "chapterName": "@text",
+  "chapterUrl": "@href",
+  "chapterReverse": false,
+  "pageList": ".comicpage img@data-original || .comicpage img@src",
+  "description": "Keiyoushi 移植 · 漫小肆韓漫（同源镜像 jjmhw2.top 已合并去重）"
+}

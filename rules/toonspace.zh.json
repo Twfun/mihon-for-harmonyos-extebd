@@ -1,0 +1,46 @@
+{
+  "schema": "kazumi-comic-v1",
+  "id": "keiyoushi.zh.toonspace",
+  "name": "ToonSpace",
+  "version": "1.0.0",
+  "versionCode": 1,
+  "lang": "zh",
+  "baseURL": "https://toon.space",
+  "allowedHosts": [
+    "master.toonspace.io"
+  ],
+  "headers": {
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+    "Origin": "https://toon.space",
+    "Referer": "https://toon.space/"
+  },
+  "searchURL": "https://master.toonspace.io/api/toons?locale=zh&filters[title][$containsi]=@keyword&fields[0]=title&fields[1]=urlSlug&populate[image][fields][0]=url&sort[0]=viewsCount:desc&pagination[page]=@page&pagination[pageSize]=24",
+  "searchList": "$.data[*]",
+  "searchName": "$.title",
+  "searchResult": "@tmpl:https://master.toonspace.io/api/toons?locale=zh&filters[urlSlug][$eq]={{$.urlSlug}}&populate[image][fields][0]=url&populate[genres][fields][0]=type",
+  "searchCover": "$.image.url",
+  "exploreCategories": [
+    {
+      "name": "热门",
+      "url": "https://master.toonspace.io/api/toons?locale=zh&fields[0]=title&fields[1]=urlSlug&populate[image][fields][0]=url&sort[0]=viewsCount:desc&pagination[page]=@page&pagination[pageSize]=24"
+    },
+    {
+      "name": "最新",
+      "url": "https://master.toonspace.io/api/toons?locale=zh&fields[0]=title&fields[1]=urlSlug&populate[image][fields][0]=url&sort[0]=updatedAt:desc&pagination[page]=@page&pagination[pageSize]=24"
+    }
+  ],
+  "exploreList": "$.data[*]",
+  "exploreName": "$.title",
+  "exploreResult": "@tmpl:https://master.toonspace.io/api/toons?locale=zh&filters[urlSlug][$eq]={{$.urlSlug}}&populate[image][fields][0]=url&populate[genres][fields][0]=type",
+  "exploreCover": "$.image.url",
+  "detailTitle": "$.data[0].title",
+  "detailCover": "$.data[0].image.url",
+  "detailIntro": "$.data[0].synopsis",
+  "detailTags": "$.data[0].genres[*].type",
+  "tocUrl": "@tmpl:https://master.toonspace.io/api/episodes?locale=zh&filters[toon][urlSlug][$eq]={{$.data[0].urlSlug}}&filters[index][$gte]=0&fields[0]=index&fields[1]=title&sort[0]=index:asc&pagination[page]=1&pagination[pageSize]=100",
+  "chapterList": "$.data[*]",
+  "chapterName": "$.title",
+  "chapterUrl": "@tmpl:https://master.toonspace.io/api/episodes/{{$.documentId}}?locale=zh&populate[pages][fields][0]=url",
+  "pageList": "$.data.pages[*].url",
+  "description": "Ported from Keiyoushi all.toonspace (zh)."
+}

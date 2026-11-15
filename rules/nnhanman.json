@@ -1,0 +1,41 @@
+{
+  "schema": "kazumi-comic-v1",
+  "id": "keiyoushi.zh.nnhanman",
+  "name": "鸟鸟韩漫",
+  "version": "1.6.7",
+  "versionCode": 106007,
+  "lang": "zh",
+  "baseURL": "https://nnhanman.xyz",
+  "allowedHosts": [
+    "nnhanman.xyz",
+    "*.niaopic.com",
+    "*.nnpic.xyz"
+  ],
+  "headers": {
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36"
+  },
+  "exploreCategories": [
+    {
+      "name": "最新更新",
+      "url": "https://nnhanman.xyz/catalog.php?sort=2&page=@page"
+    },
+    {
+      "name": "热门排行",
+      "url": "https://nnhanman.xyz/catalog.php?sort=1&page=@page"
+    }
+  ],
+  "searchURL": "https://nnhanman.xyz/catalog.php?key=@keyword&page=@page",
+  "searchList": "ul.col_3_1 li || ul li",
+  "searchName": "a.txtA@text",
+  "searchResult": "a.txtA@href || a.ImgA@href",
+  "searchCover": "a.ImgA img@src",
+  "detailTitle": "#comicName@text || h1@text",
+  "detailCover": ".pic img@src || .cover img@src",
+  "detailDescription": ".txtDesc@text || .intro@text",
+  "chapterList": "#mh-chapter-list-ol-0 li a",
+  "chapterName": "span@text || @text",
+  "chapterUrl": "@href",
+  "chapterReverse": true,
+  "pageList": ".img-wrap img@data-src || .img-wrap img@src",
+  "description": "Keiyoushi 移植 · 鸟鸟韩漫"
+}

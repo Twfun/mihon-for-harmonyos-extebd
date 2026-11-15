@@ -1,0 +1,40 @@
+{
+  "schema": "kazumi-comic-v1",
+  "id": "keiyoushi.zh.manhuashe",
+  "name": "漫画社",
+  "version": "1.6.1",
+  "versionCode": 106001,
+  "lang": "zh",
+  "baseURL": "https://www.311s.com",
+  "allowedHosts": [
+    "www.311s.com",
+    "*.5um.net"
+  ],
+  "headers": {
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36"
+  },
+  "exploreCategories": [
+    {
+      "name": "首页推荐",
+      "url": "https://www.311s.com/"
+    },
+    {
+      "name": "全部分类",
+      "url": "https://www.311s.com/category/page/@page"
+    }
+  ],
+  "searchURL": "https://www.311s.com/search/@keyword/@page",
+  "searchList": ".comic-item",
+  "searchName": "h3 a@text || .comic-title a@text",
+  "searchResult": "a.comic-cover@href || h3 a@href",
+  "searchCover": "a.comic-cover img@src",
+  "detailTitle": ".comic-meta-info h1@text || h1@text",
+  "detailCover": ".comic-cover img@src",
+  "detailDescription": ".comic-desc@text || .comic-intro@text",
+  "chapterList": "#chapter-list .chapter-item a",
+  "chapterName": "@text",
+  "chapterUrl": "@href",
+  "chapterReverse": false,
+  "pageList": ".comic-content img.comic-image@src",
+  "description": "Keiyoushi 移植 · 漫画社"
+}
