@@ -1,0 +1,35 @@
+{
+  "schema": "kazumi-comic-v1",
+  "id": "keiyoushi.zh.tibiucomics",
+  "name": "TIBIU漫画",
+  "lang": "zh",
+  "version": "1.0.0",
+  "versionCode": 1,
+  "baseURL": "https://comic.tibiu.net",
+  "searchURL": "/api/data/comic?page=@page&size=30&key=@keyword",
+  "searchList": "$.data[*]",
+  "searchName": "$.name",
+  "searchResult": "@tmpl:/index.php/api/data/comicinfo?cid={{$.id}}",
+  "searchCover": "$.pic",
+  "exploreCategories": [
+    {
+      "name": "熱門",
+      "url": "/api/data/comic?page=@page&size=30&order=hits"
+    },
+    {
+      "name": "最新",
+      "url": "/api/data/comic?page=@page&size=30&order=addtime"
+    }
+  ],
+  "detailTitle": "$.data.name",
+  "detailCover": "$.data.pic",
+  "detailAuthor": "$.data.author",
+  "detailIntro": "$.data.content",
+  "detailStatus": "$.data.serialize",
+  "tocUrl": "@tmpl:/api/comic/chapter?mid={{$.data.id}}",
+  "chapterList": "$.data[*]",
+  "chapterName": "$.name",
+  "chapterUrl": "@tmpl:/index.php/api/data/pic?cid={{$.id}}",
+  "chapterTime": "$.addtime",
+  "pageList": "$.data[*].img"
+}

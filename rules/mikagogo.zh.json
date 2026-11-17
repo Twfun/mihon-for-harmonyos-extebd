@@ -1,0 +1,32 @@
+{
+  "bookSourceName": "米卡插画",
+  "bookSourceUrl": "https://mikagogo.com",
+  "bookSourceGroup": "zh",
+  "bookSourceType": 2,
+  "exploreUrl": "公開插畫::/",
+  "searchUrl": "/?s={{key}}",
+  "ruleSearch": {
+    "bookList": "@css:.kzpost-data > a[title]",
+    "name": "@css:.posr-tit@text",
+    "bookUrl": "@href",
+    "coverUrl": "@css:img.cardImage@data-original || @css:img.cardImage@src"
+  },
+  "ruleExplore": {
+    "bookList": "@css:.kzpost-data > a[title]",
+    "name": "@css:.posr-tit@text",
+    "bookUrl": "@href",
+    "coverUrl": "@css:img.cardImage@data-original || @css:img.cardImage@src"
+  },
+  "ruleBookInfo": {
+    "name": "@css:.kz-single-data h1@text",
+    "kind": "@css:.kz-post_tags_list a@text"
+  },
+  "ruleToc": {
+    "chapterList": "@css:.kz-single-data",
+    "chapterName": "@css:h1@text"
+  },
+  "ruleContent": {
+    "content": "@css:#content .content_left img@src",
+    "nextContentUrl": "@css:.page_imges a.next.page-numbers@href"
+  }
+}

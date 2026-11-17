@@ -1,0 +1,28 @@
+{
+  "bookSourceName": "《崩坏3》IP站",
+  "bookSourceUrl": "https://comic.bh3.com",
+  "bookSourceGroup": "zh",
+  "bookSourceType": 2,
+  "exploreUrl": "官方漫畫::/book",
+  "ruleExplore": {
+    "bookList": "@css:a[href*='enterBookApp'] .container",
+    "name": "@css:div.container-title@text",
+    "bookUrl": "@tmpl:/book/{{@id}}/",
+    "coverUrl": "@css:img@src"
+  },
+  "ruleBookInfo": {
+    "name": "@css:div.title@text",
+    "intro": "@css:div.detail_info1@text",
+    "coverUrl": "@css:img.cover@src",
+    "tocUrl": "@tmpl:get_chapter#{{urlencode:div.title@text}}"
+  },
+  "ruleToc": {
+    "chapterList": "$[*]",
+    "chapterName": "$.title",
+    "chapterUrl": "@tmpl:/book/{{$.bookid}}/{{$.chapterid}}",
+    "updateTime": "$.timestamp"
+  },
+  "ruleContent": {
+    "content": "@css:img.lazy.comic_img@data-original"
+  }
+}

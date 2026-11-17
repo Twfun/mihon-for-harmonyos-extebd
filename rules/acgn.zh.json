@@ -1,0 +1,25 @@
+{
+  "bookSourceName": "ACGN",
+  "bookSourceUrl": "https://comic.acgn.cc",
+  "bookSourceGroup": "zh",
+  "bookSourceType": 2,
+  "exploreUrl": "熱門::/",
+  "ruleExplore": {
+    "bookList": "@css:.tabs-panel li",
+    "name": "@css:div > a@title",
+    "bookUrl": "@css:div > a@href",
+    "coverUrl": "@css:img@src"
+  },
+  "ruleBookInfo": {
+    "name": "@css:.list_navbox h3 a@text",
+    "coverUrl": "@css:.gameshows img@src"
+  },
+  "ruleToc": {
+    "chapterList": "@css:#comic_chapter li a",
+    "chapterName": "@text",
+    "chapterUrl": "@href"
+  },
+  "ruleContent": {
+    "content": "@xpath://div[@id='pic_list']//div[@_src]/@_src"
+  }
+}

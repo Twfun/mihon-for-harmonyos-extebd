@@ -1,0 +1,44 @@
+{
+  "schema": "kazumi-comic-v1",
+  "id": "keiyoushi.all.hentaihand",
+  "name": "HentaiHand",
+  "version": "1.0.0",
+  "versionCode": 1,
+  "lang": "all",
+  "baseURL": "https://hentaihand.com",
+  "headers": {
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+    "Accept": "application/json",
+    "X-Requested-With": "XMLHttpRequest"
+  },
+  "searchURL": "https://hentaihand.com/api/comics?page=@page&sort=popularity&order=desc&duration=all&q=@keyword",
+  "searchList": "$.data[*]",
+  "searchName": "$.title",
+  "searchResult": "@tmpl:https://hentaihand.com/api/comics/{{$.slug}}",
+  "searchCover": "$.image_url",
+  "exploreCategories": [
+    {
+      "name": "Popular",
+      "url": "https://hentaihand.com/api/comics?page=@page&sort=popularity&order=desc&duration=all"
+    },
+    {
+      "name": "Latest",
+      "url": "https://hentaihand.com/api/comics?page=@page&sort=uploaded_at&order=desc&duration=all"
+    }
+  ],
+  "exploreList": "$.data[*]",
+  "exploreName": "$.title",
+  "exploreResult": "@tmpl:https://hentaihand.com/api/comics/{{$.slug}}",
+  "exploreCover": "$.image_url",
+  "detailTitle": "$.title",
+  "detailCover": "$.image_url",
+  "detailAuthor": "$.artists[0].name || $.authors[0].name",
+  "detailIntro": "$.description",
+  "detailTags": "$.tags[*].name",
+  "chapterList": "$",
+  "chapterName": "$.title",
+  "chapterUrl": "@tmpl:https://hentaihand.com/api/comics/{{$.slug}}/images",
+  "pageList": "$.images[*].source_url",
+  "description": "HentaiHand 全语种公开访客目录",
+  "iconUrl": "https://cdn.jsdelivr.net/gh/keiyoushi/extensions-source@main/src/all/hentaihand/res/mipmap-xhdpi/ic_launcher.png"
+}

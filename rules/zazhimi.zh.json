@@ -1,0 +1,36 @@
+{
+  "schema": "kazumi-comic-v1",
+  "id": "keiyoushi.zh.zazhimi",
+  "name": "杂志迷",
+  "lang": "zh",
+  "version": "1.0.0",
+  "versionCode": 1,
+  "baseURL": "https://www.zazhimi.net",
+  "allowedHosts": [
+    "android2026.zazhimi.net"
+  ],
+  "headers": {
+    "User-Agent": "ZaZhiMi_6.0.0"
+  },
+  "searchURL": "https://android2026.zazhimi.net/api/search.php?k=@keyword&p=@page&s=20",
+  "searchList": "$.magazine[*]",
+  "searchName": "$.magName",
+  "searchResult": "@tmpl:https://android2026.zazhimi.net/api/show.php?a={{$.magId}}",
+  "searchCover": "$.magCover",
+  "exploreCategories": [
+    {
+      "name": "新刊",
+      "url": "https://android2026.zazhimi.net/api/index.php?p=@page&s=20"
+    }
+  ],
+  "exploreList": "$.new[*]",
+  "exploreName": "$.magName",
+  "exploreResult": "@tmpl:https://android2026.zazhimi.net/api/show.php?a={{$.magId}}",
+  "exploreCover": "$.magCover",
+  "detailTitle": "$.content[0].magName",
+  "detailCover": "$.content[0].magPic",
+  "chapterList": "$.content[0]",
+  "chapterName": "$.magName",
+  "chapterUrl": "@tmpl:https://android2026.zazhimi.net/api/show.php?a={{$.magId}}",
+  "pageList": "$.content[*].magPic"
+}
