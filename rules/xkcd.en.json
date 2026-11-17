@@ -1,0 +1,27 @@
+{
+  "bookSourceName": "xkcd",
+  "bookSourceUrl": "https://xkcd.com",
+  "bookSourceGroup": "en",
+  "bookSourceType": 2,
+  "exploreUrl": "官方存档::/archive/",
+  "ruleExplore": {
+    "bookList": "@css:html",
+    "name": "@xpath://meta[@property='og:site_name']/@content",
+    "bookUrl": "@css:a[href='/archive']@href##$##/",
+    "coverUrl": "@css:#masthead img@src"
+  },
+  "ruleBookInfo": {
+    "name": "@xpath://meta[@property='og:site_name']/@content",
+    "coverUrl": "@css:#masthead img@src",
+    "intro": "@css:#slogan@text"
+  },
+  "ruleToc": {
+    "chapterList": "@css:#middleContainer > a[title][href]",
+    "chapterName": "@text",
+    "chapterUrl": "@href",
+    "updateTime": "@title"
+  },
+  "ruleContent": {
+    "content": "@css:#comic > img@src"
+  }
+}

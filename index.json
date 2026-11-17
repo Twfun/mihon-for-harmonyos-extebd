@@ -1,7 +1,7 @@
 {
   "formatVersion": 1,
   "repoName": "Mihon HarmonyOS 图源规则仓",
-  "updatedAt": "2026-11-15",
+  "updatedAt": "2026-11-17",
   "rules": [
     {
       "id": "keiyoushi.en.arcrelight",
@@ -647,6 +647,34 @@
       "nsfw": false,
       "contentWarning": "mixed",
       "iconUrl": "https://cdn.jsdelivr.net/gh/keiyoushi/extensions-source@main/src/all/saymanhwa/res/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+      "id": "keiyoushi.en.xkcd",
+      "name": "xkcd",
+      "lang": "en",
+      "baseUrl": "https://xkcd.com",
+      "version": "1.0.0",
+      "versionCode": 1,
+      "schema": "legado-v3",
+      "ruleUrl": "rules/xkcd.en.json",
+      "sha256": "2befa1fdb8ae2a2ddf976bba0db7035656ffea6b456030b035e973560644fcc7",
+      "description": "英文官方漫画存档。支持浏览和普通静态页图。交互漫画、鼠标悬浮文本和按年月分组另待支持。",
+      "contentWarning": "safe",
+      "nsfw": false
+    },
+    {
+      "id": "keiyoushi.en.peppercarrot",
+      "name": "Pepper&Carrot（英文主漫画）",
+      "lang": "en",
+      "baseUrl": "https://www.peppercarrot.com",
+      "version": "1.0.0",
+      "versionCode": 1,
+      "schema": "legado-v3",
+      "ruleUrl": "rules/peppercarrot.en.json",
+      "sha256": "4758d4de7d9179890f5c130e1395330f08882ebdb93653b68fa84c2d28954694",
+      "description": "官方英文主漫画。支持浏览和静态页图。其他语种、迷你剧场和插画另待移植。",
+      "contentWarning": "safe",
+      "nsfw": false
     }
   ]
 }

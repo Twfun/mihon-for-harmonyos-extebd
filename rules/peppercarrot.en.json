@@ -1,0 +1,24 @@
+{
+  "bookSourceName": "Pepper&Carrot（英文主漫画）",
+  "bookSourceUrl": "https://www.peppercarrot.com",
+  "bookSourceGroup": "en",
+  "exploreUrl": "官方目录::/en/webcomics/peppercarrot.html",
+  "ruleExplore": {
+    "bookList": "@css:html",
+    "name": "@css:.gallery-page-container .teaser h2@text",
+    "bookUrl": "@css:a.translabutton.active@href"
+  },
+  "ruleBookInfo": {
+    "name": "@css:.gallery-page-container .teaser h2@text",
+    "intro": "@css:.gallery-page-container .teaser .text-glow@text"
+  },
+  "ruleToc": {
+    "chapterList": "@css:.gallery-page-container figure.translated figcaption",
+    "chapterName": "@css:a@text",
+    "chapterUrl": "@css:a@href"
+  },
+  "ruleContent": {
+    "content": "@css:.webcomic-page img[title^=\"Page \"]@src"
+  },
+  "bookSourceType": 2
+}
