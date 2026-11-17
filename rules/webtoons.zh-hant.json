@@ -1,0 +1,36 @@
+{
+  "bookSourceName": "WEBTOON 繁體中文",
+  "bookSourceUrl": "https://www.webtoons.com",
+  "bookSourceGroup": "zh-Hant",
+  "bookSourceType": 2,
+  "searchUrl": "/zh-hant/search?keyword={{key}}",
+  "exploreUrl": "熱門排行::/zh-hant/ranking/trending\n原創排行::/zh-hant/ranking/originals\nCANVAS 排行::/zh-hant/ranking/canvas",
+  "ruleSearch": {
+    "bookList": "@css:.webtoon_list li > a[data-title-no]",
+    "name": ".title@text",
+    "bookUrl": "@href",
+    "coverUrl": "img@src"
+  },
+  "ruleExplore": {
+    "bookList": "@css:.webtoon_list li > a[data-title-no]",
+    "name": ".title@text",
+    "bookUrl": "@href",
+    "coverUrl": "img@src"
+  },
+  "ruleBookInfo": {
+    "name": "h1.subj@text || h3.subj@text",
+    "author": ".detail_header .author_area@text",
+    "intro": "#_asideDetail p.summary@text",
+    "coverUrl": "@xpath://meta[@property=\"og:image\"]/@content"
+  },
+  "ruleToc": {
+    "chapterList": "-@css:#_listUl li > a[href*=\"episode_no=\"]",
+    "chapterName": ".subj span@text",
+    "chapterUrl": "@href",
+    "updateTime": ".date@text",
+    "nextTocUrl": "@css:.paginate a[aria-current=\"true\"] + a.pg_page@href || @css:.paginate a.pg_next@href"
+  },
+  "ruleContent": {
+    "content": "@css:#_imageList > img[data-url]@data-url"
+  }
+}

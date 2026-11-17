@@ -901,6 +901,76 @@
       "description": "繁體中文介面的公開單篇漫畫。系列合併、作者檢索和限帳號內容待支援。",
       "contentWarning": "safe",
       "nsfw": false
+    },
+    {
+      "id": "keiyoushi.all.mangadex",
+      "name": "MangaDex（多语言）",
+      "lang": "all",
+      "version": "1.0.0",
+      "versionCode": 1,
+      "schema": "kazumi-comic-v1",
+      "description": "公开漫画列表、全语种译本及静态页图。每部作品目录最多读取 500 条。",
+      "baseUrl": "https://mangadex.org",
+      "ruleUrl": "rules/mangadex.all.json",
+      "sha256": "de7115ed97a992df7812b2e853189ab2cd3449cded06b2aad1f3fc3849d3dcb0",
+      "contentWarning": "mixed",
+      "nsfw": false
+    },
+    {
+      "id": "keiyoushi.zh-hans.mangadex",
+      "name": "MangaDex（简体中文）",
+      "lang": "zh-Hans",
+      "version": "1.0.0",
+      "versionCode": 1,
+      "baseUrl": "https://mangadex.org",
+      "schema": "kazumi-comic-v1",
+      "ruleUrl": "rules/mangadex.zh-hans.json",
+      "sha256": "0cad6e15bf5c8c996bd512b6bc05395e624d27704773af7e2b8ce261d13affe2",
+      "description": "公开漫画列表、简体中文译本及静态页图。每部作品目录最多读取 500 条。",
+      "contentWarning": "mixed",
+      "nsfw": false
+    },
+    {
+      "id": "keiyoushi.zh-hant.mangadex",
+      "name": "MangaDex（繁體中文）",
+      "lang": "zh-Hant",
+      "version": "1.0.0",
+      "versionCode": 1,
+      "baseUrl": "https://mangadex.org",
+      "schema": "kazumi-comic-v1",
+      "ruleUrl": "rules/mangadex.zh-hant.json",
+      "sha256": "8f8c090e6ef97b335b19a6e184d30223ff200cd5982035d8756f0988367cc809",
+      "description": "公开漫画列表、繁體中文译本及静态页图。每部作品目录最多读取 500 条。",
+      "contentWarning": "mixed",
+      "nsfw": false
+    },
+    {
+      "id": "keiyoushi.zh-hant.webtoons",
+      "name": "WEBTOON 繁體中文",
+      "lang": "zh-Hant",
+      "version": "1.0.0",
+      "versionCode": 1,
+      "baseUrl": "https://www.webtoons.com",
+      "schema": "legado-v3",
+      "ruleUrl": "rules/webtoons.zh-hant.json",
+      "sha256": "a1d60a72a80ac2e6b7cea015ba8020f94e180731cd54706a0e1c3f325cb66477",
+      "description": "繁體中文官方游客静态章节。动态漫画和超过 20 页的长目录待支持。",
+      "contentWarning": "safe",
+      "nsfw": false
+    },
+    {
+      "id": "keiyoushi.zh-hans.dongmanmanhua",
+      "name": "咚漫漫画",
+      "lang": "zh-Hans",
+      "version": "1.0.0",
+      "versionCode": 1,
+      "baseUrl": "https://www.dongmanmanhua.cn",
+      "schema": "legado-v3",
+      "ruleUrl": "rules/dongmanmanhua.zh-hans.json",
+      "sha256": "cf7f13ffad2a4e6488f7df1cbc80f19096d7b5d169859b76406969186a9e6b56",
+      "description": "简体中文官方游客静态章节。超过 20 页的长目录待支持。",
+      "contentWarning": "safe",
+      "nsfw": false
     }
   ]
 }

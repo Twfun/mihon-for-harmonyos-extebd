@@ -1,0 +1,36 @@
+{
+  "bookSourceName": "咚漫漫画",
+  "bookSourceUrl": "https://www.dongmanmanhua.cn",
+  "bookSourceGroup": "zh-Hans",
+  "bookSourceType": 2,
+  "searchUrl": "/search?keyword={{key}}&page={{page}}",
+  "exploreUrl": "更新日历::/dailySchedule",
+  "ruleSearch": {
+    "bookList": "@css:#content .card_wrap.search ul li a[href*=\"titleNo=\"]",
+    "name": "p.subj@text",
+    "bookUrl": "@href",
+    "coverUrl": "img@src"
+  },
+  "ruleExplore": {
+    "bookList": "@css:#dailyList .daily_section li a",
+    "name": "p.subj@text",
+    "bookUrl": "@href",
+    "coverUrl": "img@src"
+  },
+  "ruleBookInfo": {
+    "name": "h1.subj@text || h3.subj@text",
+    "author": ".detail_header .author_area@text",
+    "intro": "#_asideDetail p.summary@text",
+    "coverUrl": "@xpath://meta[@property=\"og:image\"]/@content"
+  },
+  "ruleToc": {
+    "chapterList": "-@css:#_listUl li > a[href*=\"episode_no=\"]",
+    "chapterName": ".subj span@text",
+    "chapterUrl": "@href",
+    "updateTime": ".date@text",
+    "nextTocUrl": "@css:.paginate a[onclick] + a@href"
+  },
+  "ruleContent": {
+    "content": "@css:#_imageList > img[data-url]@data-url"
+  }
+}

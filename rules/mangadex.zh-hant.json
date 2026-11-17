@@ -1,0 +1,39 @@
+{
+  "schema": "kazumi-comic-v1",
+  "id": "keiyoushi.zh-hant.mangadex",
+  "name": "MangaDex（繁體中文）",
+  "version": "1.0.0",
+  "versionCode": 1,
+  "lang": "zh-Hant",
+  "baseURL": "https://mangadex.org",
+  "allowedHosts": [
+    "api.mangadex.org"
+  ],
+  "searchURL": "https://api.mangadex.org/manga?limit=5&availableTranslatedLanguage%5B%5D=zh-hk&includes%5B%5D=cover_art&offset={{offset:5}}&title=@keyword",
+  "searchList": "$.data[*]",
+  "searchName": "$.attributes.title['zh-hk'] || $.attributes.altTitles[*]['zh-hk'] || $.attributes.title.en || $.attributes.title.*",
+  "searchResult": "@tmpl:https://api.mangadex.org/manga/{{$.id}}?includes%5B%5D=cover_art",
+  "searchCover": "@tmpl:https://uploads.mangadex.org/covers/{{$.id}}/{{$.relationships[?(@.type == 'cover_art')].attributes.fileName}}",
+  "exploreCategories": [
+    {
+      "name": "热门",
+      "url": "https://api.mangadex.org/manga?limit=5&availableTranslatedLanguage%5B%5D=zh-hk&includes%5B%5D=cover_art&offset={{offset:5}}&order%5BfollowedCount%5D=desc"
+    },
+    {
+      "name": "最近更新",
+      "url": "https://api.mangadex.org/manga?limit=5&availableTranslatedLanguage%5B%5D=zh-hk&includes%5B%5D=cover_art&offset={{offset:5}}&order%5BlatestUploadedChapter%5D=desc"
+    }
+  ],
+  "detailTitle": "$.data.attributes.title['zh-hk'] || $.data.attributes.altTitles[*]['zh-hk'] || $.data.attributes.title.en || $.data.attributes.title.*",
+  "detailIntro": "$.data.attributes.description['zh-hk'] || $.data.attributes.description.en",
+  "detailCover": "@tmpl:https://uploads.mangadex.org/covers/{{$.data.id}}/{{$.data.relationships[?(@.type == 'cover_art')].attributes.fileName}}",
+  "detailStatus": "$.data.attributes.status",
+  "tocUrl": "@tmpl:https://api.mangadex.org/manga/{{$.data.id}}/feed?translatedLanguage%5B%5D=zh-hk&limit=500&order%5Bchapter%5D=asc",
+  "chapterList": "$.data[?(@.attributes.externalUrl == null)]",
+  "chapterName": "$.attributes.title || $.attributes.chapter",
+  "chapterUrl": "@tmpl:https://api.mangadex.org/at-home/server/{{$.id}}?forcePort443=true",
+  "chapterTime": "$.attributes.publishAt",
+  "contentFormat": "mangadex-at-home",
+  "pageList": "$.chapter.data[*]",
+  "description": "公开漫画列表、繁體中文译本及静态页图。每部作品目录最多读取 500 条。"
+}
