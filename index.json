@@ -1965,6 +1965,20 @@
       "contentWarning": "mixed",
       "nsfw": false,
       "description": "官方公開出版物檔案，支援八類目及名稱檢索。保留同一出版物的已連結語言版本，正文依數字與字母頁序，重複頁優先使用非 PNG，略過未取得出版物。"
+    },
+    {
+      "id": "keiyoushi.zh.mangaball",
+      "name": "Manga Ball",
+      "lang": "zh",
+      "version": "1.0.0",
+      "versionCode": 1,
+      "baseUrl": "https://mangaball.com",
+      "schema": "kazumi-comic-v1",
+      "ruleUrl": "rules/mangaball.zh.json",
+      "sha256": "e2936ab4fdddb287276ba2b2e4a4fe4e6b5abb0030953a477f20b9d398019e20",
+      "contentWarning": "mixed",
+      "nsfw": false,
+      "description": "官方公開中文目錄，僅顯示公開發布的各種中文語碼章節。目錄使用同站只讀 POST。目前支援已實測的 chikorita.red-and-blue.net 公開頁圖。不含瀏覽次數回報，超過現有響應上限的目錄待支持。"
     }
   ]
 }
