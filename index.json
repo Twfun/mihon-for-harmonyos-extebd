@@ -1167,6 +1167,62 @@
       "description": "數碼寶貝官網 DIGIMON DREAMERS 中文三話檔案，按原站頁碼排列。",
       "contentWarning": "safe",
       "nsfw": false
+    },
+    {
+      "id": "keiyoushi.all.kodokustudio",
+      "name": "Kodoku Studio",
+      "lang": "all",
+      "baseUrl": "https://kodokueasyaccess.com",
+      "schema": "legado-v3",
+      "version": "1.0.0",
+      "versionCode": 1,
+      "ruleUrl": "rules/kodokustudio.all.json",
+      "sha256": "f331ae5a9b070936cce039c7ddfdb2a296a5f91aa9b51790b8b0aeb446b49458",
+      "contentWarning": "mixed",
+      "nsfw": false,
+      "description": "仅列出无需访问码的公开章节，章节标题保留原文语种。"
+    },
+    {
+      "id": "keiyoushi.all.photos18",
+      "name": "Photos18",
+      "lang": "all",
+      "schema": "kazumi-comic-v1",
+      "version": "1.0.0",
+      "versionCode": 1,
+      "description": "站点原生简体和繁体两种公开发现目录；内容分级沿用上游。",
+      "baseUrl": "https://www.photos18.com",
+      "ruleUrl": "rules/photos18.all.json",
+      "sha256": "64b521a44f604bb88fd599f84a0ceb3683839649919ffda07cf87b090046c193",
+      "contentWarning": "nsfw",
+      "nsfw": true
+    },
+    {
+      "id": "keiyoushi.zh.woaimanhua",
+      "name": "我爱漫画",
+      "lang": "zh",
+      "version": "1.0.0",
+      "versionCode": 1,
+      "schema": "kazumi-comic-v1",
+      "baseUrl": "https://www.woimh.com",
+      "ruleUrl": "rules/woaimanhua.zh.json",
+      "sha256": "7108b910f6ac3ee1256beca412d0de15a699b61b61741e9bc1524c3d79459e1a",
+      "description": "公开移动站目录、搜索与游客免费章节",
+      "contentWarning": "safe",
+      "nsfw": false
+    },
+    {
+      "id": "keiyoushi.all.baramangaonline",
+      "name": "Bara Manga Online",
+      "lang": "all",
+      "version": "1.0.0",
+      "versionCode": 1,
+      "schema": "kazumi-comic-v1",
+      "description": "公开漫画目录沿用上游分类排除，读取站点静态正文图片。",
+      "baseUrl": "https://baramangaonline.com",
+      "ruleUrl": "rules/baramangaonline.all.json",
+      "sha256": "28514b46a24bd228b62f70ad59b2a485f326136d60e575ba04d66f1e87a814dd",
+      "contentWarning": "nsfw",
+      "nsfw": true
     }
   ]
 }
