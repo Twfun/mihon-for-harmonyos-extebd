@@ -1,8 +1,8 @@
 {
-  "bookSourceName": "Pepper&Carrot（英文主漫画）",
+  "bookSourceName": "Pepper&Carrot（英文）",
   "bookSourceUrl": "https://www.peppercarrot.com",
   "bookSourceGroup": "en",
-  "exploreUrl": "官方目录::/en/webcomics/peppercarrot.html",
+  "exploreUrl": "官方目录::/en/webcomics/peppercarrot.html\n迷你奇幻剧场::/en/webcomics/miniFantasyTheater.html",
   "ruleExplore": {
     "bookList": "@css:html",
     "name": "@css:.gallery-page-container .teaser h2@text",
@@ -18,7 +18,7 @@
     "chapterUrl": "@css:a@href"
   },
   "ruleContent": {
-    "content": "@css:.webcomic-page img[title^=\"Page \"]@src"
+    "content": "@css:.webcomic-page img[title^=\"Page \"]@src || @css:.mft-cv-panel img[src*=\"/panels/\"]@src || @css:#panel-all img@src"
   },
   "bookSourceType": 2
 }

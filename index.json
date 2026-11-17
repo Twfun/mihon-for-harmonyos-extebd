@@ -664,17 +664,31 @@
     },
     {
       "id": "keiyoushi.en.peppercarrot",
-      "name": "Pepper&Carrot（英文主漫画）",
+      "name": "Pepper&Carrot（英文）",
       "lang": "en",
       "baseUrl": "https://www.peppercarrot.com",
+      "version": "1.1.0",
+      "versionCode": 2,
+      "schema": "legado-v3",
+      "ruleUrl": "rules/peppercarrot.en.json",
+      "sha256": "bbdab9e545bfed810fabbe2b71df7a8324f3d9835a6c1e16d34d4ea3f3bd52f3",
+      "description": "官方英文主漫画与迷你奇幻剧场。其他译本及插画待移植。",
+      "contentWarning": "safe",
+      "nsfw": false
+    },
+    {
+      "id": "keiyoushi.es.xkcd",
+      "name": "xkcd en español",
+      "lang": "es",
+      "baseUrl": "https://es.xkcd.com",
       "version": "1.0.0",
       "versionCode": 1,
       "schema": "legado-v3",
-      "ruleUrl": "rules/peppercarrot.en.json",
-      "sha256": "4758d4de7d9179890f5c130e1395330f08882ebdb93653b68fa84c2d28954694",
-      "description": "官方英文主漫画。支持浏览和静态页图。其他语种、迷你剧场和插画另待移植。",
+      "ruleUrl": "rules/xkcd.es.json",
+      "description": "xkcd 西班牙语译本存档。支持浏览及普通静态页图。",
       "contentWarning": "safe",
-      "nsfw": false
+      "nsfw": false,
+      "sha256": "71f3ed2c3a385b9c6e04991571dbe1d77184323f4c61f6a4d2077fed70de667d"
     }
   ]
 }
