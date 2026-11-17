@@ -1,0 +1,25 @@
+{
+  "bookSourceName": "NakedPics",
+  "bookSourceUrl": "https://hotnakedwomen.com",
+  "bookSourceGroup": "all",
+  "bookSourceType": 2,
+  "exploreUrl": "公开热门相册::/popular/\n公开最新相册::/recent/",
+  "ruleExplore": {
+    "bookList": "@css:[itemprop=associatedMedia] > a[href*=/gals/]",
+    "name": "@css:img@alt",
+    "bookUrl": "@href",
+    "coverUrl": "@css:img@data-src || @css:img@src"
+  },
+  "ruleBookInfo": {
+    "name": "@css:h1[itemprop=name]@text",
+    "coverUrl": "@css:[itemprop=associatedMedia] > a[data-pswp-width] img@src"
+  },
+  "ruleToc": {
+    "chapterList": "@css:html",
+    "chapterName": "@css:h1[itemprop=name]@text",
+    "chapterUrl": "@css:link[rel=canonical]@href"
+  },
+  "ruleContent": {
+    "content": "@css:[itemprop=associatedMedia] > a[data-pswp-width]@href"
+  }
+}
