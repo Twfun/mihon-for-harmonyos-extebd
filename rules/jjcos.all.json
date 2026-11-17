@@ -1,0 +1,25 @@
+{
+  "bookSourceName": "JJCOS",
+  "bookSourceUrl": "https://jjcos.com",
+  "bookSourceGroup": "all",
+  "bookSourceType": 2,
+  "exploreUrl": "公开相册首页::/",
+  "ruleExplore": {
+    "bookList": "@css:.fh5co-post-entry article",
+    "name": "@css:h3.fh5co-article-title a@text",
+    "bookUrl": "@css:h3.fh5co-article-title a@href",
+    "coverUrl": "@css:img@src"
+  },
+  "ruleBookInfo": {
+    "name": "@css:h1.fh5co-article-title@text",
+    "coverUrl": "@xpath://meta[@property='og:image']/@content"
+  },
+  "ruleToc": {
+    "chapterList": "@css:html",
+    "chapterName": "@css:h1.fh5co-article-title@text",
+    "chapterUrl": "@xpath://meta[@property='og:url']/@content"
+  },
+  "ruleContent": {
+    "content": "@css:#post-content img@src || @css:#post-content img@data-src || @css:article p img@src"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "bookSourceName": "Buon Dua",
+  "bookSourceUrl": "https://buondua.com",
+  "bookSourceGroup": "all",
+  "bookSourceType": 2,
+  "searchUrl": "/?search={{key}}&start={{offset:20}}",
+  "exploreUrl": "热门相册::/hot?start={{offset:20}}\n最近更新::/?start={{offset:20}}",
+  "ruleSearch": {
+    "bookList": "@css:.blog > div",
+    "name": "@css:.item-content .item-link@text",
+    "bookUrl": "@css:.item-content .item-link@href",
+    "coverUrl": "@css:img@src"
+  },
+  "ruleBookInfo": {
+    "name": "@css:.article-header@text",
+    "coverUrl": "@xpath://meta[@property='og:image']/@content"
+  },
+  "ruleToc": {
+    "chapterList": "@css:html",
+    "chapterName": "@css:.article-header@text",
+    "chapterUrl": "@css:link[rel=canonical]@href"
+  },
+  "ruleContent": {
+    "content": "@css:.article-fulltext img@src",
+    "nextContentUrl": "@css:nav.pagination a.pagination-next[next][href^=\"/\"]@href"
+  },
+  "ruleExplore": {
+    "bookList": "@css:.blog > div",
+    "name": "@css:.item-content .item-link@text",
+    "bookUrl": "@css:.item-content .item-link@href",
+    "coverUrl": "@css:img@src"
+  }
+}

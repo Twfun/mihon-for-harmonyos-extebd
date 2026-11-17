@@ -1,7 +1,7 @@
 {
   "formatVersion": 1,
   "repoName": "Mihon HarmonyOS 图源规则仓",
-  "updatedAt": "2026-11-17",
+  "updatedAt": "2026-11-18",
   "rules": [
     {
       "id": "keiyoushi.en.arcrelight",
@@ -1223,6 +1223,34 @@
       "sha256": "28514b46a24bd228b62f70ad59b2a485f326136d60e575ba04d66f1e87a814dd",
       "contentWarning": "nsfw",
       "nsfw": true
+    },
+    {
+      "id": "keiyoushi.all.buondua",
+      "name": "Buon Dua",
+      "lang": "all",
+      "baseUrl": "https://buondua.com",
+      "schema": "legado-v3",
+      "version": "1.0.0",
+      "versionCode": 1,
+      "ruleUrl": "rules/buondua.all.json",
+      "sha256": "5b89beb8df1d69f4ef1b4ecac15a1742c31941405f43edd0b428870dae9e8731",
+      "contentWarning": "nsfw",
+      "nsfw": true,
+      "description": "Buon Dua 全语言公开相册，按下一页链接读取完整图片。"
+    },
+    {
+      "id": "keiyoushi.all.jjcos",
+      "name": "JJCOS",
+      "lang": "all",
+      "baseUrl": "https://jjcos.com",
+      "schema": "legado-v3",
+      "version": "1.0.0",
+      "versionCode": 1,
+      "ruleUrl": "rules/jjcos.all.json",
+      "sha256": "427841e3610ffddcdfa833f646ee52bcf555a82cf1685f27973e79eaa28f714d",
+      "contentWarning": "nsfw",
+      "nsfw": true,
+      "description": "JJCOS 全语言公开相册首页；完整历史目录接口需读取站点大型索引。"
     }
   ]
 }
