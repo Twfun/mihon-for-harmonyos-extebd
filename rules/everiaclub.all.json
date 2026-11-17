@@ -1,0 +1,33 @@
+{
+  "bookSourceName": "Everia.club",
+  "bookSourceUrl": "https://everia.club",
+  "bookSourceGroup": "all",
+  "bookSourceType": 2,
+  "searchUrl": "/wp-json/wp/v2/posts?page={{page}}&per_page=20&_embed=wp:featuredmedia&search={{key}}",
+  "exploreUrl": "最新图集::/wp-json/wp/v2/posts?page={{page}}&per_page=20&_embed=wp:featuredmedia",
+  "ruleSearch": {
+    "bookList": "@json:$[*]",
+    "name": "$.title.rendered",
+    "bookUrl": "$.link",
+    "coverUrl": "$._embedded['wp:featuredmedia'][0].source_url"
+  },
+  "ruleBookInfo": {
+    "name": "@css:h1.entry-title@text || @css:h1@text",
+    "coverUrl": "@xpath://meta[@property='og:image']/@content"
+  },
+  "ruleToc": {
+    "chapterList": "@css:html",
+    "chapterName": "@css:h1.entry-title@text || @css:h1@text",
+    "chapterUrl": "@css:link[rel=canonical]@href"
+  },
+  "ruleContent": {
+    "content": "@css:.entry-content img@data-lazy-src || @css:.entry-content img@data-src || @css:.entry-content img@src",
+    "nextContentUrl": "@css:.page-links span.post-page-numbers.current + a.post-page-numbers@href"
+  },
+  "ruleExplore": {
+    "bookList": "@json:$[*]",
+    "name": "$.title.rendered",
+    "bookUrl": "$.link",
+    "coverUrl": "$._embedded['wp:featuredmedia'][0].source_url"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "schema": "kazumi-comic-v1",
+  "version": "1.0.0",
+  "versionCode": 1,
+  "lang": "all",
+  "id": "keiyoushi.all.airibox",
+  "baseURL": "https://airibox.top",
+  "name": "Airibox",
+  "searchURL": "/?s=@keyword&paged=@page",
+  "searchList": "@css:li.wp-block-post",
+  "searchName": "@css:h2.wp-block-post-title a@text",
+  "searchResult": "@css:h2.wp-block-post-title a@href",
+  "searchCover": "@css:.wp-block-post-content img@src",
+  "exploreCategories": [
+    {
+      "name": "公开目录",
+      "url": "/?paged=@page"
+    }
+  ],
+  "detailTitle": "@css:h1.wp-block-post-title@text",
+  "chapterList": "@css:html",
+  "chapterName": "@css:h1.wp-block-post-title@text",
+  "chapterUrl": "@css:link[rel=canonical]@href",
+  "pageList": "@css:.wp-block-post-content img@src",
+  "description": "Airibox 全语言公开图集。"
+}
