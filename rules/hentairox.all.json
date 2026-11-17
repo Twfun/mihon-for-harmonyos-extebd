@@ -1,0 +1,31 @@
+{
+  "schema": "kazumi-comic-v1",
+  "id": "keiyoushi.all.hentairox",
+  "name": "HentaiRox",
+  "lang": "all",
+  "baseURL": "https://hentairox.com",
+  "version": "1.0.0",
+  "versionCode": 1,
+  "contentFormat": "hentairox-public",
+  "searchURL": "/search/?key=@keyword&page=@page",
+  "searchList": "@css:article.hr-gallery-card",
+  "searchName": "@css:.hr-gallery-card__title@text",
+  "searchResult": "@css:.hr-gallery-card__cover@href",
+  "searchCover": "@css:.hr-gallery-card__media img@src",
+  "exploreCategories": [
+    {
+      "name": "热门图集",
+      "url": "/search/?sort=popular&page=@page"
+    },
+    {
+      "name": "最新图集",
+      "url": "/search/?page=@page"
+    }
+  ],
+  "detailTitle": "@css:#gallery-title@text",
+  "detailCover": "@css:.hr-gallery-cover img@src",
+  "chapterList": "@css:html",
+  "chapterName": "@css:#gallery-title@text",
+  "chapterUrl": "@css:link[rel=canonical]@href",
+  "pageList": "@css:img#readerImg@src"
+}

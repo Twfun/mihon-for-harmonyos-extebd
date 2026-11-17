@@ -1,0 +1,39 @@
+{
+  "schema": "kazumi-comic-v1",
+  "id": "keiyoushi.zh-hant.creativecomic",
+  "name": "CCC追漫台",
+  "version": "1.0.0",
+  "versionCode": 1,
+  "lang": "zh-Hant",
+  "baseURL": "https://api.creative-comic.tw",
+  "headers": {
+    "device": "web_desktop",
+    "uuid": "null",
+    "Referer": "https://www.creative-comic.tw/"
+  },
+  "searchURL": "/book?page=@page&rows_per_page=12&keyword=@keyword&category=all&sort_by=updated_at&class=2",
+  "searchList": "$.data.data[*]",
+  "searchName": "$.name",
+  "searchResult": "@tmpl:/book/{{$.id}}/info",
+  "searchCover": "$.image1",
+  "exploreCategories": [
+    {
+      "name": "熱門漫畫",
+      "url": "/book?page=@page&rows_per_page=24&sort_by=like_count&class=2"
+    },
+    {
+      "name": "最近更新",
+      "url": "/book?page=@page&rows_per_page=24&sort_by=updated_at&class=2"
+    }
+  ],
+  "detailTitle": "$.data.name",
+  "detailAuthor": "$.data.author[*].name",
+  "detailCover": "$.data.image1",
+  "detailIntro": "$.data.description",
+  "chapterList": "$.data.chapters[*]",
+  "chapterName": "$.name",
+  "chapterUrl": "@tmpl:/book/chapter/{{$.id}}",
+  "pageList": "$.data.chapter.proportion[*].id",
+  "contentFormat": "ccc-public",
+  "description": "使用官方無帳號游客接口，保留完整公開目錄，需授權章節標示鎖定。目錄與閱讀接口均明確 is_free=1 或 sales_plan=0 且官方 code=0 才讀頁；每次取圖重新驗證，傳輸材料僅存於記憶體。"
+}
