@@ -1,0 +1,26 @@
+{
+  "schema": "kazumi-comic-v1",
+  "id": "keiyoushi.all.yaoimangaonline",
+  "name": "Yaoi Manga Online",
+  "lang": "all",
+  "baseURL": "https://yaoimangaonline.com",
+  "version": "1.0.0",
+  "versionCode": 1,
+  "searchURL": "/page/{{page}}/?s={{key}}",
+  "searchList": "@css:.post.category-yaoi-webtoons .herald-post-thumbnail > a[title],.post.category-yaoi-doujinshi .herald-post-thumbnail > a[title],.post.category-bara-manga .herald-post-thumbnail > a[title],.post.category-yaoi-manga .herald-post-thumbnail > a[title],.post.category-yaoi-oneshots .herald-post-thumbnail > a[title]",
+  "searchName": "@title",
+  "searchResult": "@href",
+  "searchCover": "@css:img@src",
+  "exploreCategories": [
+    {
+      "name": "公开漫画",
+      "url": "/page/@page/"
+    }
+  ],
+  "detailTitle": "@css:h1.entry-title@text",
+  "detailCover": "@xpath://meta[@property='og:image']/@content",
+  "chapterList": "@css:.mpp-toc a || @css:html",
+  "chapterName": "@css:h1.entry-title@text || @text",
+  "chapterUrl": "@href || @css:link[rel=canonical]@href",
+  "pageList": "@css:.entry-content img@src"
+}

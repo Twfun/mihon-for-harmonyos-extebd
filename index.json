@@ -1169,20 +1169,6 @@
       "nsfw": false
     },
     {
-      "id": "keiyoushi.all.kodokustudio",
-      "name": "Kodoku Studio",
-      "lang": "all",
-      "baseUrl": "https://kodokueasyaccess.com",
-      "schema": "legado-v3",
-      "version": "1.0.0",
-      "versionCode": 1,
-      "ruleUrl": "rules/kodokustudio.all.json",
-      "sha256": "f331ae5a9b070936cce039c7ddfdb2a296a5f91aa9b51790b8b0aeb446b49458",
-      "contentWarning": "mixed",
-      "nsfw": false,
-      "description": "仅列出无需访问码的公开章节，章节标题保留原文语种。"
-    },
-    {
       "id": "keiyoushi.all.photos18",
       "name": "Photos18",
       "lang": "all",
@@ -1251,6 +1237,76 @@
       "contentWarning": "nsfw",
       "nsfw": true,
       "description": "JJCOS 全语言公开相册首页；完整历史目录接口需读取站点大型索引。"
+    },
+    {
+      "id": "keiyoushi.all.yaoimangaonline",
+      "name": "Yaoi Manga Online",
+      "lang": "all",
+      "baseUrl": "https://yaoimangaonline.com",
+      "schema": "kazumi-comic-v1",
+      "version": "1.0.0",
+      "versionCode": 1,
+      "ruleUrl": "rules/yaoimangaonline.all.json",
+      "sha256": "2917a1594fd2a1c96956d4afc7a2f158f1a4128b0875a502f0dce342ef143f63",
+      "contentWarning": "nsfw",
+      "nsfw": true,
+      "description": "Yaoi Manga Online 全语言公开漫画目录，收录漫画、同人、单篇、条漫和 Bara 分类，保留站内章节。"
+    },
+    {
+      "id": "keiyoushi.all.kodokustudio",
+      "name": "Kodoku Studio",
+      "lang": "all",
+      "baseUrl": "https://kodokueasyaccess.com",
+      "schema": "legado-v3",
+      "version": "1.0.1",
+      "versionCode": 2,
+      "ruleUrl": "rules/kodokustudio.all.json",
+      "sha256": "c9b3079c8c37621ee2c1af435ec88ab54a8777ed84c315ec249bbb8a542059ff",
+      "contentWarning": "mixed",
+      "nsfw": false,
+      "description": "当前支持 Reverend Insanity 的公开章节，保留原文语种并跳过锁定章节。"
+    },
+    {
+      "id": "keiyoushi.all.hniscantrad",
+      "name": "HNI-Scantrad",
+      "lang": "all",
+      "baseUrl": "https://hni-scantrad.net",
+      "schema": "kazumi-comic-v1",
+      "version": "1.0.0",
+      "versionCode": 1,
+      "ruleUrl": "rules/hniscantrad.all.json",
+      "sha256": "e344f27fce8dd4230a1c077708f1ecc979e1f0b4662f8dee48bb654bb726b09f",
+      "contentWarning": "safe",
+      "nsfw": false,
+      "description": "HNI-Scantrad 全语言公开 PizzaReader 接口，保留原文语种并跳过隐藏条目。"
+    },
+    {
+      "id": "keiyoushi.all.danbooru",
+      "name": "Danbooru",
+      "lang": "all",
+      "baseUrl": "https://danbooru.donmai.us",
+      "schema": "kazumi-comic-v1",
+      "version": "1.0.0",
+      "versionCode": 1,
+      "ruleUrl": "rules/danbooru.all.json",
+      "sha256": "a8842fa7b64e89365279cea3771e903be5168935f93e76be7acadca84cc786f0",
+      "contentWarning": "nsfw",
+      "nsfw": true,
+      "description": "Danbooru 全语言公开系列图集。沿原版可选的逐帖章节方式，按图集 post_ids 顺序逐帖阅读；不含登录访问能力。"
+    },
+    {
+      "id": "keiyoushi.all.e621",
+      "name": "e621",
+      "lang": "all",
+      "baseUrl": "https://e621.net",
+      "schema": "kazumi-comic-v1",
+      "version": "1.0.0",
+      "versionCode": 1,
+      "ruleUrl": "rules/e621.all.json",
+      "sha256": "8225386ff3425e794a3c7d51ddef247be8c2176bd32dceed6acfff0bf2d5304e",
+      "contentWarning": "nsfw",
+      "nsfw": true,
+      "description": "e621 全语言公开图集，沿原版逐帖章节选项保留 post_ids 顺序；游客模式只加载未删除的图片帖，不提供账户或视频内容。"
     }
   ]
 }
