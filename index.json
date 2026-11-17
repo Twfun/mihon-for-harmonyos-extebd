@@ -1,7 +1,7 @@
 {
   "formatVersion": 1,
   "repoName": "Mihon HarmonyOS 图源规则仓",
-  "updatedAt": "2026-11-15",
+  "updatedAt": "2026-11-17",
   "rules": [
     {
       "id": "keiyoushi.en.arcrelight",
@@ -647,6 +647,20 @@
       "nsfw": false,
       "contentWarning": "mixed",
       "iconUrl": "https://cdn.jsdelivr.net/gh/keiyoushi/extensions-source@main/src/all/saymanhwa/res/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+      "id": "keiyoushi.all.peppercarrot",
+      "name": "Pepper&Carrot",
+      "lang": "all",
+      "baseUrl": "https://www.peppercarrot.com",
+      "version": "1.0.0",
+      "versionCode": 1,
+      "schema": "legado-v3",
+      "ruleUrl": "rules/peppercarrot.all.json",
+      "sha256": "61b35bd4fba6f08b9ecc55bb1cb4e8881c2e5fc4c732d3f95ffb632c4143443c",
+      "description": "从官网读取主漫画和迷你奇幻剧场的译本列表。插画入口待移植。",
+      "contentWarning": "safe",
+      "nsfw": false
     }
   ]
 }
