@@ -1,0 +1,28 @@
+{
+  "bookSourceName": "Kodoku Studio",
+  "bookSourceUrl": "https://kodokueasyaccess.com",
+  "bookSourceGroup": "all",
+  "bookSourceType": 2,
+  "exploreUrl": "公开作品::/api/series",
+  "ruleExplore": {
+    "bookList": "@json:$[*]",
+    "name": "$.title",
+    "bookUrl": "@tmpl:/api/series/{{$.slug}}",
+    "coverUrl": "$.coverUrl"
+  },
+  "ruleBookInfo": {
+    "name": "$.title",
+    "intro": "$.description",
+    "coverUrl": "$.coverUrl",
+    "tocUrl": "@tmpl:/api/series/{{$.slug}}/chapters"
+  },
+  "ruleToc": {
+    "chapterList": "@json:$[?(@.available == true)]",
+    "chapterName": "@tmpl:第 {{$.chapterNumber}} 话 [{{$.languageCode}}]",
+    "chapterUrl": "@tmpl:/api/series/reverend-insanity/chapters/{{$.chapterNumber}}/{{$.languageCode}}",
+    "updateTime": "$.uploadedAt"
+  },
+  "ruleContent": {
+    "content": "@json:$.images[*].url"
+  }
+}

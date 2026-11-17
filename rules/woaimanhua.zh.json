@@ -1,0 +1,40 @@
+{
+  "schema": "kazumi-comic-v1",
+  "id": "keiyoushi.zh.woaimanhua",
+  "name": "我爱漫画",
+  "lang": "zh",
+  "version": "1.0.0",
+  "versionCode": 1,
+  "baseURL": "https://www.woimh.com",
+  "headers": {
+    "User-Agent": "Mozilla/5.0 (Linux; Android 15; Pixel 8) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Mobile Safari/537.36"
+  },
+  "searchURL": "/search?keyword=@keyword",
+  "searchList": "ul.book-list .book-list-cover > a",
+  "searchName": "@title",
+  "searchResult": "@href",
+  "searchCover": "img@data-original",
+  "exploreCategories": [
+    {
+      "name": "最新",
+      "url": "/booklist?tag=%E5%85%A8%E9%83%A8&area=-1&end=-1&last=1&page=@page"
+    },
+    {
+      "name": "人气榜",
+      "url": "/rank"
+    }
+  ],
+  "exploreList": ".manga-list-2 > li, #rankList_2 > a",
+  "exploreName": ".manga-list-2-title a@text||@title",
+  "exploreResult": ".manga-list-2-title a@href||@href",
+  "exploreCover": "img@data-original",
+  "detailTitle": ".detail-main-info-title@text",
+  "detailCover": ".detail-main-cover img@src",
+  "detailIntro": ".detail-desc@text",
+  "detailStatus": ".detail-list-title-1@text",
+  "detailTags": ".detail-main-info-class a@text",
+  "chapterList": "#detail-list-select li > a.chapteritem:last-child",
+  "chapterName": "@text",
+  "chapterUrl": "@href",
+  "pageList": ".readForm img[src^='http']@src&&.readForm img[data-echo]@data-echo"
+}

@@ -1,0 +1,25 @@
+{
+  "bookSourceName": "BaoBua",
+  "bookSourceUrl": "https://baobua.net",
+  "bookSourceGroup": "all",
+  "bookSourceType": 2,
+  "exploreUrl": "公开图集::/?page={{page}}",
+  "ruleExplore": {
+    "bookList": "@css:.thcovering-video",
+    "name": "@css:a.denomination@text",
+    "bookUrl": "@css:a.denomination@href",
+    "coverUrl": "@css:img.xld@src"
+  },
+  "ruleBookInfo": {
+    "name": "@css:h2.box-mt-output@text"
+  },
+  "ruleToc": {
+    "chapterList": "@css:html",
+    "chapterName": "@css:h2.box-mt-output@text",
+    "chapterUrl": "@css:link[rel=canonical]@href"
+  },
+  "ruleContent": {
+    "content": "@css:div.contentme a[href^=/img.html] img@src",
+    "nextContentUrl": "@css:a.page-numbers.next@href"
+  }
+}

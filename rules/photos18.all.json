@@ -1,0 +1,30 @@
+{
+  "schema": "kazumi-comic-v1",
+  "id": "keiyoushi.all.photos18",
+  "name": "Photos18",
+  "lang": "all",
+  "baseURL": "https://www.photos18.com",
+  "version": "1.0.0",
+  "versionCode": 1,
+  "searchURL": "/zh-hans/?q=@keyword&page=@page",
+  "searchList": "@css:#videos > div",
+  "searchName": "@css:.card-body a@text",
+  "searchResult": "@css:.card-body a@href",
+  "searchCover": "@css:img@src",
+  "exploreCategories": [
+    {
+      "name": "简体目录",
+      "url": "/zh-hans/sort/views?page=@page"
+    },
+    {
+      "name": "繁體目錄",
+      "url": "/sort/views?page=@page"
+    }
+  ],
+  "detailTitle": "@css:h1@text || @css:title@text",
+  "chapterList": "@css:html",
+  "chapterName": "@css:h1@text || @css:title@text",
+  "chapterUrl": "@css:link[rel=canonical]@href",
+  "pageList": "@css:#content img@src",
+  "description": "站点原生简体和繁体两种公开发现目录；内容分级沿用上游。"
+}

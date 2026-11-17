@@ -1,0 +1,26 @@
+{
+  "bookSourceName": "DB New Hope",
+  "bookSourceUrl": "https://dbnewhope.com",
+  "bookSourceGroup": "all",
+  "bookSourceType": 2,
+  "exploreUrl": "English::/english.php\nFrançais::/francais.php\nEspañol::/espanol.php",
+  "ruleExplore": {
+    "bookList": "@css:html",
+    "name": "@css:header h1@text || @css:title@text",
+    "bookUrl": "@css:#sagas .row > div:first-child div.portfolio-item > a@href",
+    "coverUrl": "@css:header img.masthead-avatar@src"
+  },
+  "ruleBookInfo": {
+    "name": "@css:title@text",
+    "coverUrl": "@css:img.card-img-top@src"
+  },
+  "ruleToc": {
+    "chapterList": "@css:div.card > a[href$=\"/01.php\"]",
+    "chapterName": "@css:img@alt",
+    "chapterUrl": "@href"
+  },
+  "ruleContent": {
+    "content": "@css:img.manga-page@src",
+    "nextContentUrl": "@css:div.image-wrapper > a[href^=\"?page=\"]@href"
+  }
+}
