@@ -4,7 +4,7 @@
 
 ## 新版运行时验收分支
 
-此分支包含依赖新版鸿蒙规则引擎的 MangaDex 全语言、简体和繁体，以及 WEBTOON 繁体中文和咚漫漫画。请使用支持 `mangadex-at-home` 页图目录及 CSS 相邻兄弟选择器的应用构建。MangaDex 单部作品目录目前最多读取 500 条。
+此分支包含依赖新版鸿蒙规则引擎的 MangaDex 全语言、简体和繁体，以及 WEBTOON 繁体中文、咚漫漫画和 NamiComi 简繁体。请使用支持 `mangadex-at-home`、`namicomi-public` 及 CSS 相邻兄弟选择器的应用构建。MangaDex 单部作品目录目前最多读取 500 条。NamiComi 单部目录最多读取 200 条，读图前使用官网 API 逐章检查游客权限。
 
 ## 订阅地址
 

@@ -1,0 +1,30 @@
+{
+  "schema": "kazumi-comic-v1",
+  "version": "1.0.0",
+  "versionCode": 1,
+  "lang": "all",
+  "searchURL": "/search?q=@keyword&page=@page",
+  "searchList": "div.page-item, div.page-item-detail, div.home-item, div.manga-item",
+  "searchName": "@css:h3 a@text",
+  "searchResult": "@css:h3 a@href",
+  "searchCover": "@css:img@data-src || @css:img@src",
+  "detailTitle": "@css:.post-title h1@text",
+  "detailCover": "@css:.summary_image img@data-src || @css:.summary_image img@src",
+  "detailIntro": "@css:.dsct, .ss-manga, .post-content_item .entry-content@text",
+  "chapterList": "@css:ul.row-content-chapter li",
+  "chapterName": "@css:a@text",
+  "chapterUrl": "@css:a@href",
+  "chapterTime": "@css:.chapter-time@text",
+  "chapterReverse": true,
+  "pageList": "@css:.read-content img@data-src || @css:.read-content img@src",
+  "id": "keiyoushi.all.manhwa18cc",
+  "name": "Manhwa18.cc",
+  "baseURL": "https://manhwa18.cc",
+  "exploreCategories": [
+    {
+      "name": "热门连载",
+      "url": "/webtoons/@page?orderby=trending"
+    }
+  ],
+  "description": "Manhwa18.cc 的全语言公开漫画入口"
+}

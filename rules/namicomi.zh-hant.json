@@ -1,0 +1,38 @@
+{
+  "schema": "kazumi-comic-v1",
+  "id": "keiyoushi.zh-hant.namicomi",
+  "name": "NamiComi（繁體中文）",
+  "version": "1.0.0",
+  "versionCode": 1,
+  "lang": "zh-Hant",
+  "baseURL": "https://namicomi.com",
+  "allowedHosts": [
+    "api.namicomi.com"
+  ],
+  "searchURL": "https://api.namicomi.com/title/search?availableTranslatedLanguages%5B%5D=zh-hant&limit=20&offset={{offset:20}}&includes%5B%5D=cover_art&title=@keyword",
+  "searchList": "$.data[*]",
+  "searchName": "$.attributes.title['zh-hant'] || $.attributes.title.en || $.attributes.title.*",
+  "searchResult": "@tmpl:https://api.namicomi.com/title/{{$.id}}?includes%5B%5D=cover_art",
+  "searchCover": "@tmpl:https://uploads.namicomi.com/covers/{{$.id}}/{{$.relationships[?(@.attributes.locale == 'zh-hant')].attributes.fileName}}",
+  "exploreCategories": [
+    {
+      "name": "热门",
+      "url": "https://api.namicomi.com/title/search?availableTranslatedLanguages%5B%5D=zh-hant&limit=20&offset={{offset:20}}&includes%5B%5D=cover_art&order%5Bviews%5D=desc"
+    },
+    {
+      "name": "最新",
+      "url": "https://api.namicomi.com/title/search?availableTranslatedLanguages%5B%5D=zh-hant&limit=20&offset={{offset:20}}&includes%5B%5D=cover_art&order%5BpublishedAt%5D=desc"
+    }
+  ],
+  "detailTitle": "$.data.attributes.title['zh-hant'] || $.data.attributes.title.en || $.data.attributes.title.*",
+  "detailIntro": "$.data.attributes.description['zh-hant'] || $.data.attributes.description.en",
+  "detailStatus": "$.data.attributes.publicationStatus",
+  "tocUrl": "@tmpl:https://api.namicomi.com/chapter?titleId={{$.data.id}}&limit=200&offset=0&translatedLanguages%5B%5D=zh-hant&order%5Bchapter%5D=asc",
+  "chapterList": "$.data[*]",
+  "chapterName": "$.attributes.name || $.attributes.chapter",
+  "chapterUrl": "@tmpl:https://api.namicomi.com/images/chapter/{{$.id}}?newQualities=true",
+  "chapterTime": "$.attributes.publishAt",
+  "contentFormat": "namicomi-public",
+  "pageList": "$.data.source[*].filename",
+  "description": "NamiComi 繁體中文公开游客入口，每部目录最多读取 200 条。阅读前检查游客权限。"
+}
