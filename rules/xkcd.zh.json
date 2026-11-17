@@ -1,0 +1,24 @@
+{
+  "bookSourceName": "xkcd 中文翻譯",
+  "bookSourceUrl": "https://xkcd.tw",
+  "bookSourceGroup": "zh",
+  "bookSourceType": 2,
+  "exploreUrl": "中文翻譯目錄::/",
+  "ruleExplore": {
+    "bookList": "@css:html",
+    "name": "@xpath://meta[@property='og:site_name']/@content",
+    "bookUrl": "@css:#logo@href"
+  },
+  "ruleBookInfo": {
+    "name": "@xpath://meta[@property='og:site_name']/@content",
+    "intro": "@css:header p@text"
+  },
+  "ruleToc": {
+    "chapterList": "@css:#strip_list > li > a",
+    "chapterName": "@text",
+    "chapterUrl": "@href"
+  },
+  "ruleContent": {
+    "content": "@css:#content > img[src]@src"
+  }
+}

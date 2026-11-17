@@ -661,6 +661,20 @@
       "description": "从官网读取主漫画和迷你奇幻剧场的译本列表。插画入口待移植。",
       "contentWarning": "safe",
       "nsfw": false
+    },
+    {
+      "id": "keiyoushi.zh.xkcd",
+      "name": "xkcd 中文翻譯",
+      "lang": "zh",
+      "baseUrl": "https://xkcd.tw",
+      "version": "1.0.0",
+      "versionCode": 1,
+      "schema": "legado-v3",
+      "ruleUrl": "rules/xkcd.zh.json",
+      "sha256": "6d1d48bda750c05ebad301bcac13bfb2e77eda4154b646f401a26154a42d57a4",
+      "description": "獨立中文譯本目錄和普通靜態漫畫。互動特輯與懸浮文字待支援。",
+      "contentWarning": "safe",
+      "nsfw": false
     }
   ]
 }
