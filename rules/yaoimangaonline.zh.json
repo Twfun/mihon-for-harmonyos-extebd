@@ -1,0 +1,32 @@
+{
+  "bookSourceName": "Yaoi Manga Online",
+  "bookSourceUrl": "https://yaoimangaonline.com",
+  "bookSourceGroup": "zh",
+  "bookSourceType": 2,
+  "exploreUrl": "中文::/tag/chinese-yaoi/page/{{page}}/",
+  "searchUrl": "/page/{{page}}/?s={{key}}&tag=chinese-yaoi",
+  "ruleSearch": {
+    "bookList": "@css:article.post.tag-chinese-yaoi .herald-post-thumbnail a[title]",
+    "name": "@title",
+    "bookUrl": "@href",
+    "coverUrl": "@css:img@src"
+  },
+  "ruleExplore": {
+    "bookList": "@css:article.post.tag-chinese-yaoi .herald-post-thumbnail a[title]",
+    "name": "@title",
+    "bookUrl": "@href",
+    "coverUrl": "@css:img@src"
+  },
+  "ruleBookInfo": {
+    "name": "@css:h1.entry-title@text",
+    "coverUrl": "@xpath://meta[@property='og:image']/@content"
+  },
+  "ruleToc": {
+    "chapterList": "@css:.mpp-toc a || @css:article.herald-single",
+    "chapterName": "@css:h1.entry-title@text || @text",
+    "chapterUrl": "@href"
+  },
+  "ruleContent": {
+    "content": "@css:.entry-content img@src"
+  }
+}

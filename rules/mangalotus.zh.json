@@ -1,0 +1,30 @@
+{
+  "bookSourceName": "Manga Lotus (unoriginal)",
+  "bookSourceUrl": "https://mangalotus.com",
+  "bookSourceGroup": "zh",
+  "bookSourceType": 2,
+  "exploreUrl": "中文::/tag/chinese/page/{{page}}/",
+  "searchUrl": "/page/{{page}}/?s={{key}}&tag=chinese",
+  "ruleSearch": {
+    "bookList": "@css:article.post.tag-chinese h2.entry-title > a",
+    "name": "@text",
+    "bookUrl": "@href"
+  },
+  "ruleExplore": {
+    "bookList": "@css:article.post.tag-chinese h2.entry-title > a",
+    "name": "@text",
+    "bookUrl": "@href"
+  },
+  "ruleBookInfo": {
+    "name": "@css:h1.entry-title@text",
+    "coverUrl": "@xpath://meta[@property='og:image']/@content"
+  },
+  "ruleToc": {
+    "chapterList": "@css:.mpp-toc a || @css:article.herald-single",
+    "chapterName": "@css:h1.entry-title@text || @text",
+    "chapterUrl": "@href"
+  },
+  "ruleContent": {
+    "content": "@css:.entry-content img@src"
+  }
+}
