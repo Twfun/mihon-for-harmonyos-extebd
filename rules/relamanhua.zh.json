@@ -1,0 +1,39 @@
+{
+  "schema": "kazumi-comic-v1",
+  "id": "keiyoushi.zh.relamanhua",
+  "name": "熱辣漫畫",
+  "lang": "zh",
+  "version": "1.0.0",
+  "versionCode": 1,
+  "baseURL": "https://api.manga2026.xyz",
+  "contentFormat": "relamanhua-public",
+  "headers": {
+    "X-Requested-With": "XMLHttpRequest"
+  },
+  "searchURL": "/api/v3/search/comic?platform=1&q=@keyword&q_type=&limit=30&offset={{offset:30}}",
+  "searchList": "$.results.list[*]",
+  "searchName": "$.name",
+  "searchResult": "@tmpl:/api/v3/comic2/{{$.path_word}}?platform=1",
+  "searchCover": "$.cover",
+  "exploreCategories": [
+    {
+      "name": "免費熱門",
+      "url": "/api/v3/comics?free_type=1&ordering=-popular&limit=30&offset={{offset:30}}"
+    },
+    {
+      "name": "免費最新",
+      "url": "/api/v3/comics?free_type=1&ordering=-datetime_updated&limit=30&offset={{offset:30}}"
+    }
+  ],
+  "detailTitle": "$.results.comic.name",
+  "detailAuthor": "$.results.comic.author[*].name",
+  "detailIntro": "$.results.comic.brief",
+  "detailGenre": "$.results.comic.theme[*].name",
+  "detailStatus": "$.results.comic.status.display",
+  "detailCover": "$.results.comic.cover",
+  "chapterList": "$.results.list[*]",
+  "chapterName": "$.name",
+  "chapterUrl": "@tmpl:/api/v3/comic/{{$.comic_path_word}}/chapter/{{$.uuid}}?platform=1",
+  "pageList": "$.results.chapter.contents[*].url",
+  "description": "官方公開免費作品分類與名稱搜尋。保留默認、單行本、全彩等獨立目錄，逐頁核對章節歸屬。讀圖以官方 is_lock 嚴格布林值為準，需授權章節的樣圖不載入。"
+}
