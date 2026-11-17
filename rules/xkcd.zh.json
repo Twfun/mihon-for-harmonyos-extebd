@@ -19,6 +19,6 @@
     "chapterUrl": "@href"
   },
   "ruleContent": {
-    "content": "@css:#content > img[src]@src"
+    "content": "@css:#content img[src*=\"/strip/\"]@src"
   }
 }
