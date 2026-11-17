@@ -1,0 +1,27 @@
+{
+  "schema": "kazumi-comic-v1",
+  "id": "keiyoushi.zh.nhentaixxx",
+  "name": "NHentai.xxx",
+  "lang": "zh",
+  "version": "1.0.0",
+  "versionCode": 1,
+  "baseURL": "https://nhentai.xxx",
+  "contentFormat": "nhentai-xxx-public",
+  "searchURL": "/search/?key=@keyword%20chinese&page=@page",
+  "searchList": ".galleries_box .gallery_item[data-languages=\"3\"]",
+  "searchName": ".caption@text",
+  "searchResult": "a[href^=\"/g/\"]@href",
+  "searchCover": "img@data-src||img@src",
+  "exploreCategories": [
+    {
+      "name": "最新",
+      "url": "/language/chinese/?page=@page"
+    }
+  ],
+  "detailTitle": ".info > h1@text",
+  "detailCover": "div.cover img@src",
+  "chapterList": ".info > h1",
+  "chapterName": "@text",
+  "chapterUrl": "@href",
+  "pageList": "#append_thumbs img@data-src"
+}

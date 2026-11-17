@@ -1,5 +1,5 @@
 {
-  "bookSourceName": "Manga Lotus (unoriginal)",
+  "bookSourceName": "Manga Lotus (unoriginal)（兼容入口）",
   "bookSourceUrl": "https://mangalotus.com",
   "bookSourceGroup": "zh",
   "bookSourceType": 2,
@@ -26,5 +26,6 @@
   },
   "ruleContent": {
     "content": "@css:.entry-content img@src"
-  }
+  },
+  "bookSourceComment": "已核对为 Yaoi Manga Online 中文的改名镜像。本入口供已有收藏保持安装身份和迁移使用，完整页图路径、页序及边界文件哈希已复核。"
 }

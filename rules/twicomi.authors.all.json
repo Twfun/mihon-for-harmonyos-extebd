@@ -1,0 +1,30 @@
+{
+  "schema": "kazumi-comic-v1",
+  "id": "keiyoushi.all.twicomi.authors",
+  "name": "Twicomi（作者合集）",
+  "version": "1.0.0",
+  "versionCode": 1,
+  "lang": "all",
+  "baseURL": "https://api.twicomi.com",
+  "searchURL": "/api/v2/author/list?query=@keyword&page_no=@page&page_limit=12",
+  "searchList": "$.response.author_list[*].author",
+  "searchName": "$.name",
+  "searchAuthor": "$.screen_name",
+  "searchResult": "@tmpl:/api/v2/author/manga/list?screen_name={{$.screen_name}}&order_by=create_time&order=asc&page_no=1&page_limit=500",
+  "searchCover": "$.profile_image",
+  "exploreCategories": [
+    {
+      "name": "作者列表",
+      "url": "/api/v2/author/list?page_no=@page&page_limit=24"
+    }
+  ],
+  "detailTitle": "$.response.manga_list[0].author.name",
+  "detailAuthor": "$.response.manga_list[0].author.screen_name",
+  "detailCover": "$.response.manga_list[0].author.profile_image",
+  "chapterList": "$.response.manga_list[*]",
+  "chapterName": "$.tweet.tweet_text",
+  "chapterUrl": "@tmpl:/api/v2/author/manga/init?screen_name={{$.author.screen_name}}&tweet_id={{$.tweet.tweet_id}}&page_limit=1",
+  "pageList": "$.response.manga.manga_list[0].tweet.attach_image_urls[*]",
+  "contentFormat": "twicomi-authors",
+  "description": "同一原版Twicomi圖源的作者搜尋與合集模式，與公開單帖入口合計一個上游圖源。每作者500帖/頁，最多20頁10000帖，逐頁和總數完整核對；僅保留明確未隱藏作者及未忽略帖。超限、重複或變化明確失敗。"
+}

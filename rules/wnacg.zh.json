@@ -1,0 +1,35 @@
+{
+  "schema": "kazumi-comic-v1",
+  "id": "keiyoushi.zh.wnacg",
+  "name": "紳士漫畫",
+  "lang": "zh",
+  "version": "1.0.0",
+  "versionCode": 1,
+  "baseURL": "https://www.wnacg.buzz",
+  "contentFormat": "wnacg-public",
+  "headers": {
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/121.0"
+  },
+  "searchURL": "/search/index.php?s=create_time_DESC&q=@keyword&p=@page",
+  "searchList": ".gallary_item",
+  "searchName": ".title a@text",
+  "searchResult": ".title a@href",
+  "searchCover": "img@src",
+  "exploreCategories": [
+    {
+      "name": "最新",
+      "url": "/albums-index-page-@page.html"
+    },
+    {
+      "name": "每週排行",
+      "url": "/albums-favorite_ranking-page-@page-type-week.html"
+    }
+  ],
+  "detailTitle": "h2@text",
+  "detailCover": "div.uwthumb img@src",
+  "detailDescription": "div.uwconn p@text",
+  "chapterList": "h2",
+  "chapterName": "@text",
+  "chapterUrl": "@href",
+  "pageList": "img@src"
+}

@@ -1,0 +1,28 @@
+{
+  "schema": "kazumi-comic-v1",
+  "id": "keiyoushi.all.hentainame",
+  "name": "Hentai.name",
+  "lang": "all",
+  "baseURL": "https://www.hentai.name",
+  "version": "1.0.0",
+  "versionCode": 1,
+  "contentFormat": "hentainame-public",
+  "searchURL": "/search/@keyword/?p=@page",
+  "searchList": "@css:div.gallery",
+  "searchName": "@css:.caption@text",
+  "searchResult": "@css:a.cover@href",
+  "searchCover": "@css:img@src",
+  "exploreCategories": [
+    {
+      "name": "全语言最新",
+      "url": "/new/?p=@page"
+    }
+  ],
+  "detailTitle": "@css:h1@text",
+  "detailCover": "@css:#cover img@src",
+  "chapterList": "@css:html",
+  "chapterName": "@css:h1@text",
+  "chapterUrl": "@css:link[rel=canonical]@href",
+  "pageList": "@css:a.gallerythumb img@src",
+  "description": "Hentai.name 全语言公开图集；需支持 hentainame-public 完整正文图格式的新版客户端。"
+}

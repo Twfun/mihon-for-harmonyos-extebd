@@ -1,0 +1,26 @@
+{
+  "schema": "kazumi-comic-v1",
+  "id": "keiyoushi.zh.nhentaito",
+  "name": "NHentai.to",
+  "lang": "zh",
+  "version": "1.0.0",
+  "versionCode": 1,
+  "baseURL": "https://nhentai.to",
+  "contentFormat": "nhentai-to-full",
+  "exploreCategories": [
+    {
+      "name": "目录",
+      "url": "/language/chinese?page=@page"
+    }
+  ],
+  "exploreList": ".gallery a.cover[href^=\"/g/\"]",
+  "exploreName": ".caption@text",
+  "exploreResult": "@href",
+  "exploreCover": "img@data-src||img@src",
+  "detailTitle": "#info h1@text",
+  "detailCover": "#cover img@data-src||#cover img@src",
+  "chapterList": "#info h1",
+  "chapterName": "@text",
+  "chapterUrl": "@href",
+  "pageList": "#thumbnail-container img@data-src"
+}

@@ -1,0 +1,27 @@
+{
+  "schema": "kazumi-comic-v1",
+  "id": "keiyoushi.all.hentaifox",
+  "name": "HentaiFox",
+  "lang": "all",
+  "version": "1.0.0",
+  "versionCode": 1,
+  "baseURL": "https://hentaifox.com",
+  "contentFormat": "hentaifox-public",
+  "searchURL": "/search/?q=@keyword&page=@page",
+  "searchList": ".thumb",
+  "searchName": ".g_title a@text",
+  "searchResult": ".g_title a[href^=\"/gallery/\"]@href",
+  "searchCover": "img@data-src||img@src",
+  "exploreCategories": [
+    {
+      "name": "最新",
+      "url": "/pag/@page/"
+    }
+  ],
+  "detailTitle": ".info h1@text",
+  "detailCover": "div.cover img@src",
+  "chapterList": ".info h1",
+  "chapterName": "@text",
+  "chapterUrl": "@href",
+  "pageList": "#append_thumbs img@data-src"
+}

@@ -1,0 +1,31 @@
+{
+  "bookSourceName": "I Think I Like You",
+  "bookSourceUrl": "https://ithinkilikeyou.net",
+  "bookSourceGroup": "all",
+  "bookSourceType": 2,
+  "searchUrl": "/wp-json/wp/v2/series?search={{key}}&per_page=100&_embed=wp:featuredmedia&_fields=id,slug,title,_links.wp:featuredmedia,_embedded",
+  "exploreUrl": "全部系列::/wp-json/wp/v2/series?per_page=100&_embed=wp:featuredmedia&_fields=id,slug,title,_links.wp:featuredmedia,_embedded",
+  "ruleSearch": {
+    "bookList": "$[*]",
+    "name": "$.title.rendered",
+    "bookUrl": "@tmpl:/wp-json/wp/v2/series?slug={{$.slug}}&per_page=1&_embed=wp:featuredmedia&_fields=id,slug,title,_links.wp:featuredmedia,_embedded",
+    "coverUrl": "$._embedded['wp:featuredmedia'][0].source_url"
+  },
+  "ruleBookInfo": {
+    "name": "$[0].title.rendered",
+    "coverUrl": "$[0]._embedded['wp:featuredmedia'][0].source_url",
+    "tocUrl": "@tmpl:/series/{{$[0].slug}}/"
+  },
+  "ruleToc": {
+    "chapterList": "#comic-list li.comic",
+    "chapterName": "@itily-chapter-title",
+    "chapterUrl": "a@href",
+    "updateTime": ".comic-post-date@text",
+    "nextTocUrl": "nav.pagination a.next@href"
+  },
+  "ruleContent": {
+    "content": "#spliced-comic img[class*=wp-image-]@src"
+  },
+  "enabled": true,
+  "bookSourceComment": "官方無帳號公開系列、完整分頁章目與HTML可見圖片；Patreon章目明確標記需授權，只從正式網頁#spliced-comic讀圖，不使用API暴露的會員媒體地址。目錄最多20頁，超限明確失敗。英語及西語系列保留獨立入口。"
+}

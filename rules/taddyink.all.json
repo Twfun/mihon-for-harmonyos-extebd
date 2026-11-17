@@ -1,0 +1,31 @@
+{
+  "schema": "kazumi-comic-v1",
+  "id": "keiyoushi.all.taddyink",
+  "name": "Taddy INK (Webtoons)",
+  "version": "1.0.0",
+  "versionCode": 1,
+  "lang": "all",
+  "baseURL": "https://taddy.org",
+  "searchURL": "/feeds/directory/search?q=@keyword&lang=&taddyType=comicseries&ua=tc&page=@page&limit=25",
+  "searchList": "$.comicseries[*]",
+  "searchName": "$.name",
+  "searchResult": "$.url",
+  "searchCover": "@tmpl:{{$.coverImage.base_url}}{{$.coverImage.cover_sm}}",
+  "searchAuthor": "$.creators[*].name",
+  "exploreCategories": [
+    {
+      "name": "公開Webtoons",
+      "url": "/feeds/directory/list?lang=&taddyType=comicseries&ua=tc&page=@page&limit=25"
+    }
+  ],
+  "detailTitle": "$.name",
+  "detailAuthor": "$.creators[*].name",
+  "detailIntro": "$.description",
+  "detailCover": "@tmpl:{{$.coverImage.base_url}}{{$.coverImage.cover_sm}}",
+  "chapterList": "$.issues[*]",
+  "chapterName": "$.name",
+  "chapterUrl": "@tmpl:{{$.identifier}}",
+  "pageList": "$.issues[*].stories[*].storyImage.story",
+  "contentFormat": "taddy-public",
+  "description": "官方無帳號公開 SSS 圖書資料與官方 ay1 圖片服務，按章節UUID讀完整stories，依發佈時間排序。每部最多2000章，每章最多1000頁。實測含KIDS及ADULTS分級，與上游safe標註不同，據實列混合內容。未知外部托管圖域明確失敗。"
+}

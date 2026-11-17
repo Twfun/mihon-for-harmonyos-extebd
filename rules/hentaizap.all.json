@@ -1,0 +1,32 @@
+{
+  "schema": "kazumi-comic-v1",
+  "id": "keiyoushi.all.hentaizap",
+  "name": "HentaiZap",
+  "lang": "all",
+  "baseURL": "https://hentaizap.com",
+  "version": "1.0.0",
+  "versionCode": 1,
+  "contentFormat": "hentaizap-public",
+  "searchURL": "/search/?key=@keyword&en=1&jp=1&es=1&fr=1&kr=1&de=1&ru=1&page=@page",
+  "searchList": "@css:.hz-gallery-card",
+  "searchName": "@css:.hz-gallery-card__title a@text",
+  "searchResult": "@css:.hz-gallery-card__cover@href",
+  "searchCover": "@css:.hz-gallery-card__media img@src",
+  "exploreCategories": [
+    {
+      "name": "全语言最新",
+      "url": "/search/?key=&en=1&jp=1&es=1&fr=1&kr=1&de=1&ru=1&page=@page"
+    },
+    {
+      "name": "全语言热门",
+      "url": "/search/?key=&en=1&jp=1&es=1&fr=1&kr=1&de=1&ru=1&sort=popular&page=@page"
+    }
+  ],
+  "detailTitle": "@css:#gallery-title@text",
+  "detailCover": "@css:.hz-gallery-cover img@src",
+  "chapterList": "@css:html",
+  "chapterName": "@css:#gallery-title@text",
+  "chapterUrl": "@css:link[rel=canonical]@href",
+  "pageList": "@css:img#readerImg@src",
+  "description": "与 HentaiRox 部分英文图集镜像重合，保留其未覆盖的韩语等独立入口；需新版公开页图格式。"
+}

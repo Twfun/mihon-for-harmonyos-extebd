@@ -1,0 +1,30 @@
+{
+  "schema": "kazumi-comic-v1",
+  "id": "keiyoushi.zh.hcomic",
+  "name": "H-Comic",
+  "lang": "zh",
+  "version": "1.0.0",
+  "versionCode": 1,
+  "baseURL": "https://h-comic.com",
+  "contentFormat": "hcomic-public",
+  "searchURL": "/__data.json?q=@keyword&page=@page",
+  "searchList": "$.items[*]",
+  "searchName": "$.title",
+  "searchResult": "$.url",
+  "searchCover": "$.cover",
+  "exploreCategories": [
+    {
+      "name": "最新",
+      "url": "/__data.json?page=@page"
+    }
+  ],
+  "detailTitle": "$.items[0].title",
+  "detailCover": "$.items[0].cover",
+  "detailAuthor": "$.items[0].author",
+  "detailTags": "$.items[0].tags",
+  "chapterList": "$.items[*]",
+  "chapterName": "$.title",
+  "chapterUrl": "$.url",
+  "chapterTime": "$.uploaded",
+  "pageList": "$.items[0].images[*]"
+}

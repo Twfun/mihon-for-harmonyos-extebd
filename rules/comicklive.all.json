@@ -1,0 +1,26 @@
+{
+  "schema": "kazumi-comic-v1",
+  "id": "keiyoushi.all.comicklive",
+  "name": "Comick (Unoriginal)",
+  "lang": "all",
+  "baseURL": "https://comick.live",
+  "version": "1.0.0",
+  "versionCode": 1,
+  "contentFormat": "comick-public",
+  "exploreCategories": [
+    {
+      "name": "本周公开排行",
+      "url": "/api/comics/top?day=7&type=follow"
+    }
+  ],
+  "exploreList": "$.data[*]",
+  "exploreName": "$.title",
+  "exploreResult": "@tmpl:/comic/{{$.slug}}",
+  "exploreCover": "$.default_thumbnail",
+  "detailTitle": "$.title",
+  "detailCover": "$.default_thumbnail",
+  "chapterList": "$.data[*]",
+  "chapterName": "@tmpl:[{{$.lang}}] Ch. {{$.chap}}",
+  "chapterUrl": "@tmpl:{{$.hid}}-chapter-{{$.chap}}-{{$.lang}}",
+  "pageList": "$.chapter.images[*].url"
+}

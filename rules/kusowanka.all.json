@@ -1,0 +1,30 @@
+{
+  "schema": "kazumi-comic-v1",
+  "id": "keiyoushi.all.kusowanka",
+  "name": "Kusowanka",
+  "version": "1.0.0",
+  "versionCode": 1,
+  "lang": "all",
+  "baseURL": "https://kusowanka.com",
+  "searchURL": "/search/?page=@page&qt_key=@keyword",
+  "searchList": ".box_thumbs > .box_thumb",
+  "searchName": "@kusowanka-post-title",
+  "searchResult": "@kusowanka-public-post-url",
+  "searchCover": "[data-bg]@data-bg",
+  "exploreCategories": [
+    {
+      "name": "公開圖片",
+      "url": "/?page=@page"
+    }
+  ],
+  "detailTitle": "@kusowanka-post-title",
+  "detailAuthor": ".artists_list a@text",
+  "detailTags": ".tags_list a@text",
+  "detailCover": ".preview_image img@data-src",
+  "chapterList": "body",
+  "chapterName": "@kusowanka-chapter-title",
+  "chapterUrl": "@kusowanka-current-post-url",
+  "pageList": ".preview_image img@data-src",
+  "contentFormat": "kusowanka-public",
+  "description": "官網無帳號公開圖片。列表排除blacklisted與影片，閱讀前拒絕會員提示，只按正式Original image size按鈕讀原圖。文字檢索沿用原版標籤名稱→ID兩階段，支援逗號多標籤及-排除；藝術家/角色等額外進階篩選待映射。"
+}

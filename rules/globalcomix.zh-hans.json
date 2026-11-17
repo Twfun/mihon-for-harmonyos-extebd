@@ -1,0 +1,40 @@
+{
+  "schema": "kazumi-comic-v1",
+  "id": "keiyoushi.zh-hans.globalcomix",
+  "name": "GlobalComix",
+  "version": "1.0.0",
+  "versionCode": 1,
+  "lang": "zh-Hans",
+  "baseURL": "https://api.globalcomix.com",
+  "headers": {
+    "x-gc-client": "gck_b4d492261ec541eda44ce41de79da424",
+    "x-gc-identmode": "cookie",
+    "Origin": "https://globalcomix.com",
+    "Referer": "https://globalcomix.com/"
+  },
+  "searchURL": "/v1/comics?lang_id%5B%5D=cn&p=@page&sort=relevance&q=@keyword",
+  "searchList": "$.payload.results[*]",
+  "searchName": "$.name",
+  "searchResult": "@tmpl:/v1/read/{{$.slug}}",
+  "searchCover": "$.image_url",
+  "exploreCategories": [
+    {
+      "name": "中文熱門",
+      "url": "/v1/comics?lang_id%5B%5D=cn&p=@page"
+    },
+    {
+      "name": "中文最近更新",
+      "url": "/v1/comics?lang_id%5B%5D=cn&p=@page&sort=recent"
+    }
+  ],
+  "detailTitle": "$.payload.results.name",
+  "detailCover": "$.payload.results.image_url",
+  "detailIntro": "$.payload.results.description",
+  "chapterList": "$.payload.results[*]",
+  "chapterName": "$.title",
+  "chapterUrl": "@tmpl:/v1/readV2/{{$.key}}",
+  "pageList": "$.payload.results.page_objects[*].desktop_image_url",
+  "contentFormat": "globalcomix-public",
+  "description": "使用官網匿名網頁公開客戶端識別與中文cn內容，保留需授權目錄。每次讀章重取官方回應；僅整章明確免費、公開、頁數完整且每頁無付費/阻擋標誌時讀圖。短時官方圖片URL到期後需重新載入章節。官網cn分類實際包含簡繁中文。",
+  "tocUrl": "@tmpl:/v1/comics/{{$.payload.results.id}}/releases?lang_id=cn&all=true"
+}

@@ -1,0 +1,31 @@
+{
+  "schema": "kazumi-comic-v1",
+  "id": "keiyoushi.all.ososedki",
+  "name": "OSOSEDKI",
+  "lang": "all",
+  "baseURL": "https://ososedki.com",
+  "version": "1.0.0",
+  "versionCode": 1,
+  "searchURL": "/search?q=@keyword&page=@page",
+  "searchList": "@css:article.gallery-item",
+  "searchName": "@css:h3@text",
+  "searchResult": "@css:a.gallery-link@href",
+  "searchCover": "@css:img.gallery-img@src",
+  "exploreCategories": [
+    {
+      "name": "热门相册",
+      "url": "/top?page=@page"
+    },
+    {
+      "name": "最新相册",
+      "url": "/?page=@page"
+    }
+  ],
+  "detailTitle": "@css:h1@text",
+  "detailCover": "@xpath://meta[@property='og:image']/@content",
+  "chapterList": "@css:html",
+  "chapterName": "@css:h1@text",
+  "chapterUrl": "@css:link[rel=canonical]@href",
+  "pageList": "@css:#photos a[href^=\"/images/\"],#photos a[href^=\"https://ososedki.com/images/\"]@href",
+  "description": "OSOSEDKI 全语言公开图片相册，沿官网原生 HTML 目录、页码与名称搜索读取。"
+}

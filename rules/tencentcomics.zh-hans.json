@@ -1,0 +1,44 @@
+{
+  "schema": "kazumi-comic-v1",
+  "id": "keiyoushi.zh-hans.tencentcomics",
+  "name": "腾讯动漫",
+  "version": "1.0.0",
+  "versionCode": 1,
+  "lang": "zh-Hans",
+  "baseURL": "https://ac.qq.com",
+  "allowedHosts": [
+    "m.ac.qq.com"
+  ],
+  "headers": {
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"
+  },
+  "searchURL": "https://m.ac.qq.com/search/result?word=@keyword&page=@page,{\"headers\":{\"User-Agent\":\"Mozilla/5.0 (Linux; Android 14; Pixel 8) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Mobile Safari/537.36\"}}",
+  "searchList": "li.comic-item > a.comic-link",
+  "searchName": ".comic-title@text",
+  "searchResult": "@tencent-detail-href",
+  "searchCover": ".cover-image@src",
+  "exploreCategories": [
+    {
+      "name": "热门",
+      "url": "/Comic/all/search/hot/page/@page"
+    },
+    {
+      "name": "最近更新",
+      "url": "/Comic/all/search/time/page/@page"
+    }
+  ],
+  "exploreList": ".ret-search-list > li",
+  "exploreName": ".ret-works-cover a.mod-cover-list-thumb@title",
+  "exploreResult": ".ret-works-cover a.mod-cover-list-thumb@href",
+  "exploreCover": ".ret-works-cover img@data-original",
+  "detailTitle": ".works-intro-title strong@text",
+  "detailCover": ".works-cover a img@src",
+  "detailAuthor": ".works-intro-digi span.first em@text",
+  "detailIntro": ".works-intro-short@text",
+  "chapterList": ".chapter-page-all .works-chapter-item",
+  "chapterName": "a@text",
+  "chapterUrl": "a@href",
+  "pageList": "$.picture[*].url",
+  "contentFormat": "tencent-public-data",
+  "description": "官网公开目录与官方手机名称搜索；需授权章节明确标记。受限静态解析公开DATA和已验证nonce算术语法，不执行远端JS；仅comic/chapter匹配且canRead=true时读取图片。未知语法明确失败，暂不支持额外浏览器探测表达式。"
+}
