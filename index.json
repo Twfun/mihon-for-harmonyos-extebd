@@ -987,20 +987,6 @@
       "nsfw": true
     },
     {
-      "id": "keiyoushi.zh.mangalotus",
-      "name": "Manga Lotus (unoriginal)",
-      "lang": "zh",
-      "baseUrl": "https://mangalotus.com",
-      "version": "1.0.0",
-      "versionCode": 1,
-      "schema": "legado-v3",
-      "ruleUrl": "rules/mangalotus.zh.json",
-      "sha256": "c51d0fc80e5a70efc3f38ebc9f5a4cabcf304f12dcc532cb563b1a509bd93b96",
-      "description": "公開漫畫目錄與靜態頁圖",
-      "contentWarning": "nsfw",
-      "nsfw": true
-    },
-    {
       "id": "keiyoushi.zh.yaoimangaonline",
       "name": "Yaoi Manga Online",
       "lang": "zh",
@@ -1335,6 +1321,62 @@
       "description": "部分功能：僅全齡區、官方簡繁內容標籤與明確 is_viewable_sample=true 的公開樣圖。多語作品保留官方內容標籤，樣圖自身語言可能不同。完整試用 ZIP、Play 閱讀、已購作品和名稱搜尋待移植。",
       "contentWarning": "safe",
       "nsfw": false
+    },
+    {
+      "id": "keiyoushi.all.mitaku",
+      "name": "Mitaku",
+      "lang": "all",
+      "baseUrl": "https://mitaku.net",
+      "schema": "kazumi-comic-v1",
+      "version": "1.0.0",
+      "versionCode": 1,
+      "ruleUrl": "rules/mitaku.all.json",
+      "sha256": "fd3b93cc5ca510848198d912c14ff059db8a38ae90f89ae00d0834e1ffd68a01",
+      "contentWarning": "nsfw",
+      "nsfw": true,
+      "description": "Mitaku 原站公开图片相册，与 Kiutaku 部分镜像重合；保留其尚未覆盖的 Sweetie Fox–Jolyne、King Angel–Volume、ZinieQ–Mihara Memorial 相册；视频专帖不提供图片阅读。"
+    },
+    {
+      "id": "keiyoushi.all.ososedki",
+      "name": "OSOSEDKI",
+      "lang": "all",
+      "baseUrl": "https://ososedki.com",
+      "schema": "kazumi-comic-v1",
+      "version": "1.0.0",
+      "versionCode": 1,
+      "ruleUrl": "rules/ososedki.all.json",
+      "sha256": "e3dfe03809ead27ff27ca77f44b9ecab0f4457e184dd79275bd5b3e66ae86ad3",
+      "contentWarning": "nsfw",
+      "nsfw": true,
+      "description": "OSOSEDKI 全语言公开图片相册，沿官网原生 HTML 目录、页码与名称搜索读取。"
+    },
+    {
+      "id": "keiyoushi.all.twicomi",
+      "name": "Twicomi（公開單帖）",
+      "lang": "all",
+      "baseUrl": "https://api.twicomi.com",
+      "version": "1.0.0",
+      "versionCode": 1,
+      "schema": "kazumi-comic-v1",
+      "ruleUrl": "rules/twicomi.all.json",
+      "sha256": "15509653446f715e98ec66321a507fd2410c76edb1b290a5a5d8da6b63e7f335",
+      "description": "官方無帳號公開單帖漫畫：精選、最新、文字搜尋、單帖詳情及完整附件圖片。透過官網JS實際使用的單帖JSON接口，不執行Nuxt腳本。作者聚合章目與作者搜尋模式待移植；官方驗證或不可用回應無頁圖時明確失敗。",
+      "contentWarning": "mixed",
+      "nsfw": false
+    },
+    {
+      "id": "keiyoushi.zh.mangalotus",
+      "name": "Manga Lotus (unoriginal)（兼容入口）",
+      "lang": "zh",
+      "baseUrl": "https://mangalotus.com",
+      "version": "1.0.1",
+      "versionCode": 2,
+      "schema": "legado-v3",
+      "ruleUrl": "rules/mangalotus.zh.json",
+      "sha256": "a4e047828a1f3fca0d4af5c476cbff2a84ce0256cafd467a62608c77ee0ff1d7",
+      "description": "已核对为 Yaoi Manga Online 中文的改名镜像。兼容入口供已有收藏保持身份和迁移，详见去重清单。",
+      "contentWarning": "nsfw",
+      "nsfw": true
     }
   ]
 }
