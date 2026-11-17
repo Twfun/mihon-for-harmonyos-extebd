@@ -1,0 +1,30 @@
+{
+  "schema": "kazumi-comic-v1",
+  "id": "keiyoushi.zh.pornpics",
+  "name": "PornPics",
+  "lang": "zh",
+  "version": "1.0.0",
+  "versionCode": 1,
+  "baseURL": "https://www.pornpics.com",
+  "searchURL": "/search/srch.php?limit=20&offset={{offset:20}}&lang=zh&q=@keyword",
+  "searchList": "$[*]",
+  "searchName": "$.desc",
+  "searchResult": "$.g_url",
+  "searchCover": "$.t_url",
+  "exploreCategories": [
+    {
+      "name": "熱門",
+      "url": "/popular/api/galleries/list/?limit=20&offset={{offset:20}}&lang=zh&period=1&category_id=2586"
+    },
+    {
+      "name": "最新",
+      "url": "/popular/api/galleries/list/?limit=20&offset={{offset:20}}&lang=zh&period=2&category_id=2587"
+    }
+  ],
+  "detailTitle": ".gallery-title h1@text",
+  "detailCover": "#main li.thumbwook > a.rel-link img@data-src",
+  "chapterList": "html",
+  "chapterName": ".gallery-title h1@text",
+  "chapterUrl": "@href",
+  "pageList": "#main li.thumbwook > a.rel-link@href"
+}
