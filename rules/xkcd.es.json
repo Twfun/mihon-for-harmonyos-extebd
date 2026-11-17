@@ -1,0 +1,25 @@
+{
+  "bookSourceName": "xkcd en español",
+  "bookSourceUrl": "https://es.xkcd.com",
+  "bookSourceGroup": "es",
+  "bookSourceType": 2,
+  "exploreUrl": "Archivo::/archive/",
+  "ruleExplore": {
+    "bookList": "@css:html",
+    "name": "@css:#logo h1@text",
+    "bookUrl": "@css:a[href='https://es.xkcd.com/archive/']@href"
+  },
+  "ruleBookInfo": {
+    "name": "@css:#logo h1@text",
+    "intro": "@css:#logo h2@text"
+  },
+  "ruleToc": {
+    "chapterList": "@css:.archive-entry",
+    "chapterName": "@css:a@text",
+    "chapterUrl": "@css:a@href",
+    "updateTime": "@css:time@text"
+  },
+  "ruleContent": {
+    "content": "@css:#middleContent img.strip@src"
+  }
+}
