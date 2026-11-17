@@ -1,0 +1,36 @@
+{
+  "schema": "kazumi-comic-v1",
+  "id": "keiyoushi.zh-hant.toomics",
+  "name": "Toomics 繁體中文（遊客免費）",
+  "version": "1.0.0",
+  "versionCode": 1,
+  "lang": "zh-Hant",
+  "baseURL": "https://global.toomics.com",
+  "headers": {
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+  },
+  "exploreCategories": [
+    {
+      "name": "分類",
+      "url": "/tc/webtoon/ranking"
+    },
+    {
+      "name": "新作",
+      "url": "/tc/webtoon/new_comics"
+    }
+  ],
+  "exploreList": "div.visual a[href^=\"/tc/webtoon/episode/toon/\"]",
+  "exploreName": "h4.title@text || h4@text",
+  "exploreResult": "@href",
+  "exploreCover": "img@data-original || img@src",
+  "detailTitle": "section h2@text",
+  "detailCover": "@xpath://meta[@property=\"og:image\"]/@content",
+  "detailAuthor": "a[href*=\"searchtype=author\"]@text",
+  "detailIntro": "@xpath://meta[@name=\"description\"]/@content",
+  "chapterList": "ol.list-ep li.normal_ep a.js-episode-link[onclick]",
+  "chapterName": ".cell-title strong@text",
+  "chapterUrl": "@toomics-free-href",
+  "chapterTime": ".cell-time time@text",
+  "pageList": "div[id^=\"load_image_\"] img[data-src]@data-src",
+  "description": "官方繁體中文安全模式目錄及明確開放給遊客的免費章。搜尋待移植。"
+}

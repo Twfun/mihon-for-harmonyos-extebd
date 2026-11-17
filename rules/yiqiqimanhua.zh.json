@@ -1,0 +1,32 @@
+{
+  "bookSourceName": "177漫畫",
+  "bookSourceUrl": "https://www.177pica.com",
+  "bookSourceGroup": "zh",
+  "bookSourceType": 2,
+  "exploreUrl": "最新::/page/{{page}}/",
+  "searchUrl": "/?s={{key}}",
+  "ruleSearch": {
+    "bookList": "@css:#main article",
+    "name": "@css:.grid-title a@text",
+    "bookUrl": "@css:.grid-title a@href",
+    "coverUrl": "@css:figure img@src"
+  },
+  "ruleExplore": {
+    "bookList": "@css:#main article",
+    "name": "@css:.grid-title a@text",
+    "bookUrl": "@css:.grid-title a@href",
+    "coverUrl": "@css:figure img@src"
+  },
+  "ruleBookInfo": {
+    "name": "@css:h1.entry-title@text",
+    "coverUrl": "@xpath://meta[@property='og:image']/@content"
+  },
+  "ruleToc": {
+    "chapterList": "@css:#main article",
+    "chapterName": "@css:h1.entry-title@text"
+  },
+  "ruleContent": {
+    "content": "@css:.single-content img[src]@src",
+    "nextContentUrl": "@css:.page-links > span + a[href$='/{{nextPage}}/']@href"
+  }
+}

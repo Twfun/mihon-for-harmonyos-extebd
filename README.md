@@ -6,6 +6,8 @@
 
 此分支包含依赖新版鸿蒙规则引擎的 MangaDex 全语言、简体和繁体，以及 WEBTOON 繁体中文、咚漫漫画和 NamiComi 简繁体。请使用支持 `mangadex-at-home`、`namicomi-public` 及 CSS 相邻兄弟选择器的应用构建。MangaDex 单部作品目录目前最多读取 500 条。NamiComi 单部目录最多读取 200 条，读图前使用官网 API 逐章检查游客权限。
 
+本分支另有同源 POST 目录规则、177 漫画的 `nextPage` 分页、Kiutaku 的公开页图请求头处理及 Toomics 简繁免费章入口。Toomics 仅显示官网明确链接的游客免费章节，使用发现列表浏览。
+
 ## 订阅地址
 
 在鸿蒙版 Mihon 的 **浏览 → 图源规则仓库 → 添加规则仓库** 中填入：

@@ -1,0 +1,35 @@
+{
+  "schema": "kazumi-comic-v1",
+  "version": "1.0.0",
+  "versionCode": 1,
+  "lang": "all",
+  "searchURL": "/?s=@keyword&post_type=wp-manga",
+  "searchList": ".c-tabs-item__content",
+  "searchName": "@css:.post-title a@text",
+  "searchResult": "@css:.post-title a@href",
+  "searchCover": "@css:.tab-thumb img@data-src || @css:.tab-thumb img@src",
+  "exploreCategories": [
+    {
+      "name": "全部漫画",
+      "url": "/manga/page/@page/"
+    }
+  ],
+  "exploreList": ".page-item-detail.manga",
+  "exploreName": "@css:.post-title a@text",
+  "exploreResult": "@css:.post-title a@href",
+  "exploreCover": "@css:.item-thumb img@data-src || @css:.item-thumb img@src",
+  "detailTitle": "@css:.post-title h1@text",
+  "detailCover": "@css:.summary_image img@data-src || @css:.summary_image img@src",
+  "detailIntro": "@css:.description-summary@text",
+  "chapterList": "@css:li.wp-manga-chapter",
+  "chapterName": "@css:a@text",
+  "chapterUrl": "@tmpl:{{@xpath:./a[1]/@href}}?style=list",
+  "chapterTime": "@css:.chapter-release-date@text",
+  "chapterReverse": true,
+  "pageList": "@css:.reading-content .page-break img@data-src || @css:.reading-content .page-break img@src",
+  "id": "keiyoushi.all.mangacrazy",
+  "name": "MangaCrazy",
+  "baseURL": "https://mangacrazy.net",
+  "description": "MangaCrazy 全语言公开漫画（需要新版 POST 章节目录能力）",
+  "tocUrl": "@tmpl:{{@css:link[rel=\"canonical\"]@href}}ajax/chapters/,{\"method\":\"POST\",\"body\":\"\",\"headers\":{\"Content-Type\":\"application/x-www-form-urlencoded\",\"X-Requested-With\":\"XMLHttpRequest\"}}"
+}

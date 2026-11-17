@@ -1,0 +1,26 @@
+{
+  "schema": "kazumi-comic-v1",
+  "version": "1.0.0",
+  "versionCode": 1,
+  "lang": "all",
+  "id": "keiyoushi.all.kiutaku",
+  "baseURL": "https://kiutaku.com",
+  "name": "Kiutaku",
+  "searchURL": "/?search=@keyword&start={{offset:20}}",
+  "searchList": "@css:div.blog > div.items-row",
+  "searchName": "@css:.item-content a.item-link@text || @css:h2@text",
+  "searchResult": "@css:.item-content a.item-link@href",
+  "searchCover": "@css:img@src",
+  "exploreCategories": [
+    {
+      "name": "公开目录",
+      "url": "/hot?start={{offset:20}}"
+    }
+  ],
+  "detailTitle": "@css:.article-header@text",
+  "chapterList": "@css:.pagination-list a.pagination-link",
+  "chapterName": "@text",
+  "chapterUrl": "@href",
+  "pageList": "@css:.article-fulltext img@src",
+  "description": "Kiutaku 全语言公开图集。"
+}

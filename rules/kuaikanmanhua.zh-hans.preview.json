@@ -1,0 +1,39 @@
+{
+  "schema": "kazumi-comic-v1",
+  "id": "keiyoushi.zh-hans.kuaikanmanhua.preview",
+  "name": "快看漫画（公开首话试读）",
+  "version": "1.0.0",
+  "versionCode": 1,
+  "lang": "zh-Hans",
+  "baseURL": "https://www.kuaikanmanhua.com",
+  "allowedHosts": [
+    "api.kkmh.com"
+  ],
+  "searchURL": "https://api.kkmh.com/v1/search/topic?q=@keyword&since={{offset:10}}&size=10",
+  "searchList": "$.data.hit[*]",
+  "searchName": "$.title",
+  "searchResult": "@tmpl:/web/topic/{{$.id}}/",
+  "searchCover": "$.vertical_image_url",
+  "exploreCategories": [
+    {
+      "name": "热门",
+      "url": "/tag/0?region=1&pays=0&state=0&sort=2&page=@page"
+    },
+    {
+      "name": "新上架",
+      "url": "/tag/0?region=1&pays=0&state=0&sort=3&page=@page"
+    }
+  ],
+  "exploreList": ".tagContent .ItemSpecial a.itemLink[href^=\"/web/topic/\"]",
+  "exploreName": ".itemTitle@text",
+  "exploreResult": "@href",
+  "detailTitle": ".TopicHeader h3.title@text",
+  "detailAuthor": ".TopicHeader .nickname@text",
+  "detailIntro": ".comicIntro .detailsBox p@text",
+  "detailCover": ".TopicHeader .left img.img[src^=\"https://\"]@src",
+  "chapterList": ".btnListBox a.firstBtn[data-href^=\"/web/comic/\"]",
+  "chapterName": "@text",
+  "chapterUrl": "@data-href",
+  "pageList": ".comicDetails .imgList .img-box img.img[src^=\"https://\"]@src",
+  "description": "仅收录官网首话静态试读页。完整首话、后续章节目录及会员内容待移植。"
+}
