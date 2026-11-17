@@ -1,0 +1,26 @@
+{
+  "bookSourceName": "FoamGirl",
+  "bookSourceUrl": "https://foamgirl.net",
+  "bookSourceGroup": "all",
+  "bookSourceType": 2,
+  "exploreUrl": "公开相册::/page/{{page}}",
+  "ruleExplore": {
+    "bookList": "@css:.update_area .i_list",
+    "name": "@css:a.meta-title@text",
+    "bookUrl": "@css:a.meta-title@href",
+    "coverUrl": "@css:img@data-original"
+  },
+  "ruleBookInfo": {
+    "name": "@css:h1@text || @css:title@text",
+    "coverUrl": "@xpath://meta[@property='og:image']/@content"
+  },
+  "ruleToc": {
+    "chapterList": "@css:html",
+    "chapterName": "@css:h1@text || @css:title@text",
+    "chapterUrl": "@css:link[rel=canonical]@href"
+  },
+  "ruleContent": {
+    "content": "@css:a.imageclick-imgbox@href",
+    "nextContentUrl": "@css:a.page-numbers[title=\"Next page\"][href*=_]@href"
+  }
+}

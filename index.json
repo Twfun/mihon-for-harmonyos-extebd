@@ -1111,6 +1111,34 @@
       "sha256": "311281d05d125dea788adff8de860da3c9caf5b6e23153e5d991d34d31ed076a",
       "contentWarning": "nsfw",
       "nsfw": true
+    },
+    {
+      "id": "keiyoushi.all.nakedpics",
+      "name": "NakedPics",
+      "lang": "all",
+      "baseUrl": "https://hotnakedwomen.com",
+      "schema": "legado-v3",
+      "version": "1.0.0",
+      "versionCode": 1,
+      "ruleUrl": "rules/nakedpics.all.json",
+      "sha256": "ee3edfce260298adbbb26208fcf760a56569f00c14dfcc6b9aca84fb02f3e9ce",
+      "contentWarning": "nsfw",
+      "nsfw": true,
+      "description": "公开热门及最新图集首页；后续分类目录需站点的动态分页。"
+    },
+    {
+      "id": "keiyoushi.all.foamgirl",
+      "name": "FoamGirl",
+      "lang": "all",
+      "baseUrl": "https://foamgirl.net",
+      "schema": "legado-v3",
+      "version": "1.0.0",
+      "versionCode": 1,
+      "ruleUrl": "rules/foamgirl.all.json",
+      "sha256": "c256a17b0a270f024ed79a01094ca0239f2906dd5d40534c4de49472f3a334c0",
+      "contentWarning": "nsfw",
+      "nsfw": true,
+      "description": "FoamGirl 全语言公开图集，保留相册分页。"
     }
   ]
 }
