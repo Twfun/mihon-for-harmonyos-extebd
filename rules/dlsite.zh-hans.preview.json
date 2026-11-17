@@ -1,0 +1,30 @@
+{
+  "schema": "kazumi-comic-v1",
+  "id": "keiyoushi.zh-hans.dlsite.preview",
+  "name": "DLsite（全齡公開樣圖）",
+  "version": "1.0.0",
+  "versionCode": 1,
+  "lang": "zh-Hans",
+  "baseURL": "https://www.dlsite.com",
+  "headers": {
+    "Referer": "https://www.dlsite.com/"
+  },
+  "exploreCategories": [
+    {
+      "name": "全齡熱門（簡體內容標籤）",
+      "url": "/home/fsr/=/language/jp/work_type_category%5B0%5D/comic/work_type_category%5B1%5D/illust/options%5B0%5D/CHI_HANS/order%5B0%5D/trend/per_page/30/page/@page/show_type/1?locale=zh_CN"
+    }
+  ],
+  "exploreList": "li[data-list_item_product_id]",
+  "exploreName": ".work_name a@text",
+  "exploreResult": "@tmpl:/maniax/api/=/product.json?workno={{@xpath:@data-list_item_product_id}}&locale=zh_CN",
+  "detailTitle": "$[0].work_name",
+  "detailAuthor": "$[0].maker_name",
+  "detailCover": "$[0].image_main.url",
+  "detailIntro": "$[0].intro_s",
+  "chapterList": "$[?(@.is_viewable_sample == true)]",
+  "chapterName": "@tmpl:公開樣圖（非完整作品）：{{$.work_name}}",
+  "chapterUrl": "@tmpl:/maniax/api/=/product.json?workno={{$.workno}}&locale=zh_CN",
+  "pageList": "$[?(@.is_viewable_sample == true)].image_samples[*].url",
+  "description": "部分功能：僅全齡區、官方簡繁內容標籤與明確 is_viewable_sample=true 的公開樣圖。多語作品保留官方內容標籤，樣圖自身語言可能不同。完整試用 ZIP、Play 閱讀、已購作品和名稱搜尋待移植。"
+}

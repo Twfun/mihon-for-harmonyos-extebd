@@ -1307,6 +1307,34 @@
       "contentWarning": "nsfw",
       "nsfw": true,
       "description": "e621 全语言公开图集，沿原版逐帖章节选项保留 post_ids 顺序；游客模式只加载未删除的图片帖，不提供账户或视频内容。"
+    },
+    {
+      "id": "keiyoushi.zh-hans.dlsite.preview",
+      "name": "DLsite（全齡公開樣圖）",
+      "lang": "zh-Hans",
+      "baseUrl": "https://www.dlsite.com",
+      "version": "1.0.0",
+      "versionCode": 1,
+      "schema": "kazumi-comic-v1",
+      "ruleUrl": "rules/dlsite.zh-hans.preview.json",
+      "sha256": "30fc457ecffd0c33c324b4c729c7178f5926e00126cf165ee3c244e7fa94a4db",
+      "description": "部分功能：僅全齡區、官方簡繁內容標籤與明確 is_viewable_sample=true 的公開樣圖。多語作品保留官方內容標籤，樣圖自身語言可能不同。完整試用 ZIP、Play 閱讀、已購作品和名稱搜尋待移植。",
+      "contentWarning": "safe",
+      "nsfw": false
+    },
+    {
+      "id": "keiyoushi.zh-hant.dlsite.preview",
+      "name": "DLsite（全齡公開樣圖）",
+      "lang": "zh-Hant",
+      "baseUrl": "https://www.dlsite.com",
+      "version": "1.0.0",
+      "versionCode": 1,
+      "schema": "kazumi-comic-v1",
+      "ruleUrl": "rules/dlsite.zh-hant.preview.json",
+      "sha256": "e9521a29c20a76c1a2459618679f6730e16ae6f598a0839cc95b89215d5e0b08",
+      "description": "部分功能：僅全齡區、官方簡繁內容標籤與明確 is_viewable_sample=true 的公開樣圖。多語作品保留官方內容標籤，樣圖自身語言可能不同。完整試用 ZIP、Play 閱讀、已購作品和名稱搜尋待移植。",
+      "contentWarning": "safe",
+      "nsfw": false
     }
   ]
 }
