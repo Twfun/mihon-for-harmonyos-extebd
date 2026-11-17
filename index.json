@@ -1139,6 +1139,34 @@
       "contentWarning": "nsfw",
       "nsfw": true,
       "description": "FoamGirl 全语言公开图集，保留相册分页。"
+    },
+    {
+      "id": "keiyoushi.zh.pornpics",
+      "name": "PornPics",
+      "lang": "zh",
+      "baseUrl": "https://www.pornpics.com",
+      "version": "1.0.0",
+      "versionCode": 1,
+      "schema": "kazumi-comic-v1",
+      "ruleUrl": "rules/pornpics.zh.json",
+      "sha256": "a59d478660bc5024fd785805589376e1e315c901bbc70cdeb719d3c4431f45b7",
+      "description": "中文介面公開圖集與搜尋。",
+      "contentWarning": "nsfw",
+      "nsfw": true
+    },
+    {
+      "id": "keiyoushi.zh.digimonweb",
+      "name": "Digimon Web",
+      "lang": "zh",
+      "baseUrl": "https://digimon.net",
+      "version": "1.0.0",
+      "versionCode": 1,
+      "schema": "legado-v3",
+      "ruleUrl": "rules/digimonweb.zh.json",
+      "sha256": "9757d6731f14f61b0b7b98ab298ebd565b14e9f3e4bf9f683c526e7ef3ea5a29",
+      "description": "數碼寶貝官網 DIGIMON DREAMERS 中文三話檔案，按原站頁碼排列。",
+      "contentWarning": "safe",
+      "nsfw": false
     }
   ]
 }

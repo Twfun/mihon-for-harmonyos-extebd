@@ -1,0 +1,27 @@
+{
+  "bookSourceName": "Digimon Web",
+  "bookSourceUrl": "https://digimon.net",
+  "bookSourceGroup": "zh",
+  "bookSourceType": 2,
+  "exploreUrl": "官方中文漫畫::/digimondreamers/cn/",
+  "ruleExplore": {
+    "bookList": "@css:html",
+    "name": "@css:h3.pg-tit img@alt",
+    "bookUrl": "@xpath://meta[@property=\"og:url\"]/@content",
+    "coverUrl": "@css:h3.pg-tit img@src"
+  },
+  "ruleBookInfo": {
+    "name": "@css:h3.pg-tit img@alt",
+    "coverUrl": "@css:h3.pg-tit img@src",
+    "author": "@css:.pg-tit__explanation--author dd@text",
+    "intro": "@css:.pg-intro__text--01@text"
+  },
+  "ruleToc": {
+    "chapterList": "@css:ul.pg-episodesList a",
+    "chapterName": "@text",
+    "chapterUrl": "@href"
+  },
+  "ruleContent": {
+    "content": "@css:img[src*='/img_comic_01.']@src && @css:img[src*='/img_comic_02.']@src && @css:img[src*='/img_comic_03.']@src && @css:img[src*='/img_comic_04.']@src && @css:img[src*='/img_comic_05.']@src && @css:img[src*='/img_comic_06.']@src && @css:img[src*='/img_comic_07.']@src && @css:img[src*='/img_comic_08.']@src && @css:img[src*='/img_comic_09.']@src && @css:img[src*='/img_comic_10.']@src"
+  }
+}
