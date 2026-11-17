@@ -1,0 +1,38 @@
+{
+  "schema": "kazumi-comic-v1",
+  "id": "keiyoushi.zh.comicfury",
+  "name": "Comic Fury（中文）",
+  "lang": "zh",
+  "version": "1.0.0",
+  "versionCode": 1,
+  "baseURL": "https://comicfury.com",
+  "contentFormat": "comicfury-public",
+  "allowedHosts": [
+    "*.webcomic.ws"
+  ],
+  "searchURL": "/search.php?query=@keyword&page=@page&language=zh",
+  "searchList": ".webcomic-result",
+  "searchName": ".webcomic-result-title@title",
+  "searchResult": ".webcomic-result-avatar a@href",
+  "searchCover": ".webcomic-result-avatar a img@src",
+  "exploreCategories": [
+    {
+      "name": "熱門",
+      "url": "/search.php?query=&page=@page&language=zh&sort=1"
+    },
+    {
+      "name": "最新",
+      "url": "/search.php?query=&page=@page&language=zh&sort=2"
+    }
+  ],
+  "detailTitle": ".username-and-title .authorname@text",
+  "detailAuthor": ".profilecategory a.authorname@text",
+  "detailIntro": ".profilecategory .pccontent@text",
+  "detailGenre": ".description-tags a@text",
+  "detailCover": ".profile-avatar img@src",
+  "chapterList": ".archive-comic",
+  "chapterName": ".archive-comic-title@text",
+  "chapterUrl": "a@href",
+  "pageList": ".is--image-segment img@src",
+  "description": "官方公开作品检索与热门/最新目录。支持站内平面与分组归档，以及关闭站内阅读时同作品的作者公开布局。读取选中漫画页的原图切片，保留官方内容限制。"
+}
