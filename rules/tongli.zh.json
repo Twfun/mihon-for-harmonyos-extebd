@@ -1,0 +1,33 @@
+{
+  "schema": "kazumi-comic-v1",
+  "id": "keiyoushi.zh.tongli",
+  "name": "東立",
+  "lang": "zh",
+  "version": "1.0.0",
+  "versionCode": 1,
+  "baseURL": "https://ebook.tongli.com.tw",
+  "allowedHosts": ["api.tongli.tw"],
+  "contentFormat": "tongli-guest",
+  "searchURL": "https://api.tongli.tw/Search,{\"method\":\"POST\",\"body\":\"SearchStr={{key}}\"}",
+  "searchList": "$[*]",
+  "searchName": "$.BookTitle||$.Title",
+  "searchResult": "@tmpl:https://api.tongli.tw/Book?bookGroupID={{$.BookGroupID}}&isSerial={{$.IsSerial}}",
+  "searchCover": "$.BookCoverURL||$.CoverURL",
+  "exploreCategories": [
+    { "name": "熱門", "url": "https://api.tongli.tw/SellRanking/1" },
+    { "name": "最新", "url": "https://api.tongli.tw/SellShelf/6e7e5b75-1acd-4b7c-0097-08d6179fc10a/@page?pageSize=20" }
+  ],
+  "exploreList": "$.RankingSet[0].Week[*]||$.Books[*]",
+  "exploreName": "$.BookTitle||$.Title",
+  "exploreResult": "@tmpl:https://api.tongli.tw/Book?bookGroupID={{$.BookGroupID}}&isSerial={{$.IsSerial}}",
+  "exploreCover": "$.BookCoverURL||$.CoverURL",
+  "detailTitle": "$.Title",
+  "detailCover": "$.CoverURL",
+  "detailIntro": "$.Introduction",
+  "detailAuthor": "$.Authors[*].Name",
+  "tocUrl": "@tmpl:https://api.tongli.tw/Book/BookVol/{{$.BookGroupID}}?bookID=null&isSerial={{$.IsSerial}}",
+  "chapterList": "$[?(@.IsFree==true)]",
+  "chapterName": "$.Vol",
+  "chapterUrl": "@tmpl:https://api.tongli.tw/Comic/sas/{{$.BookID}}",
+  "pageList": "$.Pages[*].ImageURL"
+}

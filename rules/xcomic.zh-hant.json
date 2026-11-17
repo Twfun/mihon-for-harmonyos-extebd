@@ -1,0 +1,32 @@
+{
+  "schema": "kazumi-comic-v1",
+  "id": "keiyoushi.zh-hant.xcomic",
+  "name": "XCOMIC",
+  "version": "1.0.0",
+  "versionCode": 1,
+  "lang": "zh-Hant",
+  "baseURL": "https://xcomic.me",
+  "headers": {
+    "Accept": "application/json, text/html",
+    "Referer": "https://xcomic.me/"
+  },
+  "searchURL": "/query/?query=%0A++++query+get_title_browse%28%24select%3A+Title_Browse_Select%29+%7B%0A++++++++get_title_browse_items%28select%3A+%24select%29+%7B%0A++++++++++++id%0A++++++++++++data+%7B%0A++++++++++++++++title%0A++++++++++++++++native_title%0A++++++++++++++++romanized_title%0A++++++++++++++++original_language%0A++++++++++++++++translated_languages%0A++++++++++++++++type%0A++++++++++++++++cover_local_url%0A++++++++++++++++cover_url%0A++++++++++++++++comic_ids%0A++++++++++++++++chap_last_public_at%0A++++++++++++%7D%0A++++++++%7D%0A++++%7D%0A&variables=%7B%22select%22%3A%7B%22word%22%3A%22@keyword%22%2C%22page%22%3A@page%2C%22size%22%3A20%2C%22init%22%3A0%2C%22sortby%22%3A%22field_score%22%2C%22where%22%3A%22browse%22%2C%22incTLangs%22%3A%5B%22zh_hk%22%5D%2C%22ignoreGlobalGenres%22%3Afalse%7D%7D",
+  "searchList": "$.data.get_title_browse_items[*]",
+  "searchName": "$.data.title",
+  "searchResult": "@tmpl:/title/{{$.id}}",
+  "searchCover": "$.data.cover_local_url",
+  "exploreCategories": [
+    {
+      "name": "热门公开作品",
+      "url": "/query/?query=%0A++++query+get_title_browse%28%24select%3A+Title_Browse_Select%29+%7B%0A++++++++get_title_browse_items%28select%3A+%24select%29+%7B%0A++++++++++++id%0A++++++++++++data+%7B%0A++++++++++++++++title%0A++++++++++++++++native_title%0A++++++++++++++++romanized_title%0A++++++++++++++++original_language%0A++++++++++++++++translated_languages%0A++++++++++++++++type%0A++++++++++++++++cover_local_url%0A++++++++++++++++cover_url%0A++++++++++++++++comic_ids%0A++++++++++++++++chap_last_public_at%0A++++++++++++%7D%0A++++++++%7D%0A++++%7D%0A&variables=%7B%22select%22%3A%7B%22word%22%3A%22%22%2C%22page%22%3A@page%2C%22size%22%3A20%2C%22init%22%3A0%2C%22sortby%22%3A%22field_score%22%2C%22where%22%3A%22browse%22%2C%22incTLangs%22%3A%5B%22zh_hk%22%5D%2C%22ignoreGlobalGenres%22%3Afalse%7D%7D"
+    }
+  ],
+  "detailTitle": "h1 a[href^=\"/title/\"]@text",
+  "detailCover": "img[src^=\"/_f/\"]@src",
+  "chapterList": "a[href^=\"/chapter/\"]",
+  "chapterName": "@text",
+  "chapterUrl": "@href",
+  "pageList": "$.data.get_chapterNode.data.imageUrls[*]",
+  "contentFormat": "xcomic-public",
+  "description": "官网游客公开作品，按语言保留独立版本并标明版本来源；仅读取明确公开且 normal 的版本和章节。每部最多 64 个版本，每版本最多 20 页、每页 1000 条目录，超限明确报错。"
+}

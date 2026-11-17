@@ -1,0 +1,32 @@
+{
+  "schema": "kazumi-comic-v1",
+  "name": "3Hentai",
+  "version": "1.0.0",
+  "versionCode": 1,
+  "baseURL": "https://3hentai.net",
+  "contentFormat": "3hentai-full",
+  "searchList": ".doujin a.cover",
+  "searchName": ".title@text",
+  "searchResult": "@href",
+  "searchCover": "img@data-src||noscript img@src",
+  "detailTitle": "#main-info h1@text",
+  "detailCover": "a.main-cover img@data-src||a.main-cover img@src",
+  "detailTags": "#main-info a[href*=\"/tags/\"]@text",
+  "chapterList": "#main-info h1",
+  "chapterName": "@text",
+  "chapterUrl": "@href",
+  "pageList": "#thumbnail-gallery .single-thumb img@data-src",
+  "id": "keiyoushi.all.hentai3",
+  "lang": "all",
+  "searchURL": "/search?q=@keyword&page=@page",
+  "exploreCategories": [
+    {
+      "name": "熱門",
+      "url": "/search?q=pages%3A%3E0&page=@page&sort=popular"
+    },
+    {
+      "name": "最新",
+      "url": "/search?q=pages%3A%3E0&page=@page"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "schema": "kazumi-comic-v1",
+  "id": "keiyoushi.all.e621",
+  "name": "e621",
+  "lang": "all",
+  "baseURL": "https://e621.net",
+  "version": "1.0.0",
+  "versionCode": 1,
+  "headers": {
+    "User-Agent": "MihonHarmony/1.0 (https://github.com/Twfun/mihon-for-harmonyos-extebd)"
+  },
+  "searchURL": "/pools.json?page=@page&search%5Border%5D=updated_at&limit=24&search%5Bname_matches%5D=*@keyword*",
+  "searchList": "$[*]",
+  "searchName": "$.name",
+  "searchResult": "@tmpl:/pools/{{$.id}}.json",
+  "exploreCategories": [
+    {
+      "name": "公开图集",
+      "url": "/pools.json?page=@page&search%5Border%5D=updated_at&limit=24"
+    }
+  ],
+  "detailTitle": "$.name",
+  "detailIntro": "$.description",
+  "chapterList": "$.post_ids[*]",
+  "chapterName": "@tmpl:Post #{{$}}",
+  "chapterUrl": "@tmpl:/posts.json?tags=id:{{$}}%20-video&limit=1",
+  "pageList": "$.posts[?(@.flags.deleted == false)].file.url || $.posts[?(@.flags.deleted == false)].sample.url"
+}

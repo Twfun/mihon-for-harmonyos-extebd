@@ -1,0 +1,28 @@
+{
+  "schema": "kazumi-comic-v1",
+  "id": "keiyoushi.all.hniscantrad",
+  "name": "HNI-Scantrad",
+  "lang": "all",
+  "baseURL": "https://hni-scantrad.net",
+  "version": "1.0.0",
+  "versionCode": 1,
+  "searchURL": "/api/search/@keyword",
+  "searchList": "$.comics[?(@.hidden == 0)]",
+  "searchName": "$.title",
+  "searchResult": "@tmpl:/api{{$.url}}",
+  "searchCover": "$.thumbnail",
+  "exploreCategories": [
+    {
+      "name": "公开作品",
+      "url": "/api/comics"
+    }
+  ],
+  "detailTitle": "$.comic.title",
+  "detailCover": "$.comic.thumbnail",
+  "detailAuthor": "$.comic.author",
+  "detailIntro": "$.comic.description",
+  "chapterList": "$.comic.chapters[?(@.hidden == 0)]",
+  "chapterName": "@tmpl:{{$.full_chapter}} {{$.full_title}}",
+  "chapterUrl": "@tmpl:/api{{$.url}}",
+  "pageList": "$.chapter.pages[*]"
+}

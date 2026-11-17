@@ -1,0 +1,25 @@
+{
+  "schema": "kazumi-comic-v1",
+  "id": "keiyoushi.all.danbooru",
+  "name": "Danbooru",
+  "lang": "all",
+  "baseURL": "https://danbooru.donmai.us",
+  "version": "1.0.0",
+  "versionCode": 1,
+  "searchURL": "/pools.json?search%5Bcategory%5D=series&page=@page&limit=20&search%5Bname_contains%5D=@keyword",
+  "searchList": "$[?(@.is_deleted == false)]",
+  "searchName": "$.name",
+  "searchResult": "@tmpl:/pools/{{$.id}}.json",
+  "exploreCategories": [
+    {
+      "name": "系列图集",
+      "url": "/pools.json?search%5Bcategory%5D=series&page=@page&limit=20"
+    }
+  ],
+  "detailTitle": "$.name",
+  "detailIntro": "$.description",
+  "chapterList": "$.post_ids[*]",
+  "chapterName": "@tmpl:Post {{$}}",
+  "chapterUrl": "@tmpl:/posts/{{$}}.json",
+  "pageList": "$.file_url || $.large_file_url || $.preview_file_url"
+}
