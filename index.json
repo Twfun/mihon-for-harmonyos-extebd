@@ -1951,6 +1951,20 @@
       "description": "官網無帳號公開圖片。列表排除blacklisted與影片，閱讀前拒絕會員提示，只按正式Original image size按鈕讀原圖。文字檢索沿用原版標籤名稱→ID兩階段，支援逗號多標籤及-排除；藝術家/角色等額外進階篩選待映射。",
       "contentWarning": "nsfw",
       "nsfw": true
+    },
+    {
+      "id": "keiyoushi.all.historyofhyrule",
+      "name": "History of Hyrule",
+      "lang": "all",
+      "version": "1.0.0",
+      "versionCode": 1,
+      "baseUrl": "https://historyofhyrule.com",
+      "schema": "kazumi-comic-v1",
+      "ruleUrl": "rules/historyofhyrule.all.json",
+      "sha256": "2b0b1846c3b6ed6f29e1ea40b65728949d425934a0367ed6cbf342b636e3884c",
+      "contentWarning": "mixed",
+      "nsfw": false,
+      "description": "官方公開出版物檔案，支援八類目及名稱檢索。保留同一出版物的已連結語言版本，正文依數字與字母頁序，重複頁優先使用非 PNG，略過未取得出版物。"
     }
   ]
 }

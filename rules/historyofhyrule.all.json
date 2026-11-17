@@ -1,0 +1,56 @@
+{
+  "schema": "kazumi-comic-v1",
+  "id": "keiyoushi.all.historyofhyrule",
+  "name": "History of Hyrule",
+  "lang": "all",
+  "version": "1.0.0",
+  "versionCode": 1,
+  "baseURL": "https://historyofhyrule.com",
+  "contentFormat": "historyofhyrule-public",
+  "searchURL": "/publications/manga_index.php",
+  "searchList": "a[href] img[src*=thumb]",
+  "searchName": "@alt",
+  "searchResult": "@src",
+  "searchCover": "@src",
+  "exploreCategories": [
+    {
+      "name": "Manga",
+      "url": "/publications/manga_index.php"
+    },
+    {
+      "name": "Doujinshi",
+      "url": "/publications/doujinshi_index.php"
+    },
+    {
+      "name": "Comics",
+      "url": "/publications/comics_index.php"
+    },
+    {
+      "name": "4koma",
+      "url": "/publications/4koma_index.php"
+    },
+    {
+      "name": "Novels & Books",
+      "url": "/publications/book_index.php"
+    },
+    {
+      "name": "Zines",
+      "url": "/publications/zines_index.php"
+    },
+    {
+      "name": "Guides",
+      "url": "/publications/guide_index.php"
+    },
+    {
+      "name": "Misc",
+      "url": "/publications/misc_index.php"
+    }
+  ],
+  "detailTitle": "#info p@text",
+  "detailCover": "img[src^=pages/]@src",
+  "chapterList": "#info p strong",
+  "chapterName": "@text",
+  "chapterUrl": "a img[src*=/extras/flags/]@src",
+  "pageList": "a@href",
+  "description": "官方公開出版物檔案，支援八類目及名稱檢索。保留同一出版物的已連結語言版本，正文依數字與字母頁序，重複頁優先使用非 PNG，略過未取得出版物。"
+}
