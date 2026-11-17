@@ -1,0 +1,36 @@
+{
+  "schema": "kazumi-comic-v1",
+  "id": "keiyoushi.zh.mh1234",
+  "name": "漫画1234",
+  "lang": "zh",
+  "version": "1.0.0",
+  "versionCode": 1,
+  "baseURL": "https://m.wmh1234.com",
+  "allowedHosts": [
+    "reader.hqread.cc"
+  ],
+  "searchURL": "/search/@keyword/page/@page",
+  "searchList": ".comic-card__link",
+  "searchName": ".comic-card__title@text",
+  "searchResult": "@href",
+  "searchCover": "img.comic-card__image@data-src || img.comic-card__image@src",
+  "exploreCategories": [
+    {
+      "name": "熱門",
+      "url": "/category/order/hits/page/@page"
+    },
+    {
+      "name": "最新",
+      "url": "/category/order/addtime/page/@page"
+    }
+  ],
+  "detailTitle": "#mintWorkTitle@text",
+  "detailCover": "#mintWorkCover@src",
+  "detailIntro": "#mintIntroPanel > div@text",
+  "detailStatus": ".mint-work-info .mint-tag@text",
+  "chapterList": ".mint-chapter-grid a[data-chapter-id][href^='/comic/']",
+  "chapterName": "@text",
+  "chapterUrl": "@href",
+  "contentUrl": "noscript a[href^='https://reader.hqread.cc/r/']@href",
+  "pageList": "img.reader-image@data-src"
+}

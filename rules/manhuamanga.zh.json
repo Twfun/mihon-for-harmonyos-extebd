@@ -1,0 +1,31 @@
+{
+  "schema": "kazumi-comic-v1",
+  "id": "keiyoushi.zh.manhuamanga",
+  "name": "漫画manga",
+  "lang": "zh",
+  "version": "1.0.0",
+  "versionCode": 1,
+  "baseURL": "https://www.mh03.com",
+  "searchURL": "/search/@keyword/@page",
+  "searchList": ".comic-list .comic-item",
+  "searchName": "h3 a@text",
+  "searchResult": "h3 a@href",
+  "searchCover": "img@src",
+  "exploreCategories": [
+    {
+      "name": "熱門",
+      "url": "/category/order/hits/page/@page"
+    },
+    {
+      "name": "最新",
+      "url": "/category/order/addtime/page/@page"
+    }
+  ],
+  "detailTitle": ".comic-main-info h1@text",
+  "detailCover": ".comic-cover-large img@src",
+  "detailIntro": ".comic-description p@text",
+  "chapterList": "#chapter-list .chapter-item a",
+  "chapterName": "@text",
+  "chapterUrl": "@href",
+  "pageList": ".comic-content img.comic-image@data-src"
+}
