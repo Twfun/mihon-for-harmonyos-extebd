@@ -1,0 +1,37 @@
+{
+  "schema": "kazumi-comic-v1",
+  "id": "keiyoushi.zh.rumanhuaunoriginal",
+  "name": "如漫画 (unoriginal)",
+  "lang": "zh",
+  "version": "1.0.0",
+  "versionCode": 1,
+  "baseURL": "https://m.rumanhua.org",
+  "contentFormat": "rumanhua-clone-public",
+  "headers": {
+    "User-Agent": "Mozilla/5.0 (Linux; Android 14; Mobile) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Mobile Safari/537.36"
+  },
+  "exploreCategories": [
+    {
+      "name": "热门",
+      "url": "/custom/top"
+    },
+    {
+      "name": "最新",
+      "url": "/custom/update"
+    }
+  ],
+  "exploreList": "ul.rankList > li",
+  "exploreName": ".title@text",
+  "exploreResult": "a@href",
+  "exploreCover": "img@src",
+  "detailTitle": ".detailTop .info .title@text",
+  "detailAuthor": ".detailTop .info .subtitle:nth-child(2)@text",
+  "detailCover": ".detailTop img.cover@src",
+  "detailIntro": ".detailContent > p@text",
+  "chapterList": "ul.chapterList a[href^=\"/show/\"]",
+  "chapterName": "@text",
+  "chapterUrl": "@href",
+  "chapterReverse": true,
+  "pageList": "img@src",
+  "description": "如漫画 (unoriginal) 官方游客热门、最新、目录与公开阅读。当前站点的名称搜索服务不稳定。"
+}
