@@ -1,0 +1,46 @@
+{
+  "schema": "kazumi-comic-v1",
+  "id": "keiyoushi.all.junmeitu",
+  "name": "Junmeitu",
+  "lang": "all",
+  "baseURL": "https://meijuntu.com",
+  "version": "1.0.0",
+  "versionCode": 1,
+  "contentFormat": "junmeitu-public",
+  "searchURL": "/search/@keyword-@page.html",
+  "searchList": "@css:.pic-list > ul > li",
+  "searchName": "@css:p@text",
+  "searchResult": "@css:a@href",
+  "searchCover": "@css:img@src",
+  "exploreCategories": [
+    {
+      "name": "熱門相冊",
+      "url": "/beauty/hot-@page.html"
+    },
+    {
+      "name": "最新相冊",
+      "url": "/beauty/index-@page.html"
+    },
+    {
+      "name": "型男",
+      "url": "/handsome/index-@page.html"
+    },
+    {
+      "name": "娛樂新聞",
+      "url": "/news/index-@page.html"
+    },
+    {
+      "name": "街拍",
+      "url": "/street/index-@page.html"
+    }
+  ],
+  "detailTitle": "@css:.news-title@text || @css:.title@text",
+  "detailCover": "@css:.pictures img@src || @css:.news-body img@src",
+  "detailIntro": "@css:.introduce@text || @css:.news-info@text",
+  "detailTags": "@css:.relation_tags > a@text",
+  "chapterList": "@css:html",
+  "chapterName": "@css:.news-title@text || @css:.title@text",
+  "chapterUrl": "@css:.position a:last-child@href",
+  "pageList": "@css:.pictures img@src || @css:.news-body img@src",
+  "description": "俊美圖公開相冊及娛樂新聞。按網站原生頁碼依序讀取相冊；支持最多 200 張。"
+}

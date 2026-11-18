@@ -2160,6 +2160,20 @@
       "contentWarning": "mixed",
       "nsfw": false,
       "description": "官方公开游客热门、最近更新、搜索、详情与章节。按原网页导航提交同源 ASP.NET 分页和章节区间表单，无需登录。"
+    },
+    {
+      "id": "keiyoushi.all.junmeitu",
+      "name": "Junmeitu",
+      "lang": "all",
+      "schema": "kazumi-comic-v1",
+      "version": "1.0.0",
+      "versionCode": 1,
+      "description": "俊美圖公開相冊及娛樂新聞。按網站原生頁碼依序讀取相冊；支持最多 200 張。",
+      "baseUrl": "https://meijuntu.com",
+      "ruleUrl": "rules/junmeitu.all.json",
+      "sha256": "f67afc6f61314e2eb4a059c92696c1018d7be58e58b2ccf2bf80b22fa6eb926a",
+      "contentWarning": "nsfw",
+      "nsfw": true
     }
   ]
 }
