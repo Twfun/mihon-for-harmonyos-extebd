@@ -1,0 +1,35 @@
+{
+  "schema": "kazumi-comic-v1",
+  "id": "keiyoushi.all.toonlook",
+  "name": "ToonLook",
+  "lang": "all",
+  "baseURL": "https://toonlook.com",
+  "version": "1.0.0",
+  "versionCode": 1,
+  "contentFormat": "toonlook-public",
+  "searchURL": "/<,page/@page/>?s=@keyword",
+  "searchList": "@css:.manga-item",
+  "searchName": "@css:a.manga-item__link@text",
+  "searchResult": "@css:a.manga-item__link@href",
+  "searchCover": "@css:img.manga-item__img-inner@src",
+  "exploreCategories": [
+    {
+      "name": "熱門",
+      "url": "/manhwa/<,page/@page/>?sortby=daily_top"
+    },
+    {
+      "name": "最新",
+      "url": "/manhwa/<,page/@page/>?sortby=latest"
+    }
+  ],
+  "detailTitle": "@css:.manga-titles h1@text",
+  "detailCover": "@css:img[src*=\"/img/cover/\"]@src",
+  "detailIntro": "@css:.manga-desc__content@text",
+  "detailAuthor": "@css:div.items-start a[rel=tag][href*=\"/manga-author/\"] > span:first-child@text",
+  "detailStatus": "@css:.manga-status[data-status]@data-status",
+  "chapterList": "@css:a.chapter-item[data-id][data-langs]",
+  "chapterName": "@css:.chapter-item__name@text",
+  "chapterUrl": "@href",
+  "pageList": "@css:script",
+  "description": "ToonLook 全語言公開漫畫。保留原站熱門、最新、名稱檢索、章節語言與官網公開閱讀圖像。"
+}

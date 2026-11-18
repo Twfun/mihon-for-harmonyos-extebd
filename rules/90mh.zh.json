@@ -1,0 +1,42 @@
+{
+  "schema": "kazumi-comic-v1",
+  "id": "keiyoushi.zh.90mh",
+  "name": "90漫画网",
+  "lang": "zh",
+  "version": "1.0.0",
+  "versionCode": 1,
+  "baseURL": "https://www.90mh.cc",
+  "contentFormat": "sin90-public",
+  "allowedHosts": [
+    "m.90mh.cc"
+  ],
+  "searchURL": "/search/?keywords=@keyword&page=@page",
+  "searchList": "#contList li.item-lg",
+  "searchName": "p.ell a@text",
+  "searchResult": "p.ell a@href",
+  "searchCover": "a.cover img@src",
+  "exploreCategories": [
+    {
+      "name": "热门",
+      "url": "/list/click/?page=@page"
+    },
+    {
+      "name": "最新",
+      "url": "/list/update/?page=@page"
+    }
+  ],
+  "exploreList": "#contList li.item-lg",
+  "exploreName": "p.ell a@text",
+  "exploreResult": "p.ell a@href",
+  "exploreCover": "a.cover img@src",
+  "detailTitle": ".book-title h1 span@text",
+  "detailCover": ".book-cover img@src",
+  "detailAuthor": ".detail-list a[href^=\"/author/\"]@text",
+  "detailIntro": "#intro-all p@text",
+  "chapterList": ".chapter-body ul[id^=\"chapter-list-\"] li a",
+  "chapterName": "span@text",
+  "chapterUrl": "@href",
+  "chapterReverse": true,
+  "pageList": "img@src",
+  "description": "90漫画网官网游客热门、最新、搜索和目录。可读取站点允许游客阅读且提供完整图清单的公开章节。有些章页官网暂时返回错误。"
+}
