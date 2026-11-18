@@ -2482,6 +2482,48 @@
       "sha256": "2d99b125e661a657b54c6ecfac83f975f599626b5526f55bfee4e260f2b6130d",
       "contentWarning": "nsfw",
       "nsfw": true
+    },
+    {
+      "id": "keiyoushi.zh.favcomic",
+      "name": "喜漫漫画",
+      "lang": "zh",
+      "version": "1.0.0",
+      "versionCode": 1,
+      "schema": "kazumi-comic-v1",
+      "description": "喜漫漫画官网公开榜单、最近更新和名称搜索。仅加载网站对游客公开的章节，保留官网登录及付费限制。",
+      "ruleUrl": "rules/favcomic.zh.json",
+      "baseUrl": "https://www.favcomic.com",
+      "sha256": "4e9baa3ea3e4b10a8818410082c37249a3e54561de32b960be34b4347e2807d5",
+      "contentWarning": "mixed",
+      "nsfw": false
+    },
+    {
+      "id": "keiyoushi.zh.dragonballmultiverse",
+      "name": "Dragon Ball Multiverse（中文）",
+      "version": "1.0.0",
+      "versionCode": 1,
+      "lang": "zh",
+      "schema": "kazumi-comic-v1",
+      "description": "浏览 DB Multiverse 官网五部中文入口作品。支持官网现成图片，含官网回退原文；仅通过动态对白提供的页待支持。",
+      "baseUrl": "https://www.dragonball-multiverse.com",
+      "ruleUrl": "rules/dragonballmultiverse.zh.json",
+      "sha256": "81ac67371bb4965b1217a1ded509279d6b91f72ee4edefcae0db45d2c25d9a3c",
+      "contentWarning": "safe",
+      "nsfw": false
+    },
+    {
+      "id": "keiyoushi.all.doujiva",
+      "name": "Doujiva",
+      "lang": "all",
+      "schema": "kazumi-comic-v1",
+      "version": "1.0.0",
+      "versionCode": 1,
+      "description": "Doujiva 全語言公開漫畫。以官網匿名目錄、作品資料和瀏覽器閱讀頁交叉核對公開圖像。",
+      "baseUrl": "https://doujiva.com",
+      "ruleUrl": "rules/doujiva.all.json",
+      "sha256": "dfc81216b27e7095e31c064ea8cf1691252403e94c1a22b13fcae3127558684f",
+      "contentWarning": "nsfw",
+      "nsfw": true
     }
   ]
 }

@@ -1,0 +1,39 @@
+{
+  "schema": "kazumi-comic-v1",
+  "id": "keiyoushi.zh.favcomic",
+  "name": "喜漫漫画",
+  "lang": "zh",
+  "version": "1.0.0",
+  "versionCode": 1,
+  "baseURL": "https://www.favcomic.com",
+  "contentFormat": "favcomic-public",
+  "headers": {
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:150.0) Gecko/20100101 Firefox/150.0"
+  },
+  "searchURL": "/search?keyword=@keyword&page=@page",
+  "searchList": ".cover_box > a",
+  "searchName": "@title",
+  "searchResult": "@href",
+  "exploreCategories": [
+    {
+      "name": "免费人气榜",
+      "url": "/rank?range=1&comicType=1&vip=0"
+    },
+    {
+      "name": "最新",
+      "url": "/boy?page=@page"
+    }
+  ],
+  "exploreList": ".rank_item > a, .cover_box > a",
+  "exploreName": "@title||img@alt",
+  "exploreResult": "@href",
+  "detailTitle": ".comic_title@text",
+  "detailAuthor": ".author@text",
+  "detailIntro": ".intro_box > .txt@text",
+  "chapterList": ".catalog_box a[href^=\"/comic/chapter/\"]",
+  "chapterName": ".title@text",
+  "chapterUrl": "@href",
+  "chapterReverse": true,
+  "pageList": "img@src",
+  "description": "喜漫漫画官网公开榜单、最近更新和名称搜索。仅加载网站对游客公开的章节，保留官网登录及付费限制。"
+}

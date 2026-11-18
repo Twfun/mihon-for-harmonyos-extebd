@@ -1,0 +1,33 @@
+{
+  "schema": "kazumi-comic-v1",
+  "id": "keiyoushi.all.doujiva",
+  "name": "Doujiva",
+  "lang": "all",
+  "baseURL": "https://doujiva.com",
+  "version": "1.0.0",
+  "versionCode": 1,
+  "contentFormat": "doujiva-public",
+  "searchURL": "/api/v1/search?q=@keyword&page=@page&limit=24",
+  "searchList": "@json:$.data[*]",
+  "searchName": "@json:$.title",
+  "searchResult": "@doujiva-public-detail",
+  "searchCover": "@json:$.coverUrl",
+  "exploreCategories": [
+    {
+      "name": "熱門",
+      "url": "/api/v1/manga?sort=popular-today&page=@page&limit=24"
+    },
+    {
+      "name": "最新",
+      "url": "/api/v1/manga?sort=newest&page=@page&limit=24"
+    }
+  ],
+  "detailTitle": "@json:$.data.title",
+  "detailCover": "@json:$.data.coverUrl",
+  "detailIntro": "@json:$.data.description",
+  "chapterList": "@json:$.data.chapters[*]",
+  "chapterName": "@json:$.title",
+  "chapterUrl": "@json:$.id",
+  "pageList": "@css:img[alt=\"Page 1\"]@src",
+  "description": "Doujiva 全語言公開漫畫。以官網匿名目錄、作品資料和瀏覽器閱讀頁交叉核對公開圖像。"
+}

@@ -1,0 +1,25 @@
+{
+  "schema": "kazumi-comic-v1",
+  "id": "keiyoushi.zh.dragonballmultiverse",
+  "name": "Dragon Ball Multiverse（中文）",
+  "version": "1.0.0",
+  "versionCode": 1,
+  "lang": "zh",
+  "baseURL": "https://www.dragonball-multiverse.com",
+  "contentFormat": "dbm-cn-public",
+  "exploreCategories": [
+    {
+      "name": "官网中文漫画",
+      "url": "/cn/read.html"
+    }
+  ],
+  "exploreList": "#dbm-reads .dbm-read",
+  "exploreName": "h3@text",
+  "exploreResult": "a.illustration[href^='chapters.html?comic=']@href",
+  "exploreCover": "a.illustration img@src",
+  "chapterList": ".cadrelect.chapter",
+  "chapterName": "h4@text",
+  "chapterUrl": "a@href",
+  "pageList": ".pageslist a@href",
+  "description": "浏览 DB Multiverse 官网五部中文入口作品。支持官网现成图片，含官网回退原文；仅通过动态对白提供的页待支持。"
+}
