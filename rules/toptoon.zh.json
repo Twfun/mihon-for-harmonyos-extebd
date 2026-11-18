@@ -1,0 +1,31 @@
+{
+  "schema": "kazumi-comic-v1",
+  "id": "keiyoushi.zh.toptoon",
+  "name": "TOPTOON 頂通",
+  "version": "1.0.0",
+  "versionCode": 1,
+  "lang": "zh",
+  "baseURL": "https://www.toptoon.net",
+  "contentFormat": "toptoon-public",
+  "searchURL": "/search",
+  "exploreCategories": [
+    {"name": "全年齡排行", "url": "/ranking"},
+    {"name": "全年齡最新", "url": "/search"}
+  ],
+  "searchList": "$[*]",
+  "searchName": "$.meta.title",
+  "searchResult": "@tmpl:/comic/epList/{{$.id}}",
+  "exploreList": "$.non_adult[*]",
+  "exploreName": "$.meta.title",
+  "exploreResult": "@tmpl:/comic/epList/{{$.id}}",
+  "detailTitle": "section.infoContent[data-type='comicInfo'] .title@text",
+  "detailAuthor": "section.infoContent[data-type='comicInfo'] .etc@text",
+  "detailCover": ".comicThumb img@src",
+  "detailIntro": ".comic_story .desc@text",
+  "detailTags": ".infoContent .hashTag a@text",
+  "chapterList": "section.episode_area li.episodeBox",
+  "chapterName": ".title@text",
+  "chapterUrl": "a@href",
+  "pageList": "article.epContent section.imgWrap div.cImg img@data-src",
+  "description": "使用 TOPTOON 頂通官網預設全年齡訪客入口。保留目錄的解鎖標記，僅在站方實際開放訪客觀看時讀取當前簽發頁圖。"
+}

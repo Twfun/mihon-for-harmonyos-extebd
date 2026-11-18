@@ -2162,20 +2162,6 @@
       "description": "官方公开游客热门、最近更新、搜索、详情与章节。按原网页导航提交同源 ASP.NET 分页和章节区间表单，无需登录。"
     },
     {
-      "id": "keiyoushi.all.junmeitu",
-      "name": "Junmeitu",
-      "lang": "all",
-      "schema": "kazumi-comic-v1",
-      "version": "1.0.0",
-      "versionCode": 1,
-      "description": "俊美圖公開相冊及娛樂新聞。按網站原生頁碼依序讀取相冊；支持最多 200 張。",
-      "baseUrl": "https://meijuntu.com",
-      "ruleUrl": "rules/junmeitu.all.json",
-      "sha256": "f67afc6f61314e2eb4a059c92696c1018d7be58e58b2ccf2bf80b22fa6eb926a",
-      "contentWarning": "nsfw",
-      "nsfw": true
-    },
-    {
       "id": "keiyoushi.zh.baozimhorg",
       "name": "GoDa漫画",
       "lang": "zh",
@@ -2398,6 +2384,48 @@
       "sha256": "5a9da009b37db58b359684d6d6eb8f41fb823421ea99d65b30a8eca86e7b346a",
       "contentWarning": "safe",
       "nsfw": false
+    },
+    {
+      "id": "keiyoushi.zh.mangabz",
+      "name": "Mangabz",
+      "lang": "zh",
+      "version": "1.0.0",
+      "versionCode": 1,
+      "schema": "kazumi-comic-v1",
+      "description": "通过 Keiyoushi 索引所列官方 yymanhua 镜像提供游客热门、最新、搜索与公开阅读，按需加载页图。",
+      "ruleUrl": "rules/mangabz.zh.json",
+      "baseUrl": "https://yymanhua.com",
+      "sha256": "27d4f094225c59449920fc953ad9ba27ce41ebd0218a877a8e413575be979b4b",
+      "contentWarning": "safe",
+      "nsfw": false
+    },
+    {
+      "id": "keiyoushi.zh.toptoon",
+      "name": "TOPTOON 頂通",
+      "version": "1.0.0",
+      "versionCode": 1,
+      "lang": "zh",
+      "schema": "kazumi-comic-v1",
+      "description": "使用 TOPTOON 頂通官網預設全年齡訪客入口。保留目錄的解鎖標記，僅在站方實際開放訪客觀看時讀取當前簽發頁圖。",
+      "baseUrl": "https://www.toptoon.net",
+      "ruleUrl": "rules/toptoon.zh.json",
+      "sha256": "faa8e2c2b9c9003647f9b5eb2111fd55c1e63ee6b7bc74b13aaaf3dbe7cb5041",
+      "contentWarning": "mixed",
+      "nsfw": false
+    },
+    {
+      "id": "keiyoushi.all.junmeitu",
+      "name": "Junmeitu",
+      "lang": "all",
+      "schema": "kazumi-comic-v1",
+      "version": "1.0.1",
+      "versionCode": 2,
+      "description": "俊美圖公開相冊及娛樂新聞。按網站原生頁碼依序讀取相冊；支持最多 200 張。",
+      "baseUrl": "https://meijuntu.com",
+      "ruleUrl": "rules/junmeitu.all.json",
+      "sha256": "e53300f596e3467c79d24243b9125ad6b7ff116e4610ca598871bef7a10bf993",
+      "contentWarning": "nsfw",
+      "nsfw": true
     }
   ]
 }

@@ -1,0 +1,42 @@
+{
+  "schema": "kazumi-comic-v1",
+  "id": "keiyoushi.zh.mangabz",
+  "name": "Mangabz",
+  "lang": "zh",
+  "version": "1.0.0",
+  "versionCode": 1,
+  "baseURL": "https://yymanhua.com",
+  "contentFormat": "mangabz-public",
+  "headers": {
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:150.0) Gecko/20100101 Firefox/150.0",
+    "Cookie": "yymanhua_lang=2"
+  },
+  "searchURL": "/search?title=@keyword&page=@page",
+  "searchList": ".mh-list li .mh-item",
+  "searchName": "h2.title a@text",
+  "searchResult": "h2.title a@href",
+  "searchCover": "img.mh-cover@src",
+  "exploreCategories": [
+    {
+      "name": "热门",
+      "url": "/manga-list-p@page/"
+    },
+    {
+      "name": "最新",
+      "url": "/manga-list-0-0-2-p@page/"
+    }
+  ],
+  "exploreList": ".mh-list li .mh-item",
+  "exploreName": "h2.title a@text",
+  "exploreResult": "h2.title a@href",
+  "exploreCover": "img.mh-cover@src",
+  "detailTitle": ".detail-info-title@text",
+  "detailCover": "img.detail-info-cover@src",
+  "detailAuthor": ".detail-info-tip a@text",
+  "detailIntro": ".detail-info-content@text",
+  "chapterList": "#chapterlistload a.detail-list-form-item",
+  "chapterName": "@text",
+  "chapterUrl": "@href",
+  "pageList": "img@src",
+  "description": "通过 Keiyoushi 索引所列官方 yymanhua 镜像提供游客热门、最新、搜索与公开阅读，按需加载页图。"
+}
