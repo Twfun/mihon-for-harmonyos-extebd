@@ -2622,6 +2622,19 @@
       "sha256": "2ffb46590bdd3310bb425f175119ca8fac13a0534f37a54b55bf693cab4dc496",
       "contentWarning": "nsfw",
       "nsfw": true
+    },
+    {
+      "id": "keiyoushi.zh.boylove",
+      "name": "香香腐宅",
+      "version": "1.0.0",
+      "versionCode": 1,
+      "lang": "zh",
+      "schema": "kazumi-comic-v1",
+      "nsfw": true,
+      "contentWarning": "nsfw",
+      "baseUrl": "https://boylove.cc",
+      "ruleUrl": "rules/boylove.zh.json",
+      "sha256": "94f6b5400999be977969e18c5e86eef1d7160b97e48ae2ed58b89d2e49c9fbc4"
     }
   ]
 }
