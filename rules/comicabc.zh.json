@@ -1,0 +1,33 @@
+{
+  "schema": "kazumi-comic-v1",
+  "id": "keiyoushi.zh.comicabc",
+  "name": "無限動漫",
+  "version": "1.0.0",
+  "versionCode": 1,
+  "lang": "zh",
+  "baseURL": "https://www.8comic.com",
+  "contentFormat": "comicabc-public",
+  "searchURL": "/member/search.aspx?key=@keyword&page=@page",
+  "exploreCategories": [
+    {"name": "熱門連載", "url": "/comic/h-@page.html"},
+    {"name": "最新更新", "url": "/comic/u-@page.html"}
+  ],
+  "searchList": "a.comicpic_col6[href^='/html/']",
+  "searchName": "li.nowraphide@text",
+  "searchResult": "@href",
+  "searchCover": "img@data-cc-src || img@src",
+  "exploreList": "article.cu-card",
+  "exploreName": ".cu-title@text",
+  "exploreResult": ".cu-title@href",
+  "exploreCover": ".cu-cover img@data-cc-src || .cu-cover img@src",
+  "detailTitle": ".item_content_box .h2@text",
+  "detailAuthor": ".item_content_box .item-info-author@text",
+  "detailIntro": ".item_content_box .item_info_detail@text",
+  "detailCover": ".item-cover img@src",
+  "detailStatus": ".item-info-status@text",
+  "chapterList": "#chapters a, .comic_chapters a",
+  "chapterName": "@text",
+  "chapterUrl": "@onclick",
+  "pageList": "#comics-pics img@s",
+  "description": "無限動漫公開訪客目錄及讀圖。只讀取官網明確標示開放的章節，靜態解析官方閱讀器頁碼資料。"
+}

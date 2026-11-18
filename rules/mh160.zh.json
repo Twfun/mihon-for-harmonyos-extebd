@@ -1,0 +1,36 @@
+{
+  "schema": "kazumi-comic-v1",
+  "id": "keiyoushi.zh.mh160",
+  "name": "漫画160",
+  "lang": "zh",
+  "version": "1.0.0",
+  "versionCode": 1,
+  "baseURL": "https://m.mh160mh.com",
+  "contentFormat": "mh160-public",
+  "headers": {
+    "User-Agent": "Mozilla/5.0 (Linux; Android 14; Mobile) AppleWebKit/537.36 Chrome/140.0.0.0 Mobile Safari/537.36"
+  },
+  "exploreCategories": [
+    {
+      "name": "热门",
+      "url": "/kanmanhua/zaixian_hit.html"
+    },
+    {
+      "name": "最新",
+      "url": "/kanmanhua/zaixian_recent.html"
+    }
+  ],
+  "exploreList": ".itemBox",
+  "exploreName": ".itemTxt a.title@text",
+  "exploreResult": ".itemTxt a.title@href",
+  "exploreCover": ".itemImg img@src",
+  "detailTitle": ".txtItme.h1@text",
+  "detailCover": "#Cover img@src",
+  "detailAuthor": ".sub_r p:nth-child(3)@text",
+  "detailIntro": ".detailContent p@text",
+  "chapterList": "ul[id^=chapterList_ul] li a",
+  "chapterName": "@text",
+  "chapterUrl": "@href",
+  "pageList": "img@src",
+  "description": "官方移动页公开热门与最新目录及章节图片。读取官网 qTcms 静态图清单，尊重已下架标记。源站名称搜索暂未恢复。"
+}

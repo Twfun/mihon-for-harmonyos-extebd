@@ -2216,6 +2216,62 @@
       "sha256": "c879c396908a08f60584647c5ef3c4d49bb91ea3d63f593287764ce9daf92db3",
       "contentWarning": "safe",
       "nsfw": false
+    },
+    {
+      "id": "keiyoushi.zh.mh160",
+      "name": "漫画160",
+      "lang": "zh",
+      "version": "1.0.0",
+      "versionCode": 1,
+      "schema": "kazumi-comic-v1",
+      "ruleUrl": "rules/mh160.zh.json",
+      "baseUrl": "https://m.mh160mh.com",
+      "sha256": "47a327570f96e3b19f649eb3fe210172d4b20ec838583b4e833e834576510a2d",
+      "contentWarning": "safe",
+      "nsfw": false,
+      "description": "官方移动页公开热门与最新目录及章节图片。读取官网 qTcms 静态图清单，尊重已下架标记。源站名称搜索暂未恢复。"
+    },
+    {
+      "id": "keiyoushi.all.fourkhd",
+      "name": "4KHD",
+      "lang": "all",
+      "baseUrl": "https://www.4khd.com",
+      "schema": "legado-v3",
+      "version": "1.0.0",
+      "versionCode": 1,
+      "ruleUrl": "rules/fourkhd.all.json",
+      "sha256": "8cefc0f1eea7e845e6c4503749d94adb2e5d5c1323a0235eb8459c2f2d7a91f6",
+      "contentWarning": "nsfw",
+      "nsfw": true,
+      "description": "4KHD 全语言公开相册，使用官方公开目录接口及同站相册页码。"
+    },
+    {
+      "id": "keiyoushi.zh.utifa",
+      "name": "Utifa",
+      "lang": "zh",
+      "schema": "kazumi-comic-v1",
+      "version": "1.0.0",
+      "versionCode": 1,
+      "description": "Utifa 官网游客热门、最近更新及名称搜索。核对作品和章节归属，使用站点返回的短期页图链接，仅接受官方已验证图片服务。",
+      "baseUrl": "https://bx.yaimer.com",
+      "ruleUrl": "rules/utifa.zh.json",
+      "sha256": "55d9c3f7a23a50bd13474d3cdccfe5581fc2efab78eb5cfe528a8148307f2f9d",
+      "contentWarning": "mixed",
+      "nsfw": false
+    },
+    {
+      "id": "keiyoushi.zh.comicabc",
+      "name": "無限動漫",
+      "version": "1.0.0",
+      "versionCode": 1,
+      "lang": "zh",
+      "schema": "kazumi-comic-v1",
+      "description": "無限動漫公開訪客目錄及讀圖。只讀取官網明確標示開放的章節，靜態解析官方閱讀器頁碼資料。",
+      "baseUrl": "https://www.8comic.com",
+      "ruleUrl": "rules/comicabc.zh.json",
+      "sha256": "a1dd2b91b7eb435bc8cf20fc245c760666081f5e0e25521f33b013effd4ac143",
+      "contentWarning": "safe",
+      "nsfw": false
     }
   ]
 }

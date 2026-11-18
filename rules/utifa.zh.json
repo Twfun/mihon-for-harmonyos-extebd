@@ -1,0 +1,36 @@
+{
+  "schema": "kazumi-comic-v1",
+  "id": "keiyoushi.zh.utifa",
+  "name": "Utifa",
+  "lang": "zh",
+  "baseURL": "https://bx.yaimer.com",
+  "version": "1.0.0",
+  "versionCode": 1,
+  "contentFormat": "utifa-public",
+  "searchURL": "/api/manga/common/list",
+  "searchList": "$.data.records[*]",
+  "searchName": "$.title",
+  "searchResult": "@tmpl:/api/manga/common/get?id={{$.id}}",
+  "searchCover": "@tmpl:/api{{$.cover}}",
+  "searchAuthor": "$.author",
+  "exploreCategories": [
+    {
+      "name": "热门",
+      "url": "/api/manga/common/list?orderBy=views"
+    },
+    {
+      "name": "最近更新",
+      "url": "/api/manga/common/list?orderBy=updateTime"
+    }
+  ],
+  "detailTitle": "$.data.title",
+  "detailAuthor": "$.data.author",
+  "detailIntro": "$.data.description",
+  "detailCover": "@tmpl:/api{{$.data.cover}}",
+  "detailTags": "$.data.genres[*]",
+  "chapterList": "$.data.chapters[*]",
+  "chapterName": "$.title",
+  "chapterUrl": "@tmpl:/api/manga/common/getChapterList?chapterId={{$.id}}",
+  "pageList": "$.data.chapters[*].url",
+  "description": "Utifa 官网游客热门、最近更新及名称搜索。核对作品和章节归属，使用站点返回的短期页图链接，仅接受官方已验证图片服务。"
+}

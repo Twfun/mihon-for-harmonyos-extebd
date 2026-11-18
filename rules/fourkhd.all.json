@@ -1,0 +1,33 @@
+{
+  "bookSourceName": "4KHD",
+  "bookSourceUrl": "https://www.4khd.com",
+  "bookSourceGroup": "all",
+  "bookSourceType": 2,
+  "searchUrl": "/index.php?rest_route=/wp/v2/posts&page={{page}}&per_page=20&_embed=1&orderby=date&search={{key}}",
+  "exploreUrl": "最近修改::/index.php?rest_route=/wp/v2/posts&page={{page}}&per_page=20&_embed=1&orderby=modified\n最新发布::/index.php?rest_route=/wp/v2/posts&page={{page}}&per_page=20&_embed=1&orderby=date",
+  "ruleSearch": {
+    "bookList": "@json:$[*]",
+    "name": "@json:$.title.rendered",
+    "bookUrl": "@json:$.link",
+    "coverUrl": "@json:$.jetpack_featured_media_url"
+  },
+  "ruleBookInfo": {
+    "name": "@css:.wp-block-post-title@text",
+    "coverUrl": "@xpath://meta[@property='og:image']/@content || @xpath://meta[@name='twitter:image']/@content"
+  },
+  "ruleToc": {
+    "chapterList": "@css:html",
+    "chapterName": "@css:.wp-block-post-title@text",
+    "chapterUrl": "@css:link[rel=canonical]@href"
+  },
+  "ruleContent": {
+    "content": "@css:.entry-content img@data-src || @css:.entry-content img@data-lazy-src || @css:.entry-content img@src",
+    "nextContentUrl": "@css:ul.page-links li.current + li a@href"
+  },
+  "ruleExplore": {
+    "bookList": "@json:$[*]",
+    "name": "@json:$.title.rendered",
+    "bookUrl": "@json:$.link",
+    "coverUrl": "@json:$.jetpack_featured_media_url"
+  }
+}
