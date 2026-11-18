@@ -16,7 +16,7 @@
       "description": "英文独立汉化组站，专注高质量翻译与重制日漫",
       "nsfw": false,
       "contentWarning": "safe",
-      "iconUrl": "https://cdn.jsdelivr.net/gh/keiyoushi/extensions-source@main/src/en/arcrelight/res/mipmap-xhdpi/ic_launcher.png"
+      "iconUrl": "icons/en.arcrelight.png"
     },
     {
       "id": "keiyoushi.en.assortedscans",
@@ -31,7 +31,7 @@
       "description": "英文精选汉化站，聚合多组连载与完结日式漫画",
       "nsfw": false,
       "contentWarning": "safe",
-      "iconUrl": "https://cdn.jsdelivr.net/gh/keiyoushi/extensions-source@main/src/en/assortedscans/res/mipmap-xhdpi/ic_launcher.png"
+      "iconUrl": "icons/en.assortedscans.png"
     },
     {
       "id": "keiyoushi.en.cinblue",
@@ -46,7 +46,7 @@
       "description": "英文同人本与成年向彩色短篇漫画库",
       "nsfw": true,
       "contentWarning": "nsfw",
-      "iconUrl": "https://cdn.jsdelivr.net/gh/keiyoushi/extensions-source@main/src/all/cinblue/res/mipmap-xhdpi/ic_launcher.png"
+      "iconUrl": "icons/all.cinblue.png"
     },
     {
       "id": "keiyoushi.en.hentai1io",
@@ -76,7 +76,7 @@
       "description": "英文高清同人志、单行本与全彩短篇资料库",
       "nsfw": true,
       "contentWarning": "nsfw",
-      "iconUrl": "https://cdn.jsdelivr.net/gh/keiyoushi/extensions-source@main/src/all/hentaihand/res/mipmap-xhdpi/ic_launcher.png"
+      "iconUrl": "icons/all.hentaihand.png"
     },
     {
       "id": "keiyoushi.en.hentaixdickgirl",
@@ -91,7 +91,7 @@
       "description": "英文特定题材成年向韩漫与漫画站点",
       "nsfw": true,
       "contentWarning": "nsfw",
-      "iconUrl": "https://cdn.jsdelivr.net/gh/keiyoushi/extensions-source@main/src/en/hentaixdickgirl/res/mipmap-xhdpi/ic_launcher.png"
+      "iconUrl": "icons/en.hentaixdickgirl.png"
     },
     {
       "id": "keiyoushi.en.mangaeclipse",
@@ -106,7 +106,7 @@
       "description": "英文综合漫画阅读站，收录日漫、韩漫与奇幻连载",
       "nsfw": false,
       "contentWarning": "safe",
-      "iconUrl": "https://cdn.jsdelivr.net/gh/keiyoushi/extensions-source@main/src/en/mangaeclipse/res/mipmap-xhdpi/ic_launcher.png"
+      "iconUrl": "icons/en.mangaeclipse.png"
     },
     {
       "id": "keiyoushi.en.mangahot",
@@ -121,7 +121,7 @@
       "description": "英文全彩条漫与成年向韩漫更新站点",
       "nsfw": true,
       "contentWarning": "nsfw",
-      "iconUrl": "https://cdn.jsdelivr.net/gh/keiyoushi/extensions-source@main/src/en/mangahot/res/mipmap-xhdpi/ic_launcher.png"
+      "iconUrl": "icons/en.mangahot.png"
     },
     {
       "id": "keiyoushi.en.mangamaniacs",
@@ -136,7 +136,7 @@
       "description": "英文耽美向与成年向日韩漫画站点",
       "nsfw": true,
       "contentWarning": "nsfw",
-      "iconUrl": "https://cdn.jsdelivr.net/gh/keiyoushi/extensions-source@main/src/en/mangamaniacs/res/mipmap-xhdpi/ic_launcher.png"
+      "iconUrl": "icons/en.mangamaniacs.png"
     },
     {
       "id": "keiyoushi.en.mangapill",
@@ -151,7 +151,7 @@
       "description": "英文高清热门日漫、韩漫与经典完结漫画站",
       "nsfw": false,
       "contentWarning": "mixed",
-      "iconUrl": "https://cdn.jsdelivr.net/gh/keiyoushi/extensions-source@main/src/en/mangapill/res/mipmap-xhdpi/ic_launcher.png"
+      "iconUrl": "icons/en.mangapill.png"
     },
     {
       "id": "keiyoushi.en.mangareadorg",
@@ -166,7 +166,7 @@
       "description": "英文综合韩漫与日漫连载站点，涵盖重生奇幻等题材",
       "nsfw": false,
       "contentWarning": "mixed",
-      "iconUrl": "https://cdn.jsdelivr.net/gh/keiyoushi/extensions-source@main/src/en/mangareadorg/res/mipmap-xhdpi/ic_launcher.png"
+      "iconUrl": "icons/en.mangareadorg.png"
     },
     {
       "id": "keiyoushi.en.manhuaplus",
@@ -181,7 +181,7 @@
       "description": "英文热门国漫、武侠仙侠与玄幻条漫站",
       "nsfw": false,
       "contentWarning": "safe",
-      "iconUrl": "https://cdn.jsdelivr.net/gh/keiyoushi/extensions-source@main/src/en/manhuaplus/res/mipmap-xhdpi/ic_launcher.png"
+      "iconUrl": "icons/en.manhuaplus.png"
     },
     {
       "id": "keiyoushi.en.manhuahot",
@@ -196,7 +196,7 @@
       "description": "英文热门国漫与韩漫每日更新站",
       "nsfw": false,
       "contentWarning": "safe",
-      "iconUrl": "https://cdn.jsdelivr.net/gh/keiyoushi/extensions-source@main/src/en/manhuahot/res/mipmap-xhdpi/ic_launcher.png"
+      "iconUrl": "icons/en.manhuahot.png"
     },
     {
       "id": "keiyoushi.en.manhwahubto",
@@ -211,7 +211,7 @@
       "description": "英文全彩成人向韩漫连载站点",
       "nsfw": true,
       "contentWarning": "nsfw",
-      "iconUrl": "https://cdn.jsdelivr.net/gh/keiyoushi/extensions-source@main/src/en/manhwahubto/res/mipmap-xhdpi/ic_launcher.png"
+      "iconUrl": "icons/en.manhwahubto.png"
     },
     {
       "id": "keiyoushi.en.orchisasia",
@@ -226,7 +226,7 @@
       "description": "英文成年向韩漫与同人条漫站点",
       "nsfw": true,
       "contentWarning": "nsfw",
-      "iconUrl": "https://cdn.jsdelivr.net/gh/keiyoushi/extensions-source@main/src/en/orchisasia/res/mipmap-xhdpi/ic_launcher.png"
+      "iconUrl": "icons/en.orchisasia.png"
     },
     {
       "id": "keiyoushi.en.paritehaber",
@@ -241,7 +241,7 @@
       "description": "英文全彩成人向韩漫资源站",
       "nsfw": true,
       "contentWarning": "nsfw",
-      "iconUrl": "https://cdn.jsdelivr.net/gh/keiyoushi/extensions-source@main/src/en/paritehaber/res/mipmap-xhdpi/ic_launcher.png"
+      "iconUrl": "icons/en.paritehaber.png"
     },
     {
       "id": "keiyoushi.en.petrotechsociety",
@@ -256,7 +256,7 @@
       "description": "英文全彩成年向韩漫镜像阅读站",
       "nsfw": true,
       "contentWarning": "nsfw",
-      "iconUrl": "https://cdn.jsdelivr.net/gh/keiyoushi/extensions-source@main/src/en/petrotechsociety/res/mipmap-xhdpi/ic_launcher.png"
+      "iconUrl": "icons/en.petrotechsociety.png"
     },
     {
       "id": "keiyoushi.en.pornhwaz",
@@ -271,7 +271,7 @@
       "description": "英文全彩韩漫与成年向条漫阅读站",
       "nsfw": true,
       "contentWarning": "nsfw",
-      "iconUrl": "https://cdn.jsdelivr.net/gh/keiyoushi/extensions-source@main/src/en/pornhwaz/res/mipmap-xhdpi/ic_launcher.png"
+      "iconUrl": "icons/en.pornhwaz.png"
     },
     {
       "id": "keiyoushi.en.saycomic",
@@ -286,7 +286,7 @@
       "description": "英文全彩韩漫阅读站（站点限制每 5 秒拉取章节）",
       "nsfw": false,
       "contentWarning": "mixed",
-      "iconUrl": "https://cdn.jsdelivr.net/gh/keiyoushi/extensions-source@main/src/all/saymanhwa/res/mipmap-xhdpi/ic_launcher.png"
+      "iconUrl": "icons/all.saymanhwa.png"
     },
     {
       "id": "keiyoushi.en.saymanhwa",
@@ -301,7 +301,7 @@
       "description": "英文韩漫更新站（站点限制每 5 秒拉取章节）",
       "nsfw": false,
       "contentWarning": "mixed",
-      "iconUrl": "https://cdn.jsdelivr.net/gh/keiyoushi/extensions-source@main/src/all/saymanhwa/res/mipmap-xhdpi/ic_launcher.png"
+      "iconUrl": "icons/all.saymanhwa.png"
     },
     {
       "id": "keiyoushi.en.toonspace",
@@ -316,7 +316,7 @@
       "description": "英文成人向同人志与全彩插画漫画站",
       "nsfw": true,
       "contentWarning": "nsfw",
-      "iconUrl": "https://cdn.jsdelivr.net/gh/keiyoushi/extensions-source@main/src/all/toonspace/res/mipmap-xhdpi/ic_launcher.png"
+      "iconUrl": "icons/all.toonspace.png"
     },
     {
       "id": "keiyoushi.en.webtoonscan",
@@ -331,7 +331,7 @@
       "description": "英文条漫与成年向全彩韩漫阅读站",
       "nsfw": true,
       "contentWarning": "nsfw",
-      "iconUrl": "https://cdn.jsdelivr.net/gh/keiyoushi/extensions-source@main/src/en/webtoonscan/res/mipmap-xhdpi/ic_launcher.png"
+      "iconUrl": "icons/en.webtoonscan.png"
     },
     {
       "id": "keiyoushi.en.yakshacomics",
@@ -346,7 +346,7 @@
       "description": "英文热血战斗、奇幻与仙侠汉化漫画站",
       "nsfw": false,
       "contentWarning": "safe",
-      "iconUrl": "https://cdn.jsdelivr.net/gh/keiyoushi/extensions-source@main/src/en/yakshacomics/res/mipmap-xhdpi/ic_launcher.png"
+      "iconUrl": "icons/en.yakshacomics.png"
     },
     {
       "id": "keiyoushi.en.yaoihub",
@@ -361,7 +361,7 @@
       "description": "英文耽美与纯爱向漫画连载站点",
       "nsfw": true,
       "contentWarning": "nsfw",
-      "iconUrl": "https://cdn.jsdelivr.net/gh/keiyoushi/extensions-source@main/src/en/yaoihub/res/mipmap-xhdpi/ic_launcher.png"
+      "iconUrl": "icons/en.yaoihub.png"
     },
     {
       "id": "keiyoushi.zh.cinblue",
@@ -376,7 +376,7 @@
       "description": "中文同人本与成年向彩色短篇漫画库",
       "nsfw": true,
       "contentWarning": "nsfw",
-      "iconUrl": "https://cdn.jsdelivr.net/gh/keiyoushi/extensions-source@main/src/all/cinblue/res/mipmap-xhdpi/ic_launcher.png"
+      "iconUrl": "icons/all.cinblue.png"
     },
     {
       "id": "keiyoushi.zh.hentaihand",
@@ -391,7 +391,7 @@
       "description": "中文汉化同人志、单行本与全彩短篇资料库",
       "nsfw": true,
       "contentWarning": "nsfw",
-      "iconUrl": "https://cdn.jsdelivr.net/gh/keiyoushi/extensions-source@main/src/all/hentaihand/res/mipmap-xhdpi/ic_launcher.png"
+      "iconUrl": "icons/all.hentaihand.png"
     },
     {
       "id": "keiyoushi.zh.toonspace",
@@ -406,7 +406,7 @@
       "description": "中文成年向同人志与全彩漫画资源站",
       "nsfw": true,
       "contentWarning": "nsfw",
-      "iconUrl": "https://cdn.jsdelivr.net/gh/keiyoushi/extensions-source@main/src/all/toonspace/res/mipmap-xhdpi/ic_launcher.png"
+      "iconUrl": "icons/all.toonspace.png"
     },
     {
       "id": "keiyoushi.zh.zerobyw",
@@ -421,7 +421,7 @@
       "description": "中文综合漫展搬运站，收录海量连载与生肉汉化漫画",
       "nsfw": false,
       "contentWarning": "mixed",
-      "iconUrl": "https://cdn.jsdelivr.net/gh/keiyoushi/extensions-source@main/src/zh/zerobyw/res/mipmap-xhdpi/ic_launcher.png"
+      "iconUrl": "icons/zh.zerobyw.png"
     },
     {
       "id": "baozimanhua",
@@ -436,7 +436,7 @@
       "description": "中文全彩国漫、韩漫与日漫免费在线阅读平台",
       "nsfw": false,
       "contentWarning": "safe",
-      "iconUrl": "https://cdn.jsdelivr.net/gh/keiyoushi/extensions-source@main/src/zh/baozimanhua/res/mipmap-xhdpi/ic_launcher.png"
+      "iconUrl": "icons/zh.baozimanhua.png"
     },
     {
       "id": "hipmh",
@@ -451,7 +451,7 @@
       "description": "繁体中文热门韩漫、少女与综合条漫阅读站",
       "nsfw": false,
       "contentWarning": "mixed",
-      "iconUrl": "https://cdn.jsdelivr.net/gh/keiyoushi/extensions-source@main/src/zh/xipimanhua/res/mipmap-xhdpi/ic_launcher.png"
+      "iconUrl": "icons/zh.xipimanhua.png"
     },
     {
       "id": "keiyoushi.zh.ikanmh",
@@ -466,7 +466,7 @@
       "description": "中文全彩韩漫在线阅读站，已合入同源镜像域名",
       "nsfw": true,
       "contentWarning": "nsfw",
-      "iconUrl": "https://cdn.jsdelivr.net/gh/keiyoushi/extensions-source@main/src/zh/ikanmh/res/mipmap-xhdpi/ic_launcher.png"
+      "iconUrl": "icons/zh.ikanmh.png"
     },
     {
       "id": "keiyoushi.zh.manhuashe",
@@ -481,7 +481,7 @@
       "description": "中文综合漫画站，收录热门国漫、韩漫与完结作品",
       "nsfw": false,
       "contentWarning": "mixed",
-      "iconUrl": "https://cdn.jsdelivr.net/gh/keiyoushi/extensions-source@main/src/zh/manhuashe/res/mipmap-xhdpi/ic_launcher.png"
+      "iconUrl": "icons/zh.manhuashe.png"
     },
     {
       "id": "manwa2",
@@ -496,7 +496,7 @@
       "description": "中文高速全彩韩漫与热门条漫阅读站",
       "nsfw": false,
       "contentWarning": "mixed",
-      "iconUrl": "https://cdn.jsdelivr.net/gh/keiyoushi/extensions-source@main/src/zh/manwamanhua/res/mipmap-xhdpi/ic_launcher.png"
+      "iconUrl": "icons/zh.manwamanhua.png"
     },
     {
       "id": "keiyoushi.zh.guazimanhua",
@@ -511,7 +511,7 @@
       "description": "中文国漫、日漫与全彩韩漫高清在线阅读站",
       "nsfw": false,
       "contentWarning": "safe",
-      "iconUrl": "https://cdn.jsdelivr.net/gh/keiyoushi/extensions-source@main/src/zh/guazimanhua/res/mipmap-xhdpi/ic_launcher.png"
+      "iconUrl": "icons/zh.guazimanhua.png"
     },
     {
       "id": "keiyoushi.zh.nnhanman",
@@ -526,7 +526,7 @@
       "description": "中文韩漫连载与完结作品在线阅读站",
       "nsfw": true,
       "contentWarning": "nsfw",
-      "iconUrl": "https://cdn.jsdelivr.net/gh/keiyoushi/extensions-source@main/src/zh/nnhanman/res/mipmap-xhdpi/ic_launcher.png"
+      "iconUrl": "icons/zh.nnhanman.png"
     },
     {
       "id": "keiyoushi.zh.longjinman",
@@ -541,7 +541,7 @@
       "description": "中文全彩韩漫与成年向条漫直连阅读站",
       "nsfw": true,
       "contentWarning": "nsfw",
-      "iconUrl": "https://cdn.jsdelivr.net/gh/keiyoushi/extensions-source@main/src/zh/longjinman/res/mipmap-xhdpi/ic_launcher.png"
+      "iconUrl": "icons/zh.longjinman.png"
     },
     {
       "id": "keiyoushi.zh-hans.cartoon18",
@@ -556,7 +556,7 @@
       "description": "简体中文韩漫与成年向漫画资源站",
       "nsfw": true,
       "contentWarning": "nsfw",
-      "iconUrl": "https://cdn.jsdelivr.net/gh/keiyoushi/extensions-source@main/src/zh/cartoon18/res/mipmap-xhdpi/ic_launcher.png"
+      "iconUrl": "icons/zh.cartoon18.png"
     },
     {
       "id": "keiyoushi.zh-hans.saycomic",
@@ -571,7 +571,7 @@
       "description": "简体中文全彩韩漫阅读站（站点限制每 5 秒拉取章节）",
       "nsfw": false,
       "contentWarning": "mixed",
-      "iconUrl": "https://cdn.jsdelivr.net/gh/keiyoushi/extensions-source@main/src/all/saymanhwa/res/mipmap-xhdpi/ic_launcher.png"
+      "iconUrl": "icons/all.saymanhwa.png"
     },
     {
       "id": "keiyoushi.zh-hans.saymanhwa",
@@ -586,7 +586,7 @@
       "description": "简体中文韩漫更新站（站点限制每 5 秒拉取章节）",
       "nsfw": false,
       "contentWarning": "mixed",
-      "iconUrl": "https://cdn.jsdelivr.net/gh/keiyoushi/extensions-source@main/src/all/saymanhwa/res/mipmap-xhdpi/ic_launcher.png"
+      "iconUrl": "icons/all.saymanhwa.png"
     },
     {
       "id": "keiyoushi.zh-hant.cartoon18",
@@ -601,7 +601,7 @@
       "description": "繁体中文韩漫与成年向漫画资源站",
       "nsfw": true,
       "contentWarning": "nsfw",
-      "iconUrl": "https://cdn.jsdelivr.net/gh/keiyoushi/extensions-source@main/src/zh/cartoon18/res/mipmap-xhdpi/ic_launcher.png"
+      "iconUrl": "icons/zh.cartoon18.png"
     },
     {
       "id": "keiyoushi.zh-hant.saycomic",
@@ -616,7 +616,7 @@
       "description": "繁体中文全彩韩漫阅读站（站点限制每 5 秒拉取章节）",
       "nsfw": false,
       "contentWarning": "mixed",
-      "iconUrl": "https://cdn.jsdelivr.net/gh/keiyoushi/extensions-source@main/src/all/saymanhwa/res/mipmap-xhdpi/ic_launcher.png"
+      "iconUrl": "icons/all.saymanhwa.png"
     },
     {
       "id": "keiyoushi.zh-hant.saymanhwa",
@@ -631,7 +631,7 @@
       "description": "繁体中文韩漫更新站（站点限制每 5 秒拉取章节）",
       "nsfw": false,
       "contentWarning": "mixed",
-      "iconUrl": "https://cdn.jsdelivr.net/gh/keiyoushi/extensions-source@main/src/all/saymanhwa/res/mipmap-xhdpi/ic_launcher.png"
+      "iconUrl": "icons/all.saymanhwa.png"
     },
     {
       "id": "keiyoushi.all.peppercarrot",
@@ -645,7 +645,8 @@
       "sha256": "61b35bd4fba6f08b9ecc55bb1cb4e8881c2e5fc4c732d3f95ffb632c4143443c",
       "description": "从官网读取主漫画和迷你奇幻剧场的译本列表。插画入口待移植。",
       "contentWarning": "safe",
-      "nsfw": false
+      "nsfw": false,
+      "iconUrl": "icons/all.peppercarrot.png"
     },
     {
       "id": "keiyoushi.zh.xkcd",
@@ -659,7 +660,8 @@
       "sha256": "4acbb59a2374abe844c8524792940c2d00a68093a57cfc04d486178a63719545",
       "description": "獨立中文譯本目錄和普通靜態漫畫。互動特輯與懸浮文字待支援。",
       "contentWarning": "safe",
-      "nsfw": false
+      "nsfw": false,
+      "iconUrl": "icons/all.xkcd.png"
     },
     {
       "id": "keiyoushi.all.cinblue",
@@ -674,7 +676,7 @@
       "description": "Cin.blue 全语种公共目录",
       "contentWarning": "nsfw",
       "nsfw": true,
-      "iconUrl": "https://cdn.jsdelivr.net/gh/keiyoushi/extensions-source@main/src/all/cinblue/res/mipmap-xhdpi/ic_launcher.png"
+      "iconUrl": "icons/all.cinblue.png"
     },
     {
       "id": "keiyoushi.all.hentaihand",
@@ -689,7 +691,7 @@
       "description": "HentaiHand 全语种公开访客目录",
       "contentWarning": "nsfw",
       "nsfw": true,
-      "iconUrl": "https://cdn.jsdelivr.net/gh/keiyoushi/extensions-source@main/src/all/hentaihand/res/mipmap-xhdpi/ic_launcher.png"
+      "iconUrl": "icons/all.hentaihand.png"
     },
     {
       "id": "keiyoushi.zh.bh3",
@@ -703,7 +705,8 @@
       "sha256": "afa8f55c4a6374a94ac40cf93182362c4b8eef2c81a19db8c832dcd4f764e208",
       "description": "公開漫畫目錄與靜態頁圖",
       "contentWarning": "safe",
-      "nsfw": false
+      "nsfw": false,
+      "iconUrl": "icons/zh.bh3.png"
     },
     {
       "id": "keiyoushi.all.grabberzone",
@@ -717,7 +720,8 @@
       "sha256": "c6bc9b45be3e3d685237bdca622c24b2d55589aad829d3b3ab9561df4158c13b",
       "description": "Grabber Zone 多语种公共漫画目录",
       "contentWarning": "safe",
-      "nsfw": false
+      "nsfw": false,
+      "iconUrl": "icons/all.grabberzone.png"
     },
     {
       "id": "keiyoushi.zh.tibiucomics",
@@ -731,7 +735,8 @@
       "sha256": "31bcf6b9a2d9ebbbe0b0b8d82844a85e6f8312c5fa81766b0002eca61ae0da83",
       "description": "公開漫畫目錄與靜態頁圖",
       "contentWarning": "nsfw",
-      "nsfw": true
+      "nsfw": true,
+      "iconUrl": "icons/zh.tibiucomics.png"
     },
     {
       "id": "keiyoushi.zh.zazhimi",
@@ -745,7 +750,8 @@
       "sha256": "186e552a0ad48a90c0cd4a10905408ad3d6dcf767578c211ae9792fb504456d4",
       "description": "公開漫畫目錄與靜態頁圖",
       "contentWarning": "safe",
-      "nsfw": false
+      "nsfw": false,
+      "iconUrl": "icons/zh.zazhimi.png"
     },
     {
       "id": "keiyoushi.zh.acgn",
@@ -759,7 +765,8 @@
       "sha256": "18c1935b7ac749cd490927fcd2cb3332e9e6227e0d7d9d466a12512dee7198b3",
       "description": "公開漫畫目錄與靜態頁圖",
       "contentWarning": "safe",
-      "nsfw": false
+      "nsfw": false,
+      "iconUrl": "icons/zh.acgn.png"
     },
     {
       "id": "keiyoushi.zh.mikagogo",
@@ -773,7 +780,8 @@
       "sha256": "a407b811a05b3ec3ab1812ae693e8099ab122218ae44f2e83813ce853b859a14",
       "description": "公開漫畫目錄與靜態頁圖",
       "contentWarning": "mixed",
-      "nsfw": false
+      "nsfw": false,
+      "iconUrl": "icons/zh.mikagogo.png"
     },
     {
       "id": "keiyoushi.all.elitebabes",
@@ -787,7 +795,8 @@
       "sha256": "5087903dd3245c45a049bbe4e2b7b990b8ee419ff2846b0e5f1690f4ed1e47ab",
       "description": "Elite Babes 的公开相册图源（成人内容）",
       "contentWarning": "nsfw",
-      "nsfw": true
+      "nsfw": true,
+      "iconUrl": "icons/all.elitebabes.png"
     },
     {
       "id": "keiyoushi.all.femjoyhunter",
@@ -801,7 +810,8 @@
       "sha256": "8a4b43c33ff760cee728a4bb67f67c88dc58fe6cc23eb52d77e8b19c506cfecd",
       "description": "Femjoy Hunter 的公开相册图源（成人内容）",
       "contentWarning": "nsfw",
-      "nsfw": true
+      "nsfw": true,
+      "iconUrl": "icons/all.femjoyhunter.png"
     },
     {
       "id": "keiyoushi.all.ftvhunter",
@@ -815,7 +825,8 @@
       "sha256": "52baf7ce193ede6b631b69219501e3ca7ef6647b2083352803713c53ec2a83b1",
       "description": "FTV Hunter 的公开相册图源（成人内容）",
       "contentWarning": "nsfw",
-      "nsfw": true
+      "nsfw": true,
+      "iconUrl": "icons/all.ftvhunter.png"
     },
     {
       "id": "keiyoushi.all.joymiihub",
@@ -829,7 +840,8 @@
       "sha256": "7fbb45af8129aff468e7a0db38bb0a07a52cb0c6c2f69246a5121b5c6ac495b0",
       "description": "Joymii Hub 的公开相册图源（成人内容）",
       "contentWarning": "nsfw",
-      "nsfw": true
+      "nsfw": true,
+      "iconUrl": "icons/all.joymiihub.png"
     },
     {
       "id": "keiyoushi.all.metarthunter",
@@ -843,7 +855,8 @@
       "sha256": "4780f01ba3734d3c0eb537b67a068fb6747eaa8c090b5bd5657be3adab92e96b",
       "description": "Metart Hunter 的公开相册图源（成人内容）",
       "contentWarning": "nsfw",
-      "nsfw": true
+      "nsfw": true,
+      "iconUrl": "icons/all.metarthunter.png"
     },
     {
       "id": "keiyoushi.all.playmatehunter",
@@ -857,7 +870,8 @@
       "sha256": "d8d76ee89dc22cd22ced5572d729f0be409ef5560579fd12e87898cd3ca7245b",
       "description": "Playmate Hunter 的公开相册图源（成人内容）",
       "contentWarning": "nsfw",
-      "nsfw": true
+      "nsfw": true,
+      "iconUrl": "icons/all.playmatehunter.png"
     },
     {
       "id": "keiyoushi.all.xarthunter",
@@ -871,7 +885,8 @@
       "sha256": "a70b334a7a48c03d95217618fa102da526786ced2e077879caf6b772f013b6e2",
       "description": "XArt Hunter 的公开相册图源（成人内容）",
       "contentWarning": "nsfw",
-      "nsfw": true
+      "nsfw": true,
+      "iconUrl": "icons/all.xarthunter.png"
     },
     {
       "id": "keiyoushi.zh-hant.webtoons",
@@ -885,7 +900,8 @@
       "sha256": "a1d60a72a80ac2e6b7cea015ba8020f94e180731cd54706a0e1c3f325cb66477",
       "description": "繁體中文官方游客静态章节。动态漫画和超过 20 页的长目录待支持。",
       "contentWarning": "safe",
-      "nsfw": false
+      "nsfw": false,
+      "iconUrl": "icons/all.webtoons.png"
     },
     {
       "id": "keiyoushi.zh-hans.dongmanmanhua",
@@ -899,7 +915,8 @@
       "sha256": "cf7f13ffad2a4e6488f7df1cbc80f19096d7b5d169859b76406969186a9e6b56",
       "description": "简体中文官方游客静态章节。超过 20 页的长目录待支持。",
       "contentWarning": "safe",
-      "nsfw": false
+      "nsfw": false,
+      "iconUrl": "icons/zh.dongmanmanhua.png"
     },
     {
       "id": "keiyoushi.zh.manhuamanga",
@@ -913,7 +930,8 @@
       "sha256": "55949a555232144450a62719686b7cebf8ec9a92343a50fa906822a1b878672a",
       "description": "公開漫畫目錄與靜態頁圖",
       "contentWarning": "mixed",
-      "nsfw": false
+      "nsfw": false,
+      "iconUrl": "icons/zh.manhuamanga.png"
     },
     {
       "id": "keiyoushi.zh.mh1234",
@@ -927,7 +945,8 @@
       "sha256": "5e9cfcfbaa04df8b9e8925c244f0d1a17b7d8e513fa1d25d06f16d367d2d048a",
       "description": "公開漫畫目錄與靜態頁圖",
       "contentWarning": "safe",
-      "nsfw": false
+      "nsfw": false,
+      "iconUrl": "icons/zh.mh1234.png"
     },
     {
       "id": "keiyoushi.zh-tw.pixiv",
@@ -941,7 +960,8 @@
       "sha256": "5389c4858f4fe5a03f0ec21087ed23f423bf694e91f42a53d8ad7626c2dbd119",
       "description": "繁體中文介面的公開單篇漫畫。系列合併、作者檢索和限帳號內容待支援。",
       "contentWarning": "safe",
-      "nsfw": false
+      "nsfw": false,
+      "iconUrl": "icons/all.pixiv.png"
     },
     {
       "id": "keiyoushi.zh-hans.namicomi",
@@ -955,7 +975,8 @@
       "sha256": "b22197b8271fa9fa83593fdfe68e2010bf24dce78acada01fc70854a9b4bf04a",
       "description": "NamiComi 简体中文公开游客入口，每部目录最多读取 200 条。阅读前检查游客权限。",
       "contentWarning": "safe",
-      "nsfw": false
+      "nsfw": false,
+      "iconUrl": "icons/all.namicomi.png"
     },
     {
       "id": "keiyoushi.zh-hant.namicomi",
@@ -969,7 +990,8 @@
       "sha256": "66590ab8551df5f6b6fe181a2c450f0263e4c05ece4342c0d4f8eb1904e952e0",
       "description": "NamiComi 繁體中文公开游客入口，每部目录最多读取 200 条。阅读前检查游客权限。",
       "contentWarning": "safe",
-      "nsfw": false
+      "nsfw": false,
+      "iconUrl": "icons/all.namicomi.png"
     },
     {
       "id": "keiyoushi.all.manga18fx",
@@ -983,7 +1005,8 @@
       "sha256": "2f08e1a65305b13d44cb5bc6bd40e9138d376ca3aa0ca103c2950d7837e4a3f4",
       "description": "Manga18fx 的全语言公开漫画入口",
       "contentWarning": "nsfw",
-      "nsfw": true
+      "nsfw": true,
+      "iconUrl": "icons/all.manga18fx.png"
     },
     {
       "id": "keiyoushi.all.manga18me",
@@ -997,7 +1020,8 @@
       "sha256": "51e5e8548507589e18c4fb9f258b25b8c28fa117247033ff48875149de8e4a2b",
       "description": "Manga18.me 的全语言公开漫画入口",
       "contentWarning": "nsfw",
-      "nsfw": true
+      "nsfw": true,
+      "iconUrl": "icons/all.manga18me.png"
     },
     {
       "id": "keiyoushi.all.mangadna",
@@ -1011,7 +1035,8 @@
       "sha256": "c41355f771fc9eae279ac22e93ee452e2dc99f10610f48a353c249e1ecd2143c",
       "description": "MangaDNA 的全语言公开漫画入口",
       "contentWarning": "mixed",
-      "nsfw": false
+      "nsfw": false,
+      "iconUrl": "icons/all.mangadna.png"
     },
     {
       "id": "keiyoushi.all.manhwa18cc",
@@ -1025,7 +1050,8 @@
       "sha256": "4eef1790aaa77aecb7c2a0f5f043d83e17b0a1806a15ca022519b50dd1a49711",
       "description": "Manhwa18.cc 的全语言公开漫画入口",
       "contentWarning": "nsfw",
-      "nsfw": true
+      "nsfw": true,
+      "iconUrl": "icons/all.manhwa18cc.png"
     },
     {
       "id": "keiyoushi.zh.yaoimangaonline",
@@ -1039,7 +1065,8 @@
       "sha256": "38fd3cf8376aec5de2ac19bb3c4f9112a3dda83746c082ea5b1be8a5d1a2e1ad",
       "description": "公開漫畫目錄與靜態頁圖",
       "contentWarning": "nsfw",
-      "nsfw": true
+      "nsfw": true,
+      "iconUrl": "icons/all.yaoimangaonline.png"
     },
     {
       "id": "keiyoushi.all.mangacrazy",
@@ -1053,7 +1080,8 @@
       "sha256": "ec98fd5252d8b9dc8b453d0bf9b075ecf9ba5fb2d13feb1199776faeb865ac11",
       "description": "MangaCrazy 全语言公开漫画（需要新版 POST 章节目录能力）",
       "contentWarning": "nsfw",
-      "nsfw": true
+      "nsfw": true,
+      "iconUrl": "icons/all.mangacrazy.png"
     },
     {
       "id": "keiyoushi.all.mangaforfree",
@@ -1067,7 +1095,8 @@
       "sha256": "aab7f9dac9917134ec43322ed097670b3732d117cce8ec3349ba7c98f0b141e6",
       "description": "MangaForFree.net 全语言公开漫画（需要新版 POST 章节目录能力）",
       "contentWarning": "nsfw",
-      "nsfw": true
+      "nsfw": true,
+      "iconUrl": "icons/all.mangaforfree.png"
     },
     {
       "id": "keiyoushi.zh-hans.kuaikanmanhua.preview",
@@ -1081,7 +1110,8 @@
       "sha256": "867aa2be29a4bb251163ec5ac89cf5c3e19e2519588b7b9d3bea179158d9f039",
       "description": "支持快看官网公开作品目录和网站确认游客可读的免费章节。锁定章节保留标记，不读取页图。",
       "contentWarning": "safe",
-      "nsfw": false
+      "nsfw": false,
+      "iconUrl": "icons/zh.kuaikanmanhua.png"
     },
     {
       "id": "keiyoushi.zh.yiqiqimanhua",
@@ -1095,7 +1125,8 @@
       "sha256": "5638cfa047ac79373869e4524f183e214cf697c7a52c169e0fe3bcd6b8b962b7",
       "description": "公開中文漫畫搜尋及多頁閱讀，需支援 nextPage 的規則引擎。",
       "contentWarning": "nsfw",
-      "nsfw": true
+      "nsfw": true,
+      "iconUrl": "icons/zh.yiqiqimanhua.png"
     },
     {
       "id": "keiyoushi.all.airibox",
@@ -1109,7 +1140,8 @@
       "ruleUrl": "rules/airibox.all.json",
       "sha256": "4c452f8464446ecbf7aee733798a50533cd4cb494e0093399adff4a5cce2bf74",
       "contentWarning": "nsfw",
-      "nsfw": true
+      "nsfw": true,
+      "iconUrl": "icons/all.airibox.png"
     },
     {
       "id": "keiyoushi.all.cosplaytele",
@@ -1123,7 +1155,8 @@
       "ruleUrl": "rules/cosplaytele.all.json",
       "sha256": "1ae0cd70d6e29c35f36c3e1a520ca4d0ed85b6621bd1bb878c323c64bf99913a",
       "contentWarning": "nsfw",
-      "nsfw": true
+      "nsfw": true,
+      "iconUrl": "icons/all.cosplaytele.png"
     },
     {
       "id": "keiyoushi.all.pornsticky",
@@ -1137,7 +1170,8 @@
       "ruleUrl": "rules/pornsticky.all.json",
       "sha256": "3e8bcf9f247524e8eacade9c6461ab5e7abbf4c6e6ec983915481e8d38543b6c",
       "contentWarning": "nsfw",
-      "nsfw": true
+      "nsfw": true,
+      "iconUrl": "icons/all.pornsticky.png"
     },
     {
       "id": "keiyoushi.all.xiutaku",
@@ -1151,7 +1185,8 @@
       "ruleUrl": "rules/xiutaku.all.json",
       "sha256": "d6ba4289e4c01e35f8d22971cd70e8a56c6f85f00b99f28c848b05b57e33b016",
       "contentWarning": "nsfw",
-      "nsfw": true
+      "nsfw": true,
+      "iconUrl": "icons/all.xiutaku.png"
     },
     {
       "id": "keiyoushi.all.misskon",
@@ -1165,7 +1200,8 @@
       "ruleUrl": "rules/misskon.all.json",
       "sha256": "f256b0040a5f7c2da7f26a2e80f69fbc0918c587e168ce594c25f79974db40ae",
       "contentWarning": "nsfw",
-      "nsfw": true
+      "nsfw": true,
+      "iconUrl": "icons/all.misskon.png"
     },
     {
       "id": "keiyoushi.all.kiutaku",
@@ -1179,7 +1215,8 @@
       "ruleUrl": "rules/kiutaku.all.json",
       "sha256": "45158b02532b3f12a4d8635dca164b2df413d2468f411e02902282987d52e859",
       "contentWarning": "nsfw",
-      "nsfw": true
+      "nsfw": true,
+      "iconUrl": "icons/all.kiutaku.png"
     },
     {
       "id": "keiyoushi.zh-hans.toomics",
@@ -1193,7 +1230,8 @@
       "sha256": "c7bbcdd59c9ad6732b017d9b68160d26fa9d837b34a0a16339aa336fce0b108f",
       "description": "官方简体中文安全模式目录及明确开放给游客的免费章。搜索待移植。",
       "contentWarning": "nsfw",
-      "nsfw": true
+      "nsfw": true,
+      "iconUrl": "icons/all.toomics.png"
     },
     {
       "id": "keiyoushi.zh-hant.toomics",
@@ -1207,7 +1245,8 @@
       "sha256": "3ae6c94268462da11f4bb8cb359d6205aeb1b5aecebdc34f3047a3c9a24cdfa0",
       "description": "官方繁體中文安全模式目錄及明確開放給遊客的免費章。搜尋待移植。",
       "contentWarning": "nsfw",
-      "nsfw": true
+      "nsfw": true,
+      "iconUrl": "icons/all.toomics.png"
     },
     {
       "id": "keiyoushi.all.everiaclub",
@@ -1221,7 +1260,8 @@
       "description": "Everia.club 全语言公开图集，保留站点多段分页。",
       "sha256": "311281d05d125dea788adff8de860da3c9caf5b6e23153e5d991d34d31ed076a",
       "contentWarning": "nsfw",
-      "nsfw": true
+      "nsfw": true,
+      "iconUrl": "icons/all.everiaclub.png"
     },
     {
       "id": "keiyoushi.all.nakedpics",
@@ -1235,7 +1275,8 @@
       "sha256": "ee3edfce260298adbbb26208fcf760a56569f00c14dfcc6b9aca84fb02f3e9ce",
       "contentWarning": "nsfw",
       "nsfw": true,
-      "description": "公开热门及最新图集首页；后续分类目录需站点的动态分页。"
+      "description": "公开热门及最新图集首页；后续分类目录需站点的动态分页。",
+      "iconUrl": "icons/all.nakedpics.png"
     },
     {
       "id": "keiyoushi.all.foamgirl",
@@ -1249,7 +1290,8 @@
       "sha256": "c256a17b0a270f024ed79a01094ca0239f2906dd5d40534c4de49472f3a334c0",
       "contentWarning": "nsfw",
       "nsfw": true,
-      "description": "FoamGirl 全语言公开图集，保留相册分页。"
+      "description": "FoamGirl 全语言公开图集，保留相册分页。",
+      "iconUrl": "icons/all.foamgirl.png"
     },
     {
       "id": "keiyoushi.all.mangadex",
@@ -1263,7 +1305,8 @@
       "ruleUrl": "rules/mangadex.all.json",
       "sha256": "3bcfed67e1f5de21554ec9222df35eb493f1164e2854d8a74a26d54bb7ba75ef",
       "contentWarning": "mixed",
-      "nsfw": false
+      "nsfw": false,
+      "iconUrl": "icons/all.mangadex.png"
     },
     {
       "id": "keiyoushi.zh-hans.mangadex",
@@ -1277,7 +1320,8 @@
       "sha256": "131e2d061ee993db130213f4a72edc62cf64b190c864b1205a938956a554f615",
       "description": "公开漫画列表、简体中文译本及静态页图。每部作品目录最多读取 500 条。",
       "contentWarning": "mixed",
-      "nsfw": false
+      "nsfw": false,
+      "iconUrl": "icons/all.mangadex.png"
     },
     {
       "id": "keiyoushi.zh-hant.mangadex",
@@ -1291,7 +1335,8 @@
       "sha256": "ea9a9107c2a7c24a3698e6856f78f3529c59cc31d637a0489bb2f785f9507efa",
       "description": "公开漫画列表、繁體中文译本及静态页图。每部作品目录最多读取 500 条。",
       "contentWarning": "mixed",
-      "nsfw": false
+      "nsfw": false,
+      "iconUrl": "icons/all.mangadex.png"
     },
     {
       "id": "keiyoushi.zh.pornpics",
@@ -1305,7 +1350,8 @@
       "sha256": "a59d478660bc5024fd785805589376e1e315c901bbc70cdeb719d3c4431f45b7",
       "description": "中文介面公開圖集與搜尋。",
       "contentWarning": "nsfw",
-      "nsfw": true
+      "nsfw": true,
+      "iconUrl": "icons/all.pornpics.png"
     },
     {
       "id": "keiyoushi.zh.digimonweb",
@@ -1333,7 +1379,8 @@
       "ruleUrl": "rules/photos18.all.json",
       "sha256": "64b521a44f604bb88fd599f84a0ceb3683839649919ffda07cf87b090046c193",
       "contentWarning": "nsfw",
-      "nsfw": true
+      "nsfw": true,
+      "iconUrl": "icons/all.photos18.png"
     },
     {
       "id": "keiyoushi.all.dbnewhope",
@@ -1347,7 +1394,8 @@
       "sha256": "c072ce9d51f1bf2618980f0b0d0088a8d5995a53c83ef53435894cabeb92d27a",
       "contentWarning": "safe",
       "nsfw": false,
-      "description": "英语、西语和法语公开章目；单张页图多文档分页需要新版运行时。"
+      "description": "英语、西语和法语公开章目；单张页图多文档分页需要新版运行时。",
+      "iconUrl": "icons/all.dbnewhope.png"
     },
     {
       "id": "keiyoushi.zh.woaimanhua",
@@ -1375,7 +1423,8 @@
       "ruleUrl": "rules/baramangaonline.all.json",
       "sha256": "28514b46a24bd228b62f70ad59b2a485f326136d60e575ba04d66f1e87a814dd",
       "contentWarning": "nsfw",
-      "nsfw": true
+      "nsfw": true,
+      "iconUrl": "icons/all.baramangaonline.png"
     },
     {
       "id": "keiyoushi.all.baobua",
@@ -1389,7 +1438,8 @@
       "description": "BaoBua 公开图集和相册图片。",
       "sha256": "d5fd57de24cfbd81dcd5dfff4ec887883f1c2e71b4367a97884eb6b5abd108a1",
       "contentWarning": "nsfw",
-      "nsfw": true
+      "nsfw": true,
+      "iconUrl": "icons/all.baobua.png"
     },
     {
       "id": "keiyoushi.all.buondua",
@@ -1403,7 +1453,8 @@
       "sha256": "5b89beb8df1d69f4ef1b4ecac15a1742c31941405f43edd0b428870dae9e8731",
       "contentWarning": "nsfw",
       "nsfw": true,
-      "description": "Buon Dua 全语言公开相册，按下一页链接读取完整图片。"
+      "description": "Buon Dua 全语言公开相册，按下一页链接读取完整图片。",
+      "iconUrl": "icons/all.buondua.png"
     },
     {
       "id": "keiyoushi.all.jjcos",
@@ -1417,7 +1468,8 @@
       "sha256": "427841e3610ffddcdfa833f646ee52bcf555a82cf1685f27973e79eaa28f714d",
       "contentWarning": "nsfw",
       "nsfw": true,
-      "description": "JJCOS 全语言公开相册首页；完整历史目录接口需读取站点大型索引。"
+      "description": "JJCOS 全语言公开相册首页；完整历史目录接口需读取站点大型索引。",
+      "iconUrl": "icons/all.jjcos.png"
     },
     {
       "id": "keiyoushi.zh.tongli",
@@ -1431,7 +1483,8 @@
       "sha256": "20dddc409b5b0c310c46f3a294711ad5cd18bf4c764c373adaa04cc45c74f5db",
       "description": "官方匿名会话，仅开放站点明确标记免费的章节",
       "contentWarning": "mixed",
-      "nsfw": false
+      "nsfw": false,
+      "iconUrl": "icons/zh.tongli.png"
     },
     {
       "id": "keiyoushi.all.yaoimangaonline",
@@ -1445,7 +1498,8 @@
       "sha256": "2917a1594fd2a1c96956d4afc7a2f158f1a4128b0875a502f0dce342ef143f63",
       "contentWarning": "nsfw",
       "nsfw": true,
-      "description": "Yaoi Manga Online 全语言公开漫画目录，收录漫画、同人、单篇、条漫和 Bara 分类，保留站内章节。"
+      "description": "Yaoi Manga Online 全语言公开漫画目录，收录漫画、同人、单篇、条漫和 Bara 分类，保留站内章节。",
+      "iconUrl": "icons/all.yaoimangaonline.png"
     },
     {
       "id": "keiyoushi.all.kodokustudio",
@@ -1459,7 +1513,8 @@
       "sha256": "c9b3079c8c37621ee2c1af435ec88ab54a8777ed84c315ec249bbb8a542059ff",
       "contentWarning": "mixed",
       "nsfw": false,
-      "description": "当前支持 Reverend Insanity 的公开章节，保留原文语种并跳过锁定章节。"
+      "description": "当前支持 Reverend Insanity 的公开章节，保留原文语种并跳过锁定章节。",
+      "iconUrl": "icons/all.kodokustudio.png"
     },
     {
       "id": "keiyoushi.all.hniscantrad",
@@ -1473,7 +1528,8 @@
       "sha256": "e344f27fce8dd4230a1c077708f1ecc979e1f0b4662f8dee48bb654bb726b09f",
       "contentWarning": "safe",
       "nsfw": false,
-      "description": "HNI-Scantrad 全语言公开 PizzaReader 接口，保留原文语种并跳过隐藏条目。"
+      "description": "HNI-Scantrad 全语言公开 PizzaReader 接口，保留原文语种并跳过隐藏条目。",
+      "iconUrl": "icons/all.hniscantrad.png"
     },
     {
       "id": "keiyoushi.all.xcomic",
@@ -1487,7 +1543,8 @@
       "sha256": "815d94bfb5be17d2a75e0f1f09502cc4e4ee78c30bcfd6302fef996518970ba3",
       "description": "官网游客公开作品，按语言保留独立版本并标明版本来源；仅读取明确公开且 normal 的版本和章节。每部最多 64 个版本，每版本最多 20 页、每页 1000 条目录，超限明确报错。",
       "contentWarning": "mixed",
-      "nsfw": true
+      "nsfw": true,
+      "iconUrl": "icons/all.xcomic.png"
     },
     {
       "id": "keiyoushi.zh-hant.xcomic",
@@ -1501,7 +1558,8 @@
       "sha256": "d64e5eb0635cbefb35f63d656fa26099b59619b419b1814abc3f44acd4dff1c4",
       "description": "官网游客公开作品，按语言保留独立版本并标明版本来源；仅读取明确公开且 normal 的版本和章节。每部最多 64 个版本，每版本最多 20 页、每页 1000 条目录，超限明确报错。",
       "contentWarning": "mixed",
-      "nsfw": true
+      "nsfw": true,
+      "iconUrl": "icons/all.xcomic.png"
     },
     {
       "id": "keiyoushi.all.hentai3",
@@ -1515,7 +1573,8 @@
       "sha256": "b13316c3d498c344ce01f37fe2a69ec0dc24b7d61558dd70e9ca19422fef8750",
       "description": "公开完整图集，按站点规则恢复原图文件名",
       "contentWarning": "nsfw",
-      "nsfw": true
+      "nsfw": true,
+      "iconUrl": "icons/all.hentai3.png"
     },
     {
       "id": "keiyoushi.zh.hentai3",
@@ -1529,7 +1588,8 @@
       "sha256": "134a6b0ef6f8489c6a6329a6934aecfd2a4196e5931fbda75aebaaded10dfe54",
       "description": "公开中文分类完整图集；原站名称加语言组合搜索异常，暂仅分类浏览",
       "contentWarning": "nsfw",
-      "nsfw": true
+      "nsfw": true,
+      "iconUrl": "icons/all.hentai3.png"
     },
     {
       "id": "keiyoushi.zh-hans.dlsite.preview",
@@ -1543,7 +1603,8 @@
       "sha256": "30fc457ecffd0c33c324b4c729c7178f5926e00126cf165ee3c244e7fa94a4db",
       "description": "部分功能：僅全齡區、官方簡繁內容標籤與明確 is_viewable_sample=true 的公開樣圖。多語作品保留官方內容標籤，樣圖自身語言可能不同。完整試用 ZIP、Play 閱讀、已購作品和名稱搜尋待移植。",
       "contentWarning": "safe",
-      "nsfw": false
+      "nsfw": false,
+      "iconUrl": "icons/all.dlsite.png"
     },
     {
       "id": "keiyoushi.zh-hant.dlsite.preview",
@@ -1557,7 +1618,8 @@
       "sha256": "e9521a29c20a76c1a2459618679f6730e16ae6f598a0839cc95b89215d5e0b08",
       "description": "部分功能：僅全齡區、官方簡繁內容標籤與明確 is_viewable_sample=true 的公開樣圖。多語作品保留官方內容標籤，樣圖自身語言可能不同。完整試用 ZIP、Play 閱讀、已購作品和名稱搜尋待移植。",
       "contentWarning": "safe",
-      "nsfw": false
+      "nsfw": false,
+      "iconUrl": "icons/all.dlsite.png"
     },
     {
       "id": "keiyoushi.zh.xcomic",
@@ -1571,7 +1633,8 @@
       "sha256": "390e6aa8c28b0a24565ea104311779f1b87cc032053ed97d237909cb06550bd9",
       "description": "官网游客公开作品，通用中文 zh 按语言保留独立版本并标明版本来源；仅读取明确公开且 normal 的版本和章节。每部最多 64 个版本，每版本最多 20 页、每页 1000 条目录，超限明确报错。",
       "contentWarning": "mixed",
-      "nsfw": true
+      "nsfw": true,
+      "iconUrl": "icons/all.xcomic.png"
     },
     {
       "id": "keiyoushi.all.hentairox",
@@ -1585,7 +1648,8 @@
       "sha256": "fdf6d3e2f273f69236222153d751e5e02ecff0801a1c1b6f91c544523ce80246",
       "contentWarning": "nsfw",
       "nsfw": true,
-      "description": "HentaiRox 全语言公开图集；需支持 hentairox-public 页图格式的新版客户端。"
+      "description": "HentaiRox 全语言公开图集；需支持 hentairox-public 页图格式的新版客户端。",
+      "iconUrl": "icons/all.hentairox.png"
     },
     {
       "id": "keiyoushi.zh.nhentaiwebsite",
@@ -1599,7 +1663,8 @@
       "sha256": "115c76011e52943419c9698e235263067f720177798a0818bbc26ecc7de33753",
       "description": "公开中文分类与完整图集",
       "contentWarning": "nsfw",
-      "nsfw": true
+      "nsfw": true,
+      "iconUrl": "icons/all.nhentaiwebsite.png"
     },
     {
       "id": "keiyoushi.zh-hant.creativecomic",
@@ -1613,7 +1678,8 @@
       "sha256": "7554ba62ea15f8b75979da2156939d5d41196ea2aa494b87b331a6d2636659f6",
       "description": "使用官方無帳號游客接口，保留完整公開目錄，需授權章節標示鎖定。目錄與閱讀接口均明確 is_free=1 或 sales_plan=0 且官方 code=0 才讀頁；每次取圖重新驗證，傳輸材料僅存於記憶體。",
       "contentWarning": "mixed",
-      "nsfw": false
+      "nsfw": false,
+      "iconUrl": "icons/zh.creativecomic.png"
     },
     {
       "id": "copymanga",
@@ -1628,7 +1694,7 @@
       "description": "公开游客完整章节分组，依原站words还原全部页序",
       "nsfw": false,
       "contentWarning": "mixed",
-      "iconUrl": "https://cdn.jsdelivr.net/gh/keiyoushi/extensions-source@main/src/zh/kaobeimanhua/res/mipmap-xhdpi/ic_launcher.png"
+      "iconUrl": "icons/zh.kaobeimanhua.png"
     },
     {
       "id": "keiyoushi.zh.hcomic",
@@ -1642,7 +1708,8 @@
       "sha256": "12823bb2f2670b52d84dabd0f587f2e50cc8a649ff48bd3561f2acb122b4cb8e",
       "description": "公开目录、名称搜索与完整中文图集",
       "contentWarning": "nsfw",
-      "nsfw": true
+      "nsfw": true,
+      "iconUrl": "icons/zh.hcomic.png"
     },
     {
       "id": "keiyoushi.all.mitaku",
@@ -1656,7 +1723,8 @@
       "sha256": "fd3b93cc5ca510848198d912c14ff059db8a38ae90f89ae00d0834e1ffd68a01",
       "contentWarning": "nsfw",
       "nsfw": true,
-      "description": "Mitaku 原站公开图片相册，与 Kiutaku 部分镜像重合；保留其尚未覆盖的 Sweetie Fox–Jolyne、King Angel–Volume、ZinieQ–Mihara Memorial 相册；视频专帖不提供图片阅读。"
+      "description": "Mitaku 原站公开图片相册，与 Kiutaku 部分镜像重合；保留其尚未覆盖的 Sweetie Fox–Jolyne、King Angel–Volume、ZinieQ–Mihara Memorial 相册；视频专帖不提供图片阅读。",
+      "iconUrl": "icons/all.mitaku.png"
     },
     {
       "id": "keiyoushi.all.danbooru",
@@ -1670,7 +1738,8 @@
       "sha256": "2b4200c2e36396994990d25c47a493b75a6555f0944212d59c739bfa4d9b7fa6",
       "contentWarning": "nsfw",
       "nsfw": true,
-      "description": "Danbooru 全语言公开系列图集。沿原版可选的逐帖章节方式，按图集 post_ids 顺序逐帖阅读；不含登录访问能力。"
+      "description": "Danbooru 全语言公开系列图集。沿原版可选的逐帖章节方式，按图集 post_ids 顺序逐帖阅读；不含登录访问能力。",
+      "iconUrl": "icons/all.danbooru.png"
     },
     {
       "id": "keiyoushi.all.e621",
@@ -1684,7 +1753,8 @@
       "sha256": "1090c1b2bdfe26fa8180a8b21fe5a662e28440a7c7692f6b1feeedd680ce3145",
       "contentWarning": "nsfw",
       "nsfw": true,
-      "description": "e621 全语言公开图集，沿原版逐帖章节选项保留 post_ids 顺序；游客模式只加载未删除的图片帖，不提供账户或视频内容。"
+      "description": "e621 全语言公开图集，沿原版逐帖章节选项保留 post_ids 顺序；游客模式只加载未删除的图片帖，不提供账户或视频内容。",
+      "iconUrl": "icons/all.e621.png"
     },
     {
       "id": "keiyoushi.zh-hans.globalcomix",
@@ -1698,7 +1768,8 @@
       "sha256": "a51b610b1da3bc6ed0c1a6e6ee7796128acfeb9547a4e6f7e8a9a312450c1cc2",
       "description": "使用官網匿名網頁公開客戶端識別與中文cn內容，保留需授權目錄。每次讀章重取官方回應；僅整章明確免費、公開、頁數完整且每頁無付費/阻擋標誌時讀圖。短時官方圖片URL到期後需重新載入章節。官網cn分類實際包含簡繁中文。",
       "contentWarning": "mixed",
-      "nsfw": false
+      "nsfw": false,
+      "iconUrl": "icons/all.globalcomix.png"
     },
     {
       "id": "keiyoushi.zh-hans.tencentcomics",
@@ -1712,7 +1783,8 @@
       "sha256": "5db3ccd8a35d83c8705ce0000ff0b099a748835f40a4af5b961d500281f17fe3",
       "description": "官网公开目录与官方手机名称搜索；需授权章节明确标记。受限静态解析公开DATA和已验证nonce算术语法，不执行远端JS；仅comic/chapter匹配且canRead=true时读取图片。未知语法明确失败，暂不支持额外浏览器探测表达式。",
       "contentWarning": "mixed",
-      "nsfw": false
+      "nsfw": false,
+      "iconUrl": "icons/zh.tencentcomics.png"
     },
     {
       "id": "keiyoushi.all.taddyink",
@@ -1726,7 +1798,8 @@
       "sha256": "333f26e75e9918e6cf788675cfb9145a14faf8af8fbe4b12254f87ae6e58cc76",
       "description": "官方無帳號公開 SSS 圖書資料與官方 ay1 圖片服務，按章節UUID讀完整stories，依發佈時間排序。每部最多2000章，每章最多1000頁。實測含KIDS及ADULTS分級，與上游safe標註不同，據實列混合內容。未知外部托管圖域明確失敗。",
       "contentWarning": "mixed",
-      "nsfw": false
+      "nsfw": false,
+      "iconUrl": "icons/all.taddyink.png"
     },
     {
       "id": "keiyoushi.all.hentaifox",
@@ -1740,7 +1813,8 @@
       "sha256": "c8ce33720b8b26c8b98638e99ce80f9217232959277a0e91d630306737e0ba0b",
       "description": "公开目录与完整图集",
       "contentWarning": "nsfw",
-      "nsfw": true
+      "nsfw": true,
+      "iconUrl": "icons/all.hentaifox.png"
     },
     {
       "id": "keiyoushi.zh.hentaifox",
@@ -1754,7 +1828,8 @@
       "sha256": "c685d16e3cc1ae360c8664ea00bfe59f195f3a7a376dfd70714a309d5dcd8f3f",
       "description": "公开目录与完整图集",
       "contentWarning": "nsfw",
-      "nsfw": true
+      "nsfw": true,
+      "iconUrl": "icons/all.hentaifox.png"
     },
     {
       "id": "keiyoushi.all.nhentaito",
@@ -1796,7 +1871,8 @@
       "sha256": "85180b5447a06a40bef1719e32749c062687aca7ef7f90a38090de7a194a1a9d",
       "contentWarning": "nsfw",
       "nsfw": true,
-      "description": "与 HentaiRox 部分英文图集镜像重合，保留其未覆盖的韩语等独立入口；需新版公开页图格式。"
+      "description": "与 HentaiRox 部分英文图集镜像重合，保留其未覆盖的韩语等独立入口；需新版公开页图格式。",
+      "iconUrl": "icons/all.hentaizap.png"
     },
     {
       "id": "keiyoushi.all.comicklive",
@@ -1810,7 +1886,8 @@
       "sha256": "fb0cba260510bb1204d2cd3c6ad21b1b1c445f2edbeee42abb0fc10d4ead5b38",
       "contentWarning": "nsfw",
       "nsfw": true,
-      "description": "Comick 全语言公开排行及阅读入口，需支持 comick-public 格式的新版客户端。"
+      "description": "Comick 全语言公开排行及阅读入口，需支持 comick-public 格式的新版客户端。",
+      "iconUrl": "icons/all.comicklive.png"
     },
     {
       "id": "keiyoushi.all.ososedki",
@@ -1824,7 +1901,8 @@
       "sha256": "e3dfe03809ead27ff27ca77f44b9ecab0f4457e184dd79275bd5b3e66ae86ad3",
       "contentWarning": "nsfw",
       "nsfw": true,
-      "description": "OSOSEDKI 全语言公开图片相册，沿官网原生 HTML 目录、页码与名称搜索读取。"
+      "description": "OSOSEDKI 全语言公开图片相册，沿官网原生 HTML 目录、页码与名称搜索读取。",
+      "iconUrl": "icons/all.ososedki.png"
     },
     {
       "id": "keiyoushi.all.twicomi",
@@ -1838,7 +1916,8 @@
       "sha256": "15509653446f715e98ec66321a507fd2410c76edb1b290a5a5d8da6b63e7f335",
       "description": "官方無帳號公開單帖漫畫：精選、最新、文字搜尋、單帖詳情及完整附件圖片。透過官網JS實際使用的單帖JSON接口，不執行Nuxt腳本。作者聚合章目與作者搜尋模式待移植；官方驗證或不可用回應無頁圖時明確失敗。",
       "contentWarning": "mixed",
-      "nsfw": false
+      "nsfw": false,
+      "iconUrl": "icons/all.twicomi.png"
     },
     {
       "id": "keiyoushi.all.twicomi.authors",
@@ -1852,7 +1931,8 @@
       "sha256": "8cc23b6a3aa38ed697d80a56482d397cccc7591e87a3efd00ac1b836c4c8b2a4",
       "description": "同一原版Twicomi圖源的作者搜尋與合集模式，與公開單帖入口合計一個上游圖源。每作者500帖/頁，最多20頁10000帖，逐頁和總數完整核對；僅保留明確未隱藏作者及未忽略帖。超限、重複或變化明確失敗。",
       "contentWarning": "mixed",
-      "nsfw": false
+      "nsfw": false,
+      "iconUrl": "icons/all.twicomi.png"
     },
     {
       "id": "keiyoushi.all.nhentaixxx",
@@ -1894,7 +1974,8 @@
       "sha256": "a4e047828a1f3fca0d4af5c476cbff2a84ce0256cafd467a62608c77ee0ff1d7",
       "description": "已核对为 Yaoi Manga Online 中文的改名镜像。兼容入口供已有收藏保持身份和迁移，详见去重清单。",
       "contentWarning": "nsfw",
-      "nsfw": true
+      "nsfw": true,
+      "iconUrl": "icons/all.mangalotus.png"
     },
     {
       "id": "keiyoushi.zh.wnacg",
@@ -1908,7 +1989,8 @@
       "sha256": "8ab8c09091dc44e273ff250b52bf740f36d4a042e9b0330e1e56c8c16da04cf5",
       "description": "公開相冊與完整分頁合集，保留原站簽名頁圖",
       "contentWarning": "nsfw",
-      "nsfw": true
+      "nsfw": true,
+      "iconUrl": "icons/zh.wnacg.png"
     },
     {
       "id": "keiyoushi.all.ithinkilikeyou",
@@ -1922,7 +2004,8 @@
       "sha256": "88dc9d9d4c7af41abbec60a381eb84cffc15752689292d7bd8547eb5bf696696",
       "description": "官方無帳號公開系列、完整分頁章目與HTML可見圖片；Patreon章目明確標記需授權，只從正式網頁#spliced-comic讀圖，不使用API暴露的會員媒體地址。目錄最多20頁，超限明確失敗。英語及西語系列保留獨立入口。",
       "contentWarning": "mixed",
-      "nsfw": false
+      "nsfw": false,
+      "iconUrl": "icons/all.ithinkilikeyou.png"
     },
     {
       "id": "keiyoushi.all.hentainame",
@@ -1936,7 +2019,8 @@
       "sha256": "6e26cdd8a4ffd409bed82de87c81f4c0225c1ac3ed9b14f1c4194b92ee304bcb",
       "contentWarning": "nsfw",
       "nsfw": true,
-      "description": "Hentai.name 全语言公开图集；需支持 hentainame-public 完整正文图格式的新版客户端。"
+      "description": "Hentai.name 全语言公开图集；需支持 hentainame-public 完整正文图格式的新版客户端。",
+      "iconUrl": "icons/all.hentainame.png"
     },
     {
       "id": "keiyoushi.all.kusowanka",
@@ -1950,7 +2034,8 @@
       "sha256": "ea2060a0cc34eeda86f0abad5792791cfdca03e9bd3c6b26c87a689931891572",
       "description": "官網無帳號公開圖片。列表排除blacklisted與影片，閱讀前拒絕會員提示，只按正式Original image size按鈕讀原圖。文字檢索沿用原版標籤名稱→ID兩階段，支援逗號多標籤及-排除；藝術家/角色等額外進階篩選待映射。",
       "contentWarning": "nsfw",
-      "nsfw": true
+      "nsfw": true,
+      "iconUrl": "icons/all.kusowanka.png"
     },
     {
       "id": "keiyoushi.all.historyofhyrule",
@@ -1964,7 +2049,8 @@
       "sha256": "2b0b1846c3b6ed6f29e1ea40b65728949d425934a0367ed6cbf342b636e3884c",
       "contentWarning": "mixed",
       "nsfw": false,
-      "description": "官方公開出版物檔案，支援八類目及名稱檢索。保留同一出版物的已連結語言版本，正文依數字與字母頁序，重複頁優先使用非 PNG，略過未取得出版物。"
+      "description": "官方公開出版物檔案，支援八類目及名稱檢索。保留同一出版物的已連結語言版本，正文依數字與字母頁序，重複頁優先使用非 PNG，略過未取得出版物。",
+      "iconUrl": "icons/all.historyofhyrule.png"
     },
     {
       "id": "keiyoushi.zh.mangaball",
@@ -1978,7 +2064,8 @@
       "sha256": "1001f1628ccd9e54a03857beb0090df3b9463603538e1bfdd8ea518c5f0e038c",
       "contentWarning": "mixed",
       "nsfw": false,
-      "description": "官方公開中文目錄，僅顯示公開發布的各種中文語碼章節。目錄使用同站只讀 POST。目前支援已實測的 chikorita.red-and-blue.net 公開頁圖。不含瀏覽次數回報，超過現有響應上限的目錄待支持。 官方明列的封面鏡像優先，原相簿封面主機在抽樣中返回 HTTP 403。"
+      "description": "官方公開中文目錄，僅顯示公開發布的各種中文語碼章節。目錄使用同站只讀 POST。目前支援已實測的 chikorita.red-and-blue.net 公開頁圖。不含瀏覽次數回報，超過現有響應上限的目錄待支持。 官方明列的封面鏡像優先，原相簿封面主機在抽樣中返回 HTTP 403。",
+      "iconUrl": "icons/all.mangaball.png"
     },
     {
       "id": "keiyoushi.zh.relamanhua",
@@ -1992,7 +2079,8 @@
       "sha256": "7fb2517866e03823921613a238a27d44c8fd11e9882e2411fbba1297700fd712",
       "contentWarning": "mixed",
       "nsfw": false,
-      "description": "官方公開免費作品分類與名稱搜尋。保留默認、單行本、全彩等獨立目錄，逐頁核對章節歸屬。讀圖以官方 is_lock 嚴格布林值為準，需授權章節的樣圖不載入。"
+      "description": "官方公開免費作品分類與名稱搜尋。保留默認、單行本、全彩等獨立目錄，逐頁核對章節歸屬。讀圖以官方 is_lock 嚴格布林值為準，需授權章節的樣圖不載入。",
+      "iconUrl": "icons/zh.relamanhua.png"
     },
     {
       "id": "keiyoushi.all.comicfury",
@@ -2006,7 +2094,8 @@
       "sha256": "29996826e9917280e8013f36090fd45ed200f0d53225929f8c6c31ca8e8e0e7d",
       "contentWarning": "mixed",
       "nsfw": false,
-      "description": "官方公开作品检索与热门/最新目录。支持站内平面与分组归档，以及关闭站内阅读时同作品的作者公开布局。读取选中漫画页的原图切片，保留官方内容限制。"
+      "description": "官方公开作品检索与热门/最新目录。支持站内平面与分组归档，以及关闭站内阅读时同作品的作者公开布局。读取选中漫画页的原图切片，保留官方内容限制。",
+      "iconUrl": "icons/all.comicfury.png"
     },
     {
       "id": "keiyoushi.zh.comicfury",
@@ -2020,7 +2109,8 @@
       "sha256": "1d68fb9525880d29bc27bee05d3aafa5d2857d747f1b5062665569f80c0cea5d",
       "contentWarning": "mixed",
       "nsfw": false,
-      "description": "官方公开作品检索与热门/最新目录。支持站内平面与分组归档，以及关闭站内阅读时同作品的作者公开布局。读取选中漫画页的原图切片，保留官方内容限制。"
+      "description": "官方公开作品检索与热门/最新目录。支持站内平面与分组归档，以及关闭站内阅读时同作品的作者公开布局。读取选中漫画页的原图切片，保留官方内容限制。",
+      "iconUrl": "icons/all.comicfury.png"
     },
     {
       "id": "keiyoushi.zh.zaimanhua",
@@ -2033,7 +2123,8 @@
       "baseUrl": "https://v4api.zaimanhua.com",
       "sha256": "61fdbf9e31f16cd1997313bbc8909a320cf47f9da6eec9177d30114c47463250",
       "contentWarning": "safe",
-      "description": "官方匿名公开排行、最新、搜索、作品详情与已公开章节目录。读图核对作品、章节与游客 canRead 字段。图片地址失效时可从阅读器刷新本章图片地址。"
+      "description": "官方匿名公开排行、最新、搜索、作品详情与已公开章节目录。读图核对作品、章节与游客 canRead 字段。图片地址失效时可从阅读器刷新本章图片地址。",
+      "iconUrl": "icons/zh.zaimanhua.png"
     },
     {
       "id": "keiyoushi.all.lemoon",
@@ -2047,7 +2138,8 @@
       "ruleUrl": "rules/lemoon.all.json",
       "sha256": "c34ede1ae30cbf86b72dca8a5c5ea0db525bfdfec0936dcb7937c65983e30723",
       "contentWarning": "mixed",
-      "nsfw": false
+      "nsfw": false,
+      "iconUrl": "icons/all.lemoon.png"
     },
     {
       "id": "keiyoushi.zh.terrahistoricus",
@@ -2061,7 +2153,8 @@
       "ruleUrl": "rules/terrahistoricus.zh.json",
       "sha256": "4baeacb64a91f7e1021041a0f97bf6b9f3015847fa775521a65f68fd70169cc9",
       "contentWarning": "safe",
-      "nsfw": false
+      "nsfw": false,
+      "iconUrl": "icons/zh.terrahistoricus.png"
     },
     {
       "id": "keiyoushi.zh-hant.mangadot",
@@ -2075,7 +2168,8 @@
       "ruleUrl": "rules/mangadot.zh-hant.json",
       "sha256": "d1122ab1a834ed5f76c88e5dc0c8ef2d83abb83e1b192f4d8bde57a71f5b7279",
       "contentWarning": "mixed",
-      "nsfw": false
+      "nsfw": false,
+      "iconUrl": "icons/all.mangadotnet.png"
     },
     {
       "id": "keiyoushi.zh-hans.iqiyi",
@@ -2089,7 +2183,8 @@
       "ruleUrl": "rules/iqiyi.zh-hans.json",
       "sha256": "a5f9217cfacb95826cf87fbd5820d42f08e623d21cfbdf058829a6822b9db18c",
       "contentWarning": "safe",
-      "nsfw": false
+      "nsfw": false,
+      "iconUrl": "icons/zh.iqiyi.png"
     },
     {
       "id": "keiyoushi.zh.komiic",
@@ -2103,7 +2198,8 @@
       "sha256": "10eaddd72fc5c621e73b3a6f0e6b124aae7cdbe411be5643812397c0fd648fed",
       "contentWarning": "mixed",
       "nsfw": false,
-      "description": "Komiic 官方公共 GraphQL 游客模式，热门、近期更新、名称搜索、卷与章节。图片使用官网同页 Referer，并遵从站方游客额度。"
+      "description": "Komiic 官方公共 GraphQL 游客模式，热门、近期更新、名称搜索、卷与章节。图片使用官网同页 Referer，并遵从站方游客额度。",
+      "iconUrl": "icons/zh.komiic.png"
     },
     {
       "id": "keiyoushi.all.cubari",
@@ -2117,7 +2213,8 @@
       "ruleUrl": "rules/cubari.all.json",
       "sha256": "b70ea93443dd0322ad8e68bb253462491a5ddc19a801be8d4f46589826ca17b9",
       "contentWarning": "mixed",
-      "nsfw": false
+      "nsfw": false,
+      "iconUrl": "icons/all.cubari.png"
     },
     {
       "id": "keiyoushi.zh.mangadot",
@@ -2131,7 +2228,8 @@
       "ruleUrl": "rules/mangadot.zh.json",
       "sha256": "fcd8bdb23eead94ada6e392e9aab0d527b2432ae54e28b20dd3e5353cea4ffba",
       "contentWarning": "mixed",
-      "nsfw": false
+      "nsfw": false,
+      "iconUrl": "icons/all.mangadotnet.png"
     },
     {
       "id": "keiyoushi.all.hentaienvy",
@@ -2145,7 +2243,8 @@
       "ruleUrl": "rules/hentaienvy.all.json",
       "sha256": "ad396cf6463ee01090cea55660bb0c041be9fef58fac0a8cc70ce2829b0731f1",
       "contentWarning": "nsfw",
-      "nsfw": true
+      "nsfw": true,
+      "iconUrl": "icons/all.hentaienvy.png"
     },
     {
       "id": "keiyoushi.zh.cmanhua",
@@ -2159,7 +2258,8 @@
       "sha256": "40670c0f0d0e72387514f7d68b502b08e80beb1ab37e61ab733d51bd066ccc22",
       "contentWarning": "mixed",
       "nsfw": false,
-      "description": "官方公开游客热门、最近更新、搜索、详情与章节。按原网页导航提交同源 ASP.NET 分页和章节区间表单，无需登录。"
+      "description": "官方公开游客热门、最近更新、搜索、详情与章节。按原网页导航提交同源 ASP.NET 分页和章节区间表单，无需登录。",
+      "iconUrl": "icons/zh.cmanhua.png"
     },
     {
       "id": "keiyoushi.zh.baozimhorg",
@@ -2187,7 +2287,8 @@
       "ruleUrl": "rules/rokuhentai.all.json",
       "sha256": "efd57ff5b686f3b2f69aecbdcc0ff9a59dfa09123d0a57ab9bc91d54c74b9339",
       "contentWarning": "nsfw",
-      "nsfw": true
+      "nsfw": true,
+      "iconUrl": "icons/all.rokuhentai.png"
     },
     {
       "id": "keiyoushi.zh.mh160",
@@ -2201,7 +2302,8 @@
       "sha256": "47a327570f96e3b19f649eb3fe210172d4b20ec838583b4e833e834576510a2d",
       "contentWarning": "safe",
       "nsfw": false,
-      "description": "官方移动页公开热门与最新目录及章节图片。读取官网 qTcms 静态图清单，尊重已下架标记。源站名称搜索暂未恢复。"
+      "description": "官方移动页公开热门与最新目录及章节图片。读取官网 qTcms 静态图清单，尊重已下架标记。源站名称搜索暂未恢复。",
+      "iconUrl": "icons/zh.mh160.png"
     },
     {
       "id": "keiyoushi.all.fourkhd",
@@ -2215,7 +2317,8 @@
       "sha256": "8cefc0f1eea7e845e6c4503749d94adb2e5d5c1323a0235eb8459c2f2d7a91f6",
       "contentWarning": "nsfw",
       "nsfw": true,
-      "description": "4KHD 全语言公开相册，使用官方公开目录接口及同站相册页码。"
+      "description": "4KHD 全语言公开相册，使用官方公开目录接口及同站相册页码。",
+      "iconUrl": "icons/all.fourkhd.png"
     },
     {
       "id": "keiyoushi.zh.utifa",
@@ -2229,7 +2332,8 @@
       "ruleUrl": "rules/utifa.zh.json",
       "sha256": "55d9c3f7a23a50bd13474d3cdccfe5581fc2efab78eb5cfe528a8148307f2f9d",
       "contentWarning": "mixed",
-      "nsfw": false
+      "nsfw": false,
+      "iconUrl": "icons/zh.utifa.png"
     },
     {
       "id": "keiyoushi.zh.comicabc",
@@ -2243,7 +2347,8 @@
       "ruleUrl": "rules/comicabc.zh.json",
       "sha256": "a1dd2b91b7eb435bc8cf20fc245c760666081f5e0e25521f33b013effd4ac143",
       "contentWarning": "safe",
-      "nsfw": false
+      "nsfw": false,
+      "iconUrl": "icons/zh.comicabc.png"
     },
     {
       "id": "keiyoushi.all.doudoudoujin",
@@ -2257,7 +2362,8 @@
       "ruleUrl": "rules/doudoudoujin.all.json",
       "sha256": "a71ac5fcfc4c02577832cb07bfb6b2658142cf6a218bcfc1e33bcdb6e402945c",
       "contentWarning": "mixed",
-      "nsfw": false
+      "nsfw": false,
+      "iconUrl": "icons/all.doudoudoujin.png"
     },
     {
       "id": "keiyoushi.zh.manhuawu",
@@ -2271,7 +2377,8 @@
       "sha256": "fbdc78a7d397f193eb55ce401378a5fd7d8c396bbfc64b4663a7400ad9e53611",
       "contentWarning": "safe",
       "nsfw": false,
-      "description": "漫画屋官网游客搜索、最近更新与公开章节。读图只使用官网标注免费且无需会员的章节。"
+      "description": "漫画屋官网游客搜索、最近更新与公开章节。读图只使用官网标注免费且无需会员的章节。",
+      "iconUrl": "icons/zh.manhuawu.png"
     },
     {
       "id": "keiyoushi.zh.manben",
@@ -2285,7 +2392,8 @@
       "sha256": "f7399a79361a4e4cc06d698d9ccc1c60bbfc62ef3b1d4bd66d16fc526fbdc60e",
       "contentWarning": "safe",
       "nsfw": false,
-      "description": "漫本官网游客热门、最新、搜索和详情。使用官网滚动阅读模式获取允许游客阅读的完整页图。"
+      "description": "漫本官网游客热门、最新、搜索和详情。使用官网滚动阅读模式获取允许游客阅读的完整页图。",
+      "iconUrl": "icons/zh.manben.png"
     },
     {
       "id": "keiyoushi.zh.hanabimanga",
@@ -2299,7 +2407,8 @@
       "ruleUrl": "rules/hanabimanga.zh.json",
       "sha256": "6facec53906bea455feb7ba1546f1feb438079d613ac4a24555e61bd623e0df2",
       "contentWarning": "mixed",
-      "nsfw": false
+      "nsfw": false,
+      "iconUrl": "icons/zh.hanabimanga.png"
     },
     {
       "id": "keiyoushi.all.ahrigallery",
@@ -2313,7 +2422,8 @@
       "ruleUrl": "rules/ahrigallery.all.json",
       "sha256": "eb006b375feccc098e27db4048458fcc760be7b18e611a34fb813d23808a76b1",
       "contentWarning": "nsfw",
-      "nsfw": true
+      "nsfw": true,
+      "iconUrl": "icons/all.ahrigallery.png"
     },
     {
       "id": "keiyoushi.zh.92mh",
@@ -2327,7 +2437,8 @@
       "sha256": "8faf63aaf4a6c8a02c35edbe0c54fcff92341d7c86492d27ed40d5d15b005115",
       "contentWarning": "mixed",
       "nsfw": false,
-      "description": "92漫画官网游客热门、最新、搜索及作品目录。读取官网允许游客免费阅读的页面图清单。"
+      "description": "92漫画官网游客热门、最新、搜索及作品目录。读取官网允许游客免费阅读的页面图清单。",
+      "iconUrl": "icons/zh.jiuermanhua.png"
     },
     {
       "id": "keiyoushi.zh.dm5",
@@ -2341,7 +2452,8 @@
       "ruleUrl": "rules/dm5.zh.json",
       "sha256": "eb408fa6032891cae5b980c3ae2de596db5ce2f88b371ee358051ad6b11905a1",
       "contentWarning": "mixed",
-      "nsfw": false
+      "nsfw": false,
+      "iconUrl": "icons/zh.dm5.png"
     },
     {
       "id": "keiyoushi.zh.90mh",
@@ -2355,7 +2467,8 @@
       "sha256": "990783d8234bdc9107139ceaef164ea093a6a70cae5dbe743f454712b67b592d",
       "contentWarning": "mixed",
       "nsfw": false,
-      "description": "90漫画网官网游客热门、最新、搜索和目录。可读取站点允许游客阅读且提供完整图清单的公开章节。有些章页官网暂时返回错误。"
+      "description": "90漫画网官网游客热门、最新、搜索和目录。可读取站点允许游客阅读且提供完整图清单的公开章节。有些章页官网暂时返回错误。",
+      "iconUrl": "icons/zh.jiulingmanhua.png"
     },
     {
       "id": "keiyoushi.all.toonlook",
@@ -2369,7 +2482,8 @@
       "ruleUrl": "rules/toonlook.all.json",
       "sha256": "dd6a99a090518bc6031ab2b67e9b67de2d060da2c5e8dccaecc935e0cb4bdb35",
       "contentWarning": "nsfw",
-      "nsfw": true
+      "nsfw": true,
+      "iconUrl": "icons/all.toonlook.png"
     },
     {
       "id": "keiyoushi.zh.mangatoon",
@@ -2383,7 +2497,8 @@
       "ruleUrl": "rules/mangatoon.zh.json",
       "sha256": "5a9da009b37db58b359684d6d6eb8f41fb823421ea99d65b30a8eca86e7b346a",
       "contentWarning": "safe",
-      "nsfw": false
+      "nsfw": false,
+      "iconUrl": "icons/all.mangatoon.png"
     },
     {
       "id": "keiyoushi.zh.mangabz",
@@ -2397,7 +2512,8 @@
       "baseUrl": "https://yymanhua.com",
       "sha256": "27d4f094225c59449920fc953ad9ba27ce41ebd0218a877a8e413575be979b4b",
       "contentWarning": "safe",
-      "nsfw": false
+      "nsfw": false,
+      "iconUrl": "icons/zh.mangabz.png"
     },
     {
       "id": "keiyoushi.zh.toptoon",
@@ -2411,7 +2527,8 @@
       "ruleUrl": "rules/toptoon.zh.json",
       "sha256": "faa8e2c2b9c9003647f9b5eb2111fd55c1e63ee6b7bc74b13aaaf3dbe7cb5041",
       "contentWarning": "mixed",
-      "nsfw": false
+      "nsfw": false,
+      "iconUrl": "icons/zh.toptoon.png"
     },
     {
       "id": "keiyoushi.all.junmeitu",
@@ -2425,7 +2542,8 @@
       "ruleUrl": "rules/junmeitu.all.json",
       "sha256": "e53300f596e3467c79d24243b9125ad6b7ff116e4610ca598871bef7a10bf993",
       "contentWarning": "nsfw",
-      "nsfw": true
+      "nsfw": true,
+      "iconUrl": "icons/all.junmeitu.png"
     },
     {
       "id": "keiyoushi.zh.toonlook",
@@ -2439,7 +2557,8 @@
       "ruleUrl": "rules/toonlook.zh.json",
       "sha256": "0f695ce55e800357e82e62a68408383c5566e5142ca337fa8cc6abfaa8e8d108",
       "contentWarning": "nsfw",
-      "nsfw": true
+      "nsfw": true,
+      "iconUrl": "icons/all.toonlook.png"
     },
     {
       "id": "keiyoushi.zh.kanman",
@@ -2467,7 +2586,8 @@
       "ruleUrl": "rules/naisho.all.json",
       "sha256": "2d99b125e661a657b54c6ecfac83f975f599626b5526f55bfee4e260f2b6130d",
       "contentWarning": "nsfw",
-      "nsfw": true
+      "nsfw": true,
+      "iconUrl": "icons/all.naisho.png"
     },
     {
       "id": "keiyoushi.zh.favcomic",
@@ -2481,7 +2601,8 @@
       "baseUrl": "https://www.favcomic.com",
       "sha256": "4e9baa3ea3e4b10a8818410082c37249a3e54561de32b960be34b4347e2807d5",
       "contentWarning": "mixed",
-      "nsfw": false
+      "nsfw": false,
+      "iconUrl": "icons/zh.favcomic.png"
     },
     {
       "id": "keiyoushi.zh.dragonballmultiverse",
@@ -2495,7 +2616,8 @@
       "ruleUrl": "rules/dragonballmultiverse.zh.json",
       "sha256": "81ac67371bb4965b1217a1ded509279d6b91f72ee4edefcae0db45d2c25d9a3c",
       "contentWarning": "safe",
-      "nsfw": false
+      "nsfw": false,
+      "iconUrl": "icons/all.dragonballmultiverse.png"
     },
     {
       "id": "keiyoushi.all.doujiva",
@@ -2509,7 +2631,8 @@
       "ruleUrl": "rules/doujiva.all.json",
       "sha256": "dfc81216b27e7095e31c064ea8cf1691252403e94c1a22b13fcae3127558684f",
       "contentWarning": "nsfw",
-      "nsfw": true
+      "nsfw": true,
+      "iconUrl": "icons/all.doujiva.png"
     },
     {
       "id": "keiyoushi.zh.budingmanhua",
@@ -2537,7 +2660,8 @@
       "ruleUrl": "rules/pandachaika.all.json",
       "sha256": "d2a0c966798e663b022ed8190c7e3047281c5cdef80955160055a4eb3ab8aac7",
       "contentWarning": "nsfw",
-      "nsfw": true
+      "nsfw": true,
+      "iconUrl": "icons/all.pandachaika.png"
     },
     {
       "id": "keiyoushi.zh.roumanwu",
@@ -2551,7 +2675,8 @@
       "baseUrl": "https://rouman5.com",
       "sha256": "24dba2a890917edad6302be869c0afbaefc302cb998ef8e769e9456121d3c89c",
       "contentWarning": "nsfw",
-      "nsfw": true
+      "nsfw": true,
+      "iconUrl": "icons/zh.roumanwu.png"
     },
     {
       "id": "keiyoushi.zh.rumanhuaunoriginal",
@@ -2565,7 +2690,8 @@
       "baseUrl": "https://m.rumanhua.org",
       "sha256": "89d890443ac1acf5ff97666306f37928456422942341791e528cf31f1e46fe9c",
       "contentWarning": "safe",
-      "nsfw": false
+      "nsfw": false,
+      "iconUrl": "icons/zh.rumanhuaunoriginal.png"
     },
     {
       "id": "keiyoushi.zh.hanman18",
@@ -2593,7 +2719,8 @@
       "baseUrl": "https://jcomic.net",
       "sha256": "c3f81ca068ae7ead5c35e5eb4061c7afdd1f02d720740de25e7899e8bd12bc7e",
       "contentWarning": "nsfw",
-      "nsfw": true
+      "nsfw": true,
+      "iconUrl": "icons/zh.jcomic.png"
     },
     {
       "id": "keiyoushi.zh.ahrigallery",
@@ -2607,7 +2734,8 @@
       "ruleUrl": "rules/ahrigallery.zh.json",
       "sha256": "2ffb46590bdd3310bb425f175119ca8fac13a0534f37a54b55bf693cab4dc496",
       "contentWarning": "nsfw",
-      "nsfw": true
+      "nsfw": true,
+      "iconUrl": "icons/all.ahrigallery.png"
     },
     {
       "id": "keiyoushi.zh.xsnvshen",
@@ -2621,7 +2749,8 @@
       "sha256": "613008d0e7adf9b5e5a48bf9748ee1f58bd0416d76290f6a54a6967ff95ce1fe",
       "nsfw": true,
       "contentWarning": "nsfw",
-      "description": "秀色女神移动站游客热门、最新、名称搜索及公开图集，逐个原站分页加载图片。"
+      "description": "秀色女神移动站游客热门、最新、名称搜索及公开图集，逐个原站分页加载图片。",
+      "iconUrl": "icons/zh.xsnvshen.png"
     },
     {
       "id": "keiyoushi.all.nhentaiyaoi",
@@ -2648,7 +2777,8 @@
       "contentWarning": "nsfw",
       "baseUrl": "https://boylove.cc",
       "ruleUrl": "rules/boylove.zh.json",
-      "sha256": "d2015ef2a989baf751ea510e5201abc9b2e5d4bb5b997659d03132606c431f6e"
+      "sha256": "d2015ef2a989baf751ea510e5201abc9b2e5d4bb5b997659d03132606c431f6e",
+      "iconUrl": "icons/zh.boylove.png"
     }
   ]
 }

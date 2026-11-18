@@ -1,12 +1,6 @@
 # Mihon 鸿蒙版图源规则仓库
 
-为鸿蒙版 [Mihon](https://github.com/Twfun/mihon) 提供开箱即用的声明式漫画图源规则仓库（共收录 **43** 个英文、简体中文、繁体中文与综合中文漫画站点，所有规则仅执行声明式数据提取，不执行远端脚本）。
-
-## 新版运行时验收分支
-
-此分支包含依赖新版鸿蒙规则引擎的 MangaDex 全语言、简体和繁体，以及 WEBTOON 繁体中文、咚漫漫画和 NamiComi 简繁体。请使用支持 `mangadex-at-home`、`namicomi-public` 及 CSS 相邻兄弟选择器的应用构建。MangaDex 单部作品目录目前最多读取 500 条。NamiComi 单部目录最多读取 200 条，读图前使用官网 API 逐章检查游客权限。
-
-本分支另有同源 POST 目录规则、177 漫画的 `nextPage` 分页、Kiutaku 的公开页图请求头处理及 Toomics 简繁免费章入口。Toomics 仅显示官网明确链接的游客免费章节，使用发现列表浏览。
+为鸿蒙版 [Mihon](https://github.com/Twfun/mihon) 提供漫画图源规则。当前默认索引收录 **186** 条规则，支持使用本次移植所需运行时的鸿蒙版构建。部分来源仅支持官网公开章节或游客试阅。
 
 ## 订阅地址
 
@@ -16,7 +10,9 @@
 https://raw.githubusercontent.com/Twfun/mihon-for-harmonyos-extebd/main/index.json
 ```
 
-## 已收录图源（43 条）
+完整图源清单见 [仓库索引](index.json)。
+
+## 初始收录图源（43 条）
 
 | 语种 | ID | 名称 | 分级 | 站点 | 简介 |
 | --- | --- | --- | --- | --- | --- |
