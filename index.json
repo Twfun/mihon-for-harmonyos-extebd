@@ -2104,6 +2104,62 @@
       "contentWarning": "mixed",
       "nsfw": false,
       "description": "Komiic 官方公共 GraphQL 游客模式，热门、近期更新、名称搜索、卷与章节。图片使用官网同页 Referer，并遵从站方游客额度。"
+    },
+    {
+      "id": "keiyoushi.all.cubari",
+      "name": "Cubari",
+      "lang": "all",
+      "schema": "kazumi-comic-v1",
+      "version": "1.0.0",
+      "versionCode": 1,
+      "description": "官方訪客連結模式。在搜尋貼上 Cubari、Imgur 或 ImgChest 公開連結，可用 cubari:gist/ID。本站沒有公開目錄，閱讀歷史和收藏不會同步。",
+      "baseUrl": "https://cubari.moe",
+      "ruleUrl": "rules/cubari.all.json",
+      "sha256": "b70ea93443dd0322ad8e68bb253462491a5ddc19a801be8d4f46589826ca17b9",
+      "contentWarning": "mixed",
+      "nsfw": false
+    },
+    {
+      "id": "keiyoushi.zh.mangadot",
+      "name": "MangaDot（中文）",
+      "version": "1.0.0",
+      "versionCode": 1,
+      "lang": "zh",
+      "schema": "kazumi-comic-v1",
+      "description": "免账号公开中文目录，沿用原版 zh 语码。章目与阅读严格核对语种、作品、连载章节及已公开页图；卷模式待移植。",
+      "baseUrl": "https://mangadot.net",
+      "ruleUrl": "rules/mangadot.zh.json",
+      "sha256": "fcd8bdb23eead94ada6e392e9aab0d527b2432ae54e28b20dd3e5353cea4ffba",
+      "contentWarning": "mixed",
+      "nsfw": false
+    },
+    {
+      "id": "keiyoushi.all.hentaienvy",
+      "name": "HentaiEnvy",
+      "lang": "all",
+      "schema": "kazumi-comic-v1",
+      "version": "1.0.0",
+      "versionCode": 1,
+      "description": "HentaiEnvy 全語言公開圖集。官方訪客上下文須明確允許訪問，僅讀取未鎖定的原始頁序。",
+      "baseUrl": "https://hentaienvy.com",
+      "ruleUrl": "rules/hentaienvy.all.json",
+      "sha256": "ad396cf6463ee01090cea55660bb0c041be9fef58fac0a8cc70ce2829b0731f1",
+      "contentWarning": "nsfw",
+      "nsfw": true
+    },
+    {
+      "id": "keiyoushi.zh.cmanhua",
+      "name": "CManhua",
+      "lang": "zh",
+      "version": "1.0.0",
+      "versionCode": 1,
+      "schema": "kazumi-comic-v1",
+      "ruleUrl": "rules/cmanhua.zh.json",
+      "baseUrl": "https://cmanhua.com",
+      "sha256": "40670c0f0d0e72387514f7d68b502b08e80beb1ab37e61ab733d51bd066ccc22",
+      "contentWarning": "mixed",
+      "nsfw": false,
+      "description": "官方公开游客热门、最近更新、搜索、详情与章节。按原网页导航提交同源 ASP.NET 分页和章节区间表单，无需登录。"
     }
   ]
 }

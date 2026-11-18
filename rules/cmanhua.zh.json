@@ -1,0 +1,40 @@
+{
+  "schema": "kazumi-comic-v1",
+  "id": "keiyoushi.zh.cmanhua",
+  "name": "CManhua",
+  "lang": "zh",
+  "version": "1.0.0",
+  "versionCode": 1,
+  "baseURL": "https://cmanhua.com",
+  "contentFormat": "cmanhua-public",
+  "searchURL": "/Modules/Search/SearchHandler.ashx?q=@keyword,{\"headers\":{\"X-Requested-With\":\"XMLHttpRequest\"}}",
+  "searchList": "$[*]",
+  "searchName": "$.title",
+  "searchResult": "@tmpl:/comic/{{$.slug}}",
+  "searchCover": "$.cover",
+  "exploreCategories": [
+    {
+      "name": "热门",
+      "url": "/Browse?orderBy=views_desc"
+    },
+    {
+      "name": "最近更新",
+      "url": "/Browse?orderBy=updated_desc"
+    }
+  ],
+  "exploreList": "#browseSection a[href^=/comic/]",
+  "exploreName": ".comic-title@text",
+  "exploreResult": "@href",
+  "exploreCover": "img@src",
+  "detailTitle": "#MainContent_lblTitle@text",
+  "detailCover": "#MainContent_imgCover@src",
+  "detailAuthor": "#MainContent_lblAuthor@text",
+  "detailIntro": "#MainContent_lblDescription@text",
+  "detailStatus": "#MainContent_lblStatus@text",
+  "detailTags": ".cd-tag@text",
+  "chapterList": "li.cd-chapter-item",
+  "chapterName": "a.cd-chapter-link@text",
+  "chapterUrl": "a.cd-chapter-link@href",
+  "pageList": "img.chapter-image@data-src||img.chapter-image@src",
+  "description": "官方公开游客热门、最近更新、搜索、详情与章节。按原网页导航提交同源 ASP.NET 分页和章节区间表单，无需登录。"
+}

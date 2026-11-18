@@ -1,0 +1,28 @@
+{
+  "schema": "kazumi-comic-v1",
+  "id": "keiyoushi.all.hentaienvy",
+  "name": "HentaiEnvy",
+  "lang": "all",
+  "baseURL": "https://hentaienvy.com",
+  "version": "1.0.0",
+  "versionCode": 1,
+  "contentFormat": "hentaienvy-public",
+  "searchURL": "/search/?key=@keyword&page=@page",
+  "searchList": "@css:article.hnv-gallery-card",
+  "searchName": "@css:.hnv-gallery-card__title@text",
+  "searchResult": "@css:.hnv-gallery-card__cover@href",
+  "searchCover": "@css:.hnv-gallery-card__media img@src",
+  "exploreCategories": [
+    {
+      "name": "公開圖集",
+      "url": "/?page=@page"
+    }
+  ],
+  "detailTitle": "@css:#gallery-title@text",
+  "detailCover": "@css:.hnv-gallery-cover img@src",
+  "chapterList": "@css:html",
+  "chapterName": "@css:#gallery-title@text",
+  "chapterUrl": "@css:link[rel=canonical]@href",
+  "pageList": "@css:img#readerImg@src",
+  "description": "HentaiEnvy 全語言公開圖集。官方訪客上下文須明確允許訪問，僅讀取未鎖定的原始頁序。"
+}
