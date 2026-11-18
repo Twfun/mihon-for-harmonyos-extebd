@@ -1,0 +1,42 @@
+{
+  "schema": "kazumi-comic-v1",
+  "id": "keiyoushi.zh.roumanwu",
+  "name": "肉漫屋",
+  "lang": "zh",
+  "version": "1.0.0",
+  "versionCode": 1,
+  "baseURL": "https://rouman5.com",
+  "contentFormat": "roumanwu-public",
+  "headers": {
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:150.0) Gecko/20100101 Firefox/150.0"
+  },
+  "searchURL": "/search?term=@keyword&page={{offset:1}}",
+  "searchList": ".site-comic-grid a.site-comic",
+  "searchName": "h3@text",
+  "searchResult": "@href",
+  "searchCover": "img@src",
+  "exploreCategories": [
+    {
+      "name": "热门",
+      "url": "/books?page={{offset:1}}"
+    },
+    {
+      "name": "最新更新",
+      "url": "/home"
+    }
+  ],
+  "exploreList": ".site-collection .site-comic-grid a.site-comic, .site-home > .site-home-section:nth-child(3) a.site-comic",
+  "exploreName": "h3@text",
+  "exploreResult": "@href",
+  "exploreCover": "img@src",
+  "detailTitle": ".site-book-info h1@text",
+  "detailCover": "img.site-detail-cover@src",
+  "detailAuthor": "dl.site-book-data dd:nth-child(2)@text",
+  "detailIntro": ".site-book-synopsis@text",
+  "chapterList": "a.site-chapter-link",
+  "chapterName": "span@title",
+  "chapterUrl": "@href",
+  "chapterReverse": true,
+  "pageList": "img@src",
+  "description": "肉漫屋官网公开游客目录、名称搜索和已公开章节。通过官网页图列表按顺序读取，并恢复站点分块图片格式。"
+}

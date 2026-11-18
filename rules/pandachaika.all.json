@@ -1,0 +1,31 @@
+{
+  "schema": "kazumi-comic-v1",
+  "id": "keiyoushi.all.pandachaika",
+  "name": "PandaChaika",
+  "lang": "all",
+  "baseURL": "https://panda.chaika.moe",
+  "version": "1.0.0",
+  "versionCode": 1,
+  "contentFormat": "pandachaika-public",
+  "searchURL": "/search/?title=@keyword&tags=&sort=public_date&apply=&json=&page=@page",
+  "searchList": "@json:$.archives[*]",
+  "searchName": "@json:$.title",
+  "searchResult": "@pandachaika-public-detail",
+  "searchCover": "@json:$.thumbnail",
+  "exploreCategories": [
+    {
+      "name": "熱門",
+      "url": "/search/?tags=&sort=rating&apply=&json=&page=@page"
+    },
+    {
+      "name": "最新",
+      "url": "/search/?tags=&sort=public_date&apply=&json=&page=@page"
+    }
+  ],
+  "detailTitle": "@json:$.title",
+  "chapterList": "@json:$",
+  "chapterName": "@json:$.title",
+  "chapterUrl": "@json:$.download",
+  "pageList": "@json:$.download",
+  "description": "PandaChaika 全語言公開檔案。沿用官網搜尋和目錄，閱讀圖片按 ZIP 的官方 HTTP Range 分段提取。"
+}
