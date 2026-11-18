@@ -61,7 +61,7 @@
       "description": "英文韩漫与同人成人向连载漫画站点",
       "nsfw": true,
       "contentWarning": "nsfw",
-      "iconUrl": "https://cdn.jsdelivr.net/gh/keiyoushi/extensions-source@main/lib-multisrc/madara/res/mipmap-xhdpi/ic_launcher.png"
+      "iconUrl": "icons/shared.madara.png"
     },
     {
       "id": "keiyoushi.en.hentaihand",
@@ -1843,7 +1843,8 @@
       "sha256": "1210321d57b88dc96873c045bd2cd534f05ce751b13b7ab2c2339a5dff31f934",
       "description": "公开目录与完整图集",
       "contentWarning": "nsfw",
-      "nsfw": true
+      "nsfw": true,
+      "iconUrl": "icons/shared.galleryadults.png"
     },
     {
       "id": "keiyoushi.zh.nhentaito",
@@ -1857,7 +1858,8 @@
       "sha256": "12278aa644854eb1f3bd19701bbc0ad8531d8fc39d976c97cc355f46cb5a2515",
       "description": "公开目录与完整图集，中文分类浏览",
       "contentWarning": "nsfw",
-      "nsfw": true
+      "nsfw": true,
+      "iconUrl": "icons/shared.galleryadults.png"
     },
     {
       "id": "keiyoushi.all.hentaizap",
@@ -1946,7 +1948,8 @@
       "sha256": "85062d59deb82b49d62124ebf4002bdc8b6f1fb6206d50b4ff6a3667345f916b",
       "description": "公开目录、名称搜索与完整图集",
       "contentWarning": "nsfw",
-      "nsfw": true
+      "nsfw": true,
+      "iconUrl": "icons/shared.galleryadults.png"
     },
     {
       "id": "keiyoushi.zh.nhentaixxx",
@@ -1960,7 +1963,8 @@
       "sha256": "b966af79e3ff00612f28ba1216c83bb50a83a09a560afeda9572e5ace88f2d9c",
       "description": "公开目录、名称搜索与完整图集，逐条中文语言标记筛选",
       "contentWarning": "nsfw",
-      "nsfw": true
+      "nsfw": true,
+      "iconUrl": "icons/shared.galleryadults.png"
     },
     {
       "id": "keiyoushi.zh.mangalotus",
@@ -2273,7 +2277,8 @@
       "sha256": "c55de4506198fbc404f060e21c360d0fb09dbd1e875f0644e4bdc9b6f806446c",
       "contentWarning": "safe",
       "nsfw": false,
-      "description": "GoDa 官网公开游客热门、最新、名称搜索、作品与完整公开目录。静态解码站方图片列表并校验作品、章节归属和连续页序。"
+      "description": "GoDa 官网公开游客热门、最新、名称搜索、作品与完整公开目录。静态解码站方图片列表并校验作品、章节归属和连续页序。",
+      "iconUrl": "icons/shared.goda.png"
     },
     {
       "id": "keiyoushi.all.rokuhentai",
@@ -2705,7 +2710,8 @@
       "ruleUrl": "rules/hanman18.zh.json",
       "sha256": "4699cd1fe6f4a2585b43c25ad78c0f587a334dfa0b60cc1484fd3cdc8467772d",
       "contentWarning": "nsfw",
-      "nsfw": true
+      "nsfw": true,
+      "iconUrl": "icons/shared.manga18.png"
     },
     {
       "id": "keiyoushi.zh.jcomic",
