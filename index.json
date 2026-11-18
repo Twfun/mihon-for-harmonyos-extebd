@@ -2566,6 +2566,34 @@
       "sha256": "89d890443ac1acf5ff97666306f37928456422942341791e528cf31f1e46fe9c",
       "contentWarning": "safe",
       "nsfw": false
+    },
+    {
+      "id": "keiyoushi.zh.hanman18",
+      "name": "HANMAN18",
+      "lang": "zh",
+      "schema": "kazumi-comic-v1",
+      "version": "1.0.0",
+      "versionCode": 1,
+      "description": "HANMAN18 官网游客热门、最新、名称搜索和公开章节。读取官网原始页序。",
+      "baseUrl": "https://hanman18.com",
+      "ruleUrl": "rules/hanman18.zh.json",
+      "sha256": "4699cd1fe6f4a2585b43c25ad78c0f587a334dfa0b60cc1484fd3cdc8467772d",
+      "contentWarning": "nsfw",
+      "nsfw": true
+    },
+    {
+      "id": "keiyoushi.all.nhentaiyaoi",
+      "name": "nHentai Yaoi",
+      "lang": "all",
+      "schema": "kazumi-comic-v1",
+      "version": "1.0.0",
+      "versionCode": 1,
+      "description": "nHentai Yaoi 全語言公開漫畫，透過官網名稱搜尋、原生章目和頁面順序閱讀。",
+      "baseUrl": "https://nhentaiyaoi.com",
+      "ruleUrl": "rules/nhentaiyaoi.all.json",
+      "sha256": "c68959a802a6a60302e944467e19f5c3000147966df73189c08d7bd2497bc6a9",
+      "contentWarning": "nsfw",
+      "nsfw": true
     }
   ]
 }

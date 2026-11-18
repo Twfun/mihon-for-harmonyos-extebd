@@ -1,0 +1,34 @@
+{
+  "schema": "kazumi-comic-v1",
+  "id": "keiyoushi.all.nhentaiyaoi",
+  "name": "nHentai Yaoi",
+  "lang": "all",
+  "baseURL": "https://nhentaiyaoi.com",
+  "version": "1.0.0",
+  "versionCode": 1,
+  "searchURL": "/<,page/@page/>?s=@keyword&post_type=wp-manga",
+  "searchList": "@css:#loop-content .page-item-detail || @css:.c-tabs-item__content",
+  "searchName": "@css:.post-title a@text",
+  "searchResult": "@css:.post-title a@href",
+  "searchCover": "@css:.item-thumb img@src || @css:.tab-thumb img@src",
+  "exploreCategories": [
+    {
+      "name": "最新",
+      "url": "/<,page/@page/>"
+    },
+    {
+      "name": "熱門",
+      "url": "/?s=&post_type=wp-manga&m_orderby=trending"
+    }
+  ],
+  "detailTitle": "@css:.post-title h1@text",
+  "detailCover": "@css:.summary_image img@src",
+  "detailIntro": "@css:.description-summary .summary__content@text",
+  "detailStatus": "@css:.post-content_item .summary-content@text",
+  "tocUrl": "@tmpl:{{@css:link[rel=\"canonical\"]@href}}ajax/chapters/,{\"method\":\"POST\",\"body\":\"\",\"headers\":{\"Content-Type\":\"application/x-www-form-urlencoded\",\"X-Requested-With\":\"XMLHttpRequest\",\"Origin\":\"https://nhentaiyaoi.com\"}}",
+  "chapterList": "@css:li.wp-manga-chapter > a",
+  "chapterName": "@text",
+  "chapterUrl": "@href",
+  "pageList": "@css:.reading-content img.wp-manga-chapter-img@src",
+  "description": "nHentai Yaoi 全語言公開漫畫，透過官網名稱搜尋、原生章目和頁面順序閱讀。"
+}

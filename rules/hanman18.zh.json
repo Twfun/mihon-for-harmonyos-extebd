@@ -1,0 +1,35 @@
+{
+  "schema": "kazumi-comic-v1",
+  "id": "keiyoushi.zh.hanman18",
+  "name": "HANMAN18",
+  "lang": "zh",
+  "baseURL": "https://hanman18.com",
+  "version": "1.0.0",
+  "versionCode": 1,
+  "contentFormat": "hanman18-public",
+  "searchURL": "/list-manga/@page?search=@keyword",
+  "searchList": ".story_item",
+  "searchName": ".mg_name > a@text",
+  "searchResult": ".mg_name > a@href",
+  "searchCover": ".story_images img@src",
+  "exploreCategories": [
+    {
+      "name": "热门",
+      "url": "/list-manga/@page?order_by=views"
+    },
+    {
+      "name": "最新",
+      "url": "/list-manga/@page"
+    }
+  ],
+  "detailTitle": ".detail_name > h1@text",
+  "detailCover": ".detail_avatar img@src",
+  "detailIntro": ".detail_reviewContent@text",
+  "detailStatus": ".detail_listInfo .info_value .label@text",
+  "detailTags": ".detail_listInfo a[href*=\"/manga-list/\"]@text",
+  "chapterList": ".chapter_box a.chapter_num",
+  "chapterName": "@text",
+  "chapterUrl": "@href",
+  "pageList": ".chapter_content img@src",
+  "description": "HANMAN18 官网游客热门、最新、名称搜索和公开章节。读取官网原始页序。"
+}
