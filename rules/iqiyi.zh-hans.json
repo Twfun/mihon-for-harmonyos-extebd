@@ -1,0 +1,35 @@
+{
+  "schema": "kazumi-comic-v1",
+  "id": "keiyoushi.zh-hans.iqiyi",
+  "name": "爱奇艺叭嗒",
+  "version": "1.0.0",
+  "versionCode": 1,
+  "lang": "zh-Hans",
+  "baseURL": "https://comic.iqiyi.com",
+  "contentFormat": "iqiyi-public",
+  "searchURL": "/views/1.0/search?key=@keyword&page_num=1",
+  "exploreCategories": [
+    {
+      "name": "人气榜",
+      "url": "/views/1.0/classify/popularity_list?type=1&pageSize=100&pageNo=1"
+    }
+  ],
+  "searchList": "$.data.docinfos[*].albumDocInfo.comics",
+  "searchName": "$.title",
+  "searchResult": "@tmpl:/views/1.0/comicDetail?comicId={{$.id}}",
+  "searchCover": "$.image_url",
+  "exploreList": "$.data.popularityList[*]",
+  "exploreName": "$.title",
+  "exploreResult": "@tmpl:/views/1.0/comicDetail?comicId={{$.comicId}}",
+  "exploreCover": "$.pic",
+  "detailTitle": "$.data.title",
+  "detailAuthor": "$.data.authorsName",
+  "detailIntro": "$.data.brief",
+  "detailCover": "$.data.pic",
+  "detailGenre": "$.data.comicTags[*]",
+  "chapterList": "$.data.episodes[*]",
+  "chapterName": "@tmpl:{{$.episodeOrder}} {{$.episodeTitle}}",
+  "chapterUrl": "@tmpl:/read/pcw/1.0/read?episodeId={{$.episodeId}}",
+  "pageList": "$.data.content[*].imageUrl",
+  "description": "使用官方桌面与 H5 共享的无账号访客接口。保留公开目录，读取前验证作品章节归属和官方 authPass=1。会员及游客未获授权章节不读取图片。"
+}

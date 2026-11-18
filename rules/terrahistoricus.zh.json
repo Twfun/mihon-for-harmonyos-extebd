@@ -1,0 +1,48 @@
+{
+  "schema": "kazumi-comic-v1",
+  "id": "keiyoushi.zh.terrahistoricus",
+  "name": "泰拉记事社",
+  "lang": "zh",
+  "version": "1.0.0",
+  "versionCode": 1,
+  "baseURL": "https://comic.hypergryph.com",
+  "headers": {
+    "Accept": "application/json",
+    "Referer": "https://comic.hypergryph.com/"
+  },
+  "searchURL": "/api/comic?topicKey=terra-historicus",
+  "searchList": "$.data[*]",
+  "searchName": "$.title",
+  "searchAuthor": "$.authors[*]",
+  "searchResult": "@tmpl:/api/comic/{{$.cid||$.comicCid}}",
+  "searchCover": "$.cover||$.coverUrl",
+  "exploreCategories": [
+    {
+      "name": "泰拉作品",
+      "url": "/api/comic?topicKey=terra-historicus"
+    },
+    {
+      "name": "塔罗斯作品",
+      "url": "/api/comic?topicKey=talos-ii-historicus"
+    },
+    {
+      "name": "泰拉最近更新",
+      "url": "/api/recentUpdate?topicKey=terra-historicus"
+    },
+    {
+      "name": "塔罗斯最近更新",
+      "url": "/api/recentUpdate?topicKey=talos-ii-historicus"
+    }
+  ],
+  "detailTitle": "$.data.title",
+  "detailCover": "$.data.cover",
+  "detailAuthor": "$.data.authors[*]",
+  "detailIntro": "$.data.introduction",
+  "detailGenre": "$.data.keywords[*]",
+  "chapterList": "$.data.episodes[*]",
+  "chapterName": "$.title",
+  "chapterUrl": "$.cid",
+  "pageList": "$.data.pageInfos[*]",
+  "contentFormat": "terra-historicus-public",
+  "description": "鹰角官网泰拉及塔罗斯公开作品、最近更新与名称搜索。打开页图时按原章节页码获取短时地址，图片服务返回403时自动重新获取一次。"
+}

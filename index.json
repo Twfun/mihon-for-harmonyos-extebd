@@ -2048,6 +2048,62 @@
       "sha256": "c34ede1ae30cbf86b72dca8a5c5ea0db525bfdfec0936dcb7937c65983e30723",
       "contentWarning": "mixed",
       "nsfw": false
+    },
+    {
+      "id": "keiyoushi.zh.terrahistoricus",
+      "name": "泰拉记事社",
+      "lang": "zh",
+      "version": "1.0.0",
+      "versionCode": 1,
+      "schema": "kazumi-comic-v1",
+      "description": "鹰角官网泰拉及塔罗斯公开作品、最近更新与名称搜索。打开页图时按原章节页码获取短时地址，图片服务返回403时自动重新获取一次。",
+      "baseUrl": "https://comic.hypergryph.com",
+      "ruleUrl": "rules/terrahistoricus.zh.json",
+      "sha256": "4baeacb64a91f7e1021041a0f97bf6b9f3015847fa775521a65f68fd70169cc9",
+      "contentWarning": "safe",
+      "nsfw": false
+    },
+    {
+      "id": "keiyoushi.zh-hant.mangadot",
+      "name": "MangaDot（繁體中文）",
+      "version": "1.0.0",
+      "versionCode": 1,
+      "lang": "zh-Hant",
+      "schema": "kazumi-comic-v1",
+      "description": "免帳號公開繁體目錄，沿用原版 zh-Hant 對應的 zh-hk。章目與閱讀嚴格核對語言、作品、連載章節及已公開頁圖；卷模式待移植。",
+      "baseUrl": "https://mangadot.net",
+      "ruleUrl": "rules/mangadot.zh-hant.json",
+      "sha256": "d1122ab1a834ed5f76c88e5dc0c8ef2d83abb83e1b192f4d8bde57a71f5b7279",
+      "contentWarning": "mixed",
+      "nsfw": false
+    },
+    {
+      "id": "keiyoushi.zh-hans.iqiyi",
+      "name": "爱奇艺叭嗒",
+      "version": "1.0.0",
+      "versionCode": 1,
+      "lang": "zh-Hans",
+      "schema": "kazumi-comic-v1",
+      "description": "使用官方桌面与 H5 共享的无账号访客接口。保留公开目录，读取前验证作品章节归属和官方 authPass=1。会员及游客未获授权章节不读取图片。",
+      "baseUrl": "https://comic.iqiyi.com",
+      "ruleUrl": "rules/iqiyi.zh-hans.json",
+      "sha256": "a5f9217cfacb95826cf87fbd5820d42f08e623d21cfbdf058829a6822b9db18c",
+      "contentWarning": "safe",
+      "nsfw": false
+    },
+    {
+      "id": "keiyoushi.zh.komiic",
+      "name": "Komiic",
+      "lang": "zh",
+      "version": "1.0.0",
+      "versionCode": 1,
+      "schema": "kazumi-comic-v1",
+      "ruleUrl": "rules/komiic.zh.json",
+      "baseUrl": "https://komiic.com",
+      "sha256": "10eaddd72fc5c621e73b3a6f0e6b124aae7cdbe411be5643812397c0fd648fed",
+      "contentWarning": "mixed",
+      "nsfw": false,
+      "description": "Komiic 官方公共 GraphQL 游客模式，热门、近期更新、名称搜索、卷与章节。图片使用官网同页 Referer，并遵从站方游客额度。"
     }
   ]
 }

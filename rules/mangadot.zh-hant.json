@@ -1,0 +1,36 @@
+{
+  "schema": "kazumi-comic-v1",
+  "id": "keiyoushi.zh-hant.mangadot",
+  "name": "MangaDot（繁體中文）",
+  "version": "1.0.0",
+  "versionCode": 1,
+  "lang": "zh-Hant",
+  "baseURL": "https://mangadot.net",
+  "contentFormat": "mangadot-public",
+  "headers": {
+    "X-Requested-With": "XMLHttpRequest"
+  },
+  "searchURL": "/api/search?lang=zh-hk&limit=56&page=@page&search=@keyword",
+  "exploreCategories": [
+    {
+      "name": "最新繁體更新",
+      "url": "/api/search?lang=zh-hk&limit=56&page=@page&sortBy=latest&sortOrder=desc"
+    }
+  ],
+  "searchList": "$.manga_list[*]",
+  "searchName": "$.title",
+  "searchResult": "@tmpl:/manga/{{$.id}}.data?_routes=pages%2FMangaDetailPage",
+  "searchCover": "$.photo",
+  "detailTitle": "$.title",
+  "detailAuthor": "$.authors",
+  "detailIntro": "$.description",
+  "detailCover": "$.photo",
+  "detailGenre": "$.genres[*]",
+  "detailStatus": "$.status",
+  "tocUrl": "@tmpl:/api/manga/{{$.id}}/chapters/list?lang=zh-hk",
+  "chapterList": "$[*]",
+  "chapterName": "$.chapter_title",
+  "chapterUrl": "@tmpl:/api/uploads/{{$.id}}/images",
+  "pageList": "$.images[*].url",
+  "description": "免帳號公開繁體目錄，沿用原版 zh-Hant 對應的 zh-hk。章目與閱讀嚴格核對語言、作品、連載章節及已公開頁圖；卷模式待移植。"
+}
