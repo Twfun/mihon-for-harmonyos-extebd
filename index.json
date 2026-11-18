@@ -2021,6 +2021,33 @@
       "contentWarning": "mixed",
       "nsfw": false,
       "description": "官方公开作品检索与热门/最新目录。支持站内平面与分组归档，以及关闭站内阅读时同作品的作者公开布局。读取选中漫画页的原图切片，保留官方内容限制。"
+    },
+    {
+      "id": "keiyoushi.zh.zaimanhua",
+      "name": "再漫画",
+      "lang": "zh",
+      "version": "1.0.0",
+      "versionCode": 1,
+      "schema": "kazumi-comic-v1",
+      "ruleUrl": "rules/zaimanhua.zh.json",
+      "baseUrl": "https://v4api.zaimanhua.com",
+      "sha256": "61fdbf9e31f16cd1997313bbc8909a320cf47f9da6eec9177d30114c47463250",
+      "contentWarning": "safe",
+      "description": "官方匿名公开排行、最新、搜索、作品详情与已公开章节目录。读图核对作品、章节与游客 canRead 字段。图片地址失效时可从阅读器刷新本章图片地址。"
+    },
+    {
+      "id": "keiyoushi.all.lemoon",
+      "name": "Lemoon",
+      "lang": "all",
+      "schema": "kazumi-comic-v1",
+      "version": "1.0.0",
+      "versionCode": 1,
+      "description": "Lemoon 官方游客模式，保留公开 Webtoon 目录和最新上架。只读取明确公开、未锁定、非成熟的章节。",
+      "baseUrl": "https://api-srv.lemoon.io",
+      "ruleUrl": "rules/lemoon.all.json",
+      "sha256": "c34ede1ae30cbf86b72dca8a5c5ea0db525bfdfec0936dcb7937c65983e30723",
+      "contentWarning": "mixed",
+      "nsfw": false
     }
   ]
 }

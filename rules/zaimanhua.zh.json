@@ -1,0 +1,45 @@
+{
+  "schema": "kazumi-comic-v1",
+  "id": "keiyoushi.zh.zaimanhua",
+  "name": "再漫画",
+  "lang": "zh",
+  "version": "1.0.0",
+  "versionCode": 1,
+  "baseURL": "https://v4api.zaimanhua.com",
+  "contentFormat": "zaimanhua-public",
+  "headers": {
+    "X-Requested-With": "XMLHttpRequest",
+    "Platform": "h5"
+  },
+  "searchURL": "/app/v1/search/index?source=0&size=20&keyword=@keyword&page=@page",
+  "searchList": "$.data.list[?(@.id != 0)]",
+  "searchName": "$.title",
+  "searchResult": "@tmpl:/app/v1/comic/detail/{{$.id}}?_v=2.2.5",
+  "searchCover": "$.cover",
+  "searchAuthor": "$.authors",
+  "exploreCategories": [
+    {
+      "name": "热门",
+      "url": "/app/v1/comic/rank/list?tag_id=0&page=@page"
+    },
+    {
+      "name": "最新更新",
+      "url": "/app/v1/comic/update/list/0/@page"
+    }
+  ],
+  "exploreList": "$.data[?(@.comic_id != 0)]",
+  "exploreName": "$.title",
+  "exploreResult": "@tmpl:/app/v1/comic/detail/{{$.comic_id}}?_v=2.2.5",
+  "exploreCover": "$.cover",
+  "detailTitle": "$.data.data.title",
+  "detailAuthor": "$.data.data.authors[*].tag_name",
+  "detailIntro": "$.data.data.description",
+  "detailStatus": "$.data.data.status[0].tag_name",
+  "detailTags": "$.data.data.types[*].tag_name",
+  "detailCover": "$.data.data.cover",
+  "chapterList": "$.data.data.chapters[*].data[*]",
+  "chapterName": "$.chapter_title",
+  "chapterUrl": "$.chapter_id",
+  "pageList": "$.data.data.page_url_hd[*]",
+  "description": "官方匿名公开排行、最新、搜索、作品详情与已公开章节目录。读图核对作品、章节与游客 canRead 字段。图片地址失效时可从阅读器刷新本章图片地址。"
+}

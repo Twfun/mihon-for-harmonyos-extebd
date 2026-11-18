@@ -1,0 +1,44 @@
+{
+  "schema": "kazumi-comic-v1",
+  "id": "keiyoushi.all.lemoon",
+  "name": "Lemoon",
+  "version": "1.0.0",
+  "versionCode": 1,
+  "lang": "all",
+  "baseURL": "https://api-srv.lemoon.io",
+  "allowedHosts": [
+    "lemoon.io"
+  ],
+  "headers": {
+    "app-name-code": "lemoon-web",
+    "app-version": "2.0.0",
+    "Referer": "https://lemoon.io/"
+  },
+  "searchURL": "/api/comic?format=webtoon&keywords=@keyword&pageNumber=@page&pageSize=30",
+  "searchList": "$.items[*]",
+  "searchName": "$.title",
+  "searchResult": "@tmpl:/api/comic/{{$.public_id}}",
+  "searchCover": "@tmpl:https://cdn.lemoon.io/{{$.cover_image.category}}/{{$.cover_image.name}}",
+  "exploreCategories": [
+    {
+      "name": "公開作品",
+      "url": "/api/comic?format=webtoon&pageNumber=@page&pageSize=30"
+    },
+    {
+      "name": "最新上架",
+      "url": "https://lemoon.io/collections/1685422489-new-releases"
+    }
+  ],
+  "detailTitle": "$.title",
+  "detailCover": "@tmpl:https://cdn.lemoon.io/{{$.cover_image.category}}/{{$.cover_image.name}}",
+  "detailAuthor": "$.comic.created_by.profile.display_name",
+  "detailIntro": "$.description",
+  "detailStatus": "$.status",
+  "detailTags": "$.comic.categories[*]",
+  "chapterList": "$.items[*]",
+  "chapterName": "$.title",
+  "chapterUrl": "@tmpl:/series/{{$.comic_translation}}/{{$.public_id}}",
+  "pageList": "$.items[*].media.name",
+  "contentFormat": "lemoon-public",
+  "description": "Lemoon 官方游客模式，保留公开 Webtoon 目录和最新上架。只读取明确公开、未锁定、非成熟的章节。"
+}
