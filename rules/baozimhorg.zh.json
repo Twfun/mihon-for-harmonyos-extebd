@@ -1,0 +1,45 @@
+{
+  "schema": "kazumi-comic-v1",
+  "id": "keiyoushi.zh.baozimhorg",
+  "name": "GoDa漫画",
+  "lang": "zh",
+  "version": "1.0.0",
+  "versionCode": 1,
+  "baseURL": "https://baozimh.org",
+  "allowedHosts": [
+    "api-get-v3.mgsearcher.com"
+  ],
+  "contentFormat": "goda-public",
+  "headers": {
+    "X-Requested-With": "XMLHttpRequest",
+    "Origin": "https://baozimh.org",
+    "Referer": "https://baozimh.org/"
+  },
+  "searchURL": "/s/@keyword?page=@page",
+  "searchList": ".cardlist .pb-2 a",
+  "searchName": "h3.cardtitle@text",
+  "searchResult": "@href",
+  "searchCover": "img@src",
+  "exploreCategories": [
+    {
+      "name": "热门",
+      "url": "/hots/page/@page"
+    },
+    {
+      "name": "最新",
+      "url": "/newss/page/@page"
+    }
+  ],
+  "detailTitle": "main h1@textNodes",
+  "detailCover": "@xpath://meta[@property=\"og:image\"]/@content",
+  "detailAuthor": "main a[href^=/manga-author/]@text",
+  "detailIntro": "main p.line-clamp-4@text",
+  "detailStatus": "main h1 span@text",
+  "detailTags": "main a[href^=/manga-tag/]@text",
+  "tocUrl": "@tmpl:https://api-get-v3.mgsearcher.com/api/manga/get?mid={{#mangachapters@data-mid}}&mode=all",
+  "chapterList": "$.data.chapters[*]",
+  "chapterName": "$.attributes.title",
+  "chapterUrl": "$.attributes.slug",
+  "pageList": "$.data.info.images.images",
+  "description": "GoDa 官网公开游客热门、最新、名称搜索、作品与完整公开目录。静态解码站方图片列表并校验作品、章节归属和连续页序。"
+}

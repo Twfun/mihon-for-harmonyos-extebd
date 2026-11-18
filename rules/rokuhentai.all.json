@@ -1,0 +1,29 @@
+{
+  "schema": "kazumi-comic-v1",
+  "id": "keiyoushi.all.rokuhentai",
+  "name": "Roku Hentai",
+  "lang": "all",
+  "baseURL": "https://rokuhentai.com",
+  "version": "1.0.0",
+  "versionCode": 1,
+  "contentFormat": "roku-public",
+  "searchURL": "/?q=@keyword",
+  "searchList": "@css:.mdc-card > a.site-popunder-ad-slot",
+  "searchName": "@css:.site-manga-card__title--primary@text",
+  "searchResult": "@href",
+  "searchCover": "@roku-public-cover",
+  "exploreCategories": [
+    {
+      "name": "公開圖集",
+      "url": "/"
+    }
+  ],
+  "detailTitle": "@css:.site-page-drawer__title@text",
+  "detailCover": "@xpath://meta[@property='og:image']/@content",
+  "detailIntro": "@css:.site-page-drawer__subtitle@text",
+  "chapterList": "@css:html",
+  "chapterName": "@css:.site-page-drawer__title@text",
+  "chapterUrl": "@css:link[rel=canonical]@href",
+  "pageList": "@css:img.site-reader__image[data-src^=\"https://rokuhentai.com/_images/pages/\"][data-src$=\".jpg\"]@data-src",
+  "description": "Roku Hentai 全語言公開相冊，支援網站原生游標分頁、名稱檢索和頁序。"
+}

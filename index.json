@@ -2174,6 +2174,48 @@
       "sha256": "f67afc6f61314e2eb4a059c92696c1018d7be58e58b2ccf2bf80b22fa6eb926a",
       "contentWarning": "nsfw",
       "nsfw": true
+    },
+    {
+      "id": "keiyoushi.zh.baozimhorg",
+      "name": "GoDa漫画",
+      "lang": "zh",
+      "version": "1.0.0",
+      "versionCode": 1,
+      "schema": "kazumi-comic-v1",
+      "ruleUrl": "rules/baozimhorg.zh.json",
+      "baseUrl": "https://baozimh.org",
+      "sha256": "c55de4506198fbc404f060e21c360d0fb09dbd1e875f0644e4bdc9b6f806446c",
+      "contentWarning": "safe",
+      "nsfw": false,
+      "description": "GoDa 官网公开游客热门、最新、名称搜索、作品与完整公开目录。静态解码站方图片列表并校验作品、章节归属和连续页序。"
+    },
+    {
+      "id": "keiyoushi.all.rokuhentai",
+      "name": "Roku Hentai",
+      "lang": "all",
+      "schema": "kazumi-comic-v1",
+      "version": "1.0.0",
+      "versionCode": 1,
+      "description": "Roku Hentai 全語言公開相冊，支援網站原生游標分頁、名稱檢索和頁序。",
+      "baseUrl": "https://rokuhentai.com",
+      "ruleUrl": "rules/rokuhentai.all.json",
+      "sha256": "efd57ff5b686f3b2f69aecbdcc0ff9a59dfa09123d0a57ab9bc91d54c74b9339",
+      "contentWarning": "nsfw",
+      "nsfw": true
+    },
+    {
+      "id": "keiyoushi.zh.mangatoon",
+      "name": "MangaToon (Limited)",
+      "version": "1.0.0",
+      "versionCode": 1,
+      "lang": "zh",
+      "schema": "kazumi-comic-v1",
+      "description": "沿用漫画堂官方中文 H5，免账号浏览和搜索。只列出游客已开放的免费章，阅读时再次核验作品、章节和免费状态，使用官方 H5 水印图片。",
+      "baseUrl": "https://sg.mangatoon.mobi",
+      "ruleUrl": "rules/mangatoon.zh.json",
+      "sha256": "c879c396908a08f60584647c5ef3c4d49bb91ea3d63f593287764ce9daf92db3",
+      "contentWarning": "safe",
+      "nsfw": false
     }
   ]
 }
