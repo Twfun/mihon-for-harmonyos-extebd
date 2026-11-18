@@ -2594,6 +2594,34 @@
       "sha256": "c68959a802a6a60302e944467e19f5c3000147966df73189c08d7bd2497bc6a9",
       "contentWarning": "nsfw",
       "nsfw": true
+    },
+    {
+      "id": "keiyoushi.zh.jcomic",
+      "name": "JComic",
+      "lang": "zh",
+      "version": "1.0.0",
+      "versionCode": 1,
+      "schema": "kazumi-comic-v1",
+      "description": "JComic 官网页面自动签发游客会话，供公开发现、搜索和按需加载章图。短效页图仅从官网图床读取。",
+      "ruleUrl": "rules/jcomic.zh.json",
+      "baseUrl": "https://jcomic.net",
+      "sha256": "c3f81ca068ae7ead5c35e5eb4061c7afdd1f02d720740de25e7899e8bd12bc7e",
+      "contentWarning": "nsfw",
+      "nsfw": true
+    },
+    {
+      "id": "keiyoushi.zh.ahrigallery",
+      "name": "Ahri Gallery",
+      "lang": "zh",
+      "schema": "kazumi-comic-v1",
+      "version": "1.0.0",
+      "versionCode": 1,
+      "description": "Ahri Gallery 中文圖集入口。使用官網中文語言偏好、匿名目錄與公開訪客閱讀。",
+      "baseUrl": "https://ahri-gallery.com",
+      "ruleUrl": "rules/ahrigallery.zh.json",
+      "sha256": "2ffb46590bdd3310bb425f175119ca8fac13a0534f37a54b55bf693cab4dc496",
+      "contentWarning": "nsfw",
+      "nsfw": true
     }
   ]
 }
