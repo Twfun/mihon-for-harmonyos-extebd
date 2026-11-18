@@ -1,0 +1,38 @@
+{
+  "bookSourceName": "秀色女神",
+  "bookSourceUrl": "https://m.xsnvshen.com",
+  "bookSourceGroup": "中文",
+  "bookSourceComment": "秀色女神移动站游客热门、最新、名称搜索及公开图集，逐个原站分页加载图片。",
+  "bookSourceType": 2,
+  "header": "{\"User-Agent\": \"Mozilla/5.0 (Linux; Android 14) AppleWebKit/537.36 Chrome/131.0 Mobile Safari/537.36\"}",
+  "searchUrl": "/search?w={{key}}",
+  "exploreUrl": "热门::/album/?p={{page}}\n最新::/album/new/?p={{page}}",
+  "ruleSearch": {
+    "bookList": "ul.list_3c > li",
+    "name": ".titlebox a@text",
+    "bookUrl": ".titlebox a[href^=\"/album/\"]@href",
+    "coverUrl": ".picbox img@src"
+  },
+  "ruleExplore": {
+    "bookList": "ul.list > li",
+    "name": ".txtbts3@text",
+    "bookUrl": "a[href^=\"/album/\"]@href",
+    "coverUrl": "img@src"
+  },
+  "ruleBookInfo": {
+    "name": ".titlebox h1@text",
+    "author": ".position a[href^=\"/girl/\"]@text",
+    "coverUrl": "@xsnvshen-public-cover",
+    "intro": "#arcbox > p:first-child@text",
+    "kind": ".poster-nav a span@text"
+  },
+  "ruleToc": {
+    "chapterList": ".titlebox h1 a[href^=\"/album/\"]",
+    "chapterName": "@text",
+    "chapterUrl": "@href"
+  },
+  "ruleContent": {
+    "content": "@xpath://*[@id='arcbox']//img[@datafull]/@datafull",
+    "nextContentUrl": "#pageNum a.pg_next[data-page=\"{{nextPage}}\"]@href"
+  }
+}
