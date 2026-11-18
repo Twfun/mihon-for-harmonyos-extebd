@@ -2272,6 +2272,48 @@
       "sha256": "a1dd2b91b7eb435bc8cf20fc245c760666081f5e0e25521f33b013effd4ac143",
       "contentWarning": "safe",
       "nsfw": false
+    },
+    {
+      "id": "keiyoushi.all.doudoudoujin",
+      "name": "DouDouDoujin",
+      "lang": "all",
+      "schema": "kazumi-comic-v1",
+      "version": "1.0.0",
+      "versionCode": 1,
+      "description": "DouDouDoujin 全語言公開作品。目錄、作品及原語種章節採用官網資料，僅讀取訪客可見的完整頁圖。",
+      "baseUrl": "https://doudoudoujin.com",
+      "ruleUrl": "rules/doudoudoujin.all.json",
+      "sha256": "a71ac5fcfc4c02577832cb07bfb6b2658142cf6a218bcfc1e33bcdb6e402945c",
+      "contentWarning": "mixed",
+      "nsfw": false
+    },
+    {
+      "id": "keiyoushi.zh.manhuawu",
+      "name": "漫画屋",
+      "lang": "zh",
+      "version": "1.0.0",
+      "versionCode": 1,
+      "schema": "kazumi-comic-v1",
+      "ruleUrl": "rules/manhuawu.zh.json",
+      "baseUrl": "https://www.mhua5.com",
+      "sha256": "fbdc78a7d397f193eb55ce401378a5fd7d8c396bbfc64b4663a7400ad9e53611",
+      "contentWarning": "safe",
+      "nsfw": false,
+      "description": "漫画屋官网游客搜索、最近更新与公开章节。读图只使用官网标注免费且无需会员的章节。"
+    },
+    {
+      "id": "keiyoushi.zh.manben",
+      "name": "漫本",
+      "lang": "zh",
+      "version": "1.0.0",
+      "versionCode": 1,
+      "schema": "kazumi-comic-v1",
+      "ruleUrl": "rules/manben.zh.json",
+      "baseUrl": "https://www.manben.com",
+      "sha256": "f7399a79361a4e4cc06d698d9ccc1c60bbfc62ef3b1d4bd66d16fc526fbdc60e",
+      "contentWarning": "safe",
+      "nsfw": false,
+      "description": "漫本官网游客热门、最新、搜索和详情。使用官网滚动阅读模式获取允许游客阅读的完整页图。"
     }
   ]
 }

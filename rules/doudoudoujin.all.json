@@ -1,0 +1,29 @@
+{
+  "schema": "kazumi-comic-v1",
+  "id": "keiyoushi.all.doudoudoujin",
+  "name": "DouDouDoujin",
+  "lang": "all",
+  "baseURL": "https://doudoudoujin.com",
+  "version": "1.0.0",
+  "versionCode": 1,
+  "contentFormat": "doudoudoujin-public",
+  "searchURL": "/series",
+  "searchList": "@json:$.series.items[*]",
+  "searchName": "@json:$.title",
+  "searchResult": "@json:$.slug",
+  "searchCover": "@json:$.thumbnailUrl",
+  "exploreCategories": [
+    {
+      "name": "全部公開作品",
+      "url": "/series"
+    }
+  ],
+  "detailTitle": "@json:$.series.title",
+  "detailCover": "@json:$.series.thumbnailUrl",
+  "detailIntro": "@json:$.series.description",
+  "chapterList": "@json:$.mangas[*]",
+  "chapterName": "@json:$.title",
+  "chapterUrl": "@json:$.slug",
+  "pageList": "@json:$.manga.pages[*].imageUrl",
+  "description": "DouDouDoujin 全語言公開作品。目錄、作品及原語種章節採用官網資料，僅讀取訪客可見的完整頁圖。"
+}
