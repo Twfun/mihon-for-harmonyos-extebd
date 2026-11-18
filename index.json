@@ -2426,6 +2426,62 @@
       "sha256": "e53300f596e3467c79d24243b9125ad6b7ff116e4610ca598871bef7a10bf993",
       "contentWarning": "nsfw",
       "nsfw": true
+    },
+    {
+      "id": "keiyoushi.zh.budingmanhua",
+      "name": "布丁漫画",
+      "lang": "zh",
+      "version": "1.0.0",
+      "versionCode": 1,
+      "schema": "legado-v3",
+      "ruleUrl": "rules/budingmanhua.zh.json",
+      "baseUrl": "https://hxy4.com",
+      "sha256": "883bcf7924b196b0dfcefcd3e43b0c32c0c42f27ba280ba1086635b3f147c292",
+      "contentWarning": "mixed",
+      "nsfw": false,
+      "description": "布丁漫画官网游客榜单、最近更新、名称搜索和公开章节，支持沿章内下一页完整读取。"
+    },
+    {
+      "id": "keiyoushi.zh.toonlook",
+      "name": "ToonLook（中文）",
+      "version": "1.0.0",
+      "versionCode": 1,
+      "lang": "zh",
+      "schema": "kazumi-comic-v1",
+      "description": "沿用 ToonLook 官網中文語種。只顯示官方標記中文的漫畫、目錄和標記語種一致的訪客頁圖。",
+      "baseUrl": "https://toonlook.com",
+      "ruleUrl": "rules/toonlook.zh.json",
+      "sha256": "0f695ce55e800357e82e62a68408383c5566e5142ca337fa8cc6abfaa8e8d108",
+      "contentWarning": "nsfw",
+      "nsfw": true
+    },
+    {
+      "id": "keiyoushi.zh.kanman",
+      "name": "看漫画",
+      "lang": "zh",
+      "schema": "kazumi-comic-v1",
+      "version": "1.0.0",
+      "versionCode": 1,
+      "description": "看漫画官网游客阅读榜、最近更新、详情和章节。仅读取明确向游客免费开放并由官网签发的完整图序。网页名称搜索待验证。",
+      "baseUrl": "https://www.kanman.com",
+      "ruleUrl": "rules/kanman.zh.json",
+      "sha256": "a81e0a44476a9ab3c93289d7dd571a6fa3e2b60f97bfdd9df7c5b614f16356fa",
+      "contentWarning": "safe",
+      "nsfw": false
+    },
+    {
+      "id": "keiyoushi.all.naisho",
+      "name": "Naisho",
+      "lang": "all",
+      "schema": "kazumi-comic-v1",
+      "version": "1.0.0",
+      "versionCode": 1,
+      "description": "Naisho 全語言公開圖集。使用官網原生匿名會話瀏覽最新、熱門、名稱檢索及圖像。",
+      "baseUrl": "https://naisho.moe",
+      "ruleUrl": "rules/naisho.all.json",
+      "sha256": "2d99b125e661a657b54c6ecfac83f975f599626b5526f55bfee4e260f2b6130d",
+      "contentWarning": "nsfw",
+      "nsfw": true
     }
   ]
 }

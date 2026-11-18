@@ -1,0 +1,36 @@
+{
+  "bookSourceName": "布丁漫画",
+  "bookSourceUrl": "https://hxy4.com",
+  "bookSourceGroup": "中文",
+  "bookSourceComment": "布丁漫画官网游客榜单、最近更新、名称搜索和公开章节，支持沿章内下一页完整读取。",
+  "bookSourceType": 2,
+  "searchUrl": "/search?keyword={{key}}",
+  "exploreUrl": "点击榜::/rank\n最近更新::/update",
+  "ruleSearch": {
+    "name": "h2.title a@text",
+    "bookUrl": "h2.title a@href",
+    "coverUrl": "@buding-public-cover",
+    "bookList": "ul.mh-list.col7 .mh-item"
+  },
+  "ruleExplore": {
+    "name": "h2.title a@text",
+    "bookUrl": "h2.title a@href",
+    "coverUrl": "@buding-public-cover",
+    "bookList": "ul.top-cat > li:nth-child(2) .mh-item, ul.top-cat > li:nth-child(2) .mh-item-tip, ul.mh-list.col7 .mh-item"
+  },
+  "ruleBookInfo": {
+    "name": ".banner_detail_form .info h1@text",
+    "author": ".banner_detail_form .subtitle@text",
+    "coverUrl": ".banner_detail_form .cover img@src",
+    "intro": ".banner_detail_form .info .content@text"
+  },
+  "ruleToc": {
+    "chapterList": "#chapterlistload a[href^=\"/chapter/\"]",
+    "chapterName": "@text",
+    "chapterUrl": "@href"
+  },
+  "ruleContent": {
+    "content": ".comicpage img.lazy[data-original]@data-original",
+    "nextContentUrl": "a#nextPage@href"
+  }
+}

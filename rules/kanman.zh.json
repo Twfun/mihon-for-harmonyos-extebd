@@ -1,0 +1,35 @@
+{
+  "schema": "kazumi-comic-v1",
+  "id": "keiyoushi.zh.kanman",
+  "name": "看漫画",
+  "lang": "zh",
+  "baseURL": "https://www.kanman.com",
+  "version": "1.0.0",
+  "versionCode": 1,
+  "contentFormat": "kanman-public",
+  "headers": {
+    "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+  },
+  "exploreCategories": [
+    {
+      "name": "热血阅读榜",
+      "url": "/top/"
+    },
+    {
+      "name": "最近更新",
+      "url": "/gengxin/"
+    }
+  ],
+  "exploreList": ".J_sortContainer[data-type=\"juqing\"] > .item:first-child .comic-sort-list > li, .J_comicUpdate > li",
+  "exploreName": ".comic-name a@text",
+  "exploreResult": ".comic-name a@href",
+  "detailTitle": ".description h1.title@text",
+  "detailIntro": "meta[name=\"Description\"]@content || meta[name=\"description\"]@content",
+  "detailTags": ".description .tags a@text",
+  "detailCover": ".cover-radian img@src || meta[property=\"og:image\"]@content",
+  "chapterList": "li[data-chapter] > a[href]",
+  "chapterName": "@title",
+  "chapterUrl": "@href",
+  "pageList": "#readerContainer img@src",
+  "description": "看漫画官网游客阅读榜、最近更新、详情和章节。仅读取明确向游客免费开放并由官网签发的完整图序。网页名称搜索待验证。"
+}
