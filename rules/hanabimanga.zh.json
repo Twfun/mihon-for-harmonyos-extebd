@@ -1,0 +1,32 @@
+{
+  "schema": "kazumi-comic-v1",
+  "id": "keiyoushi.zh.hanabimanga",
+  "name": "花火漫画",
+  "version": "1.0.0",
+  "versionCode": 1,
+  "lang": "zh",
+  "baseURL": "https://web.hanabimanga.com",
+  "contentFormat": "hanabi-public",
+  "searchURL": "/zh-CN/search?q=@keyword&page=@page",
+  "exploreCategories": [
+    {"name": "热门排行", "url": "/zh-CN/ranking/hot"},
+    {"name": "最新上架", "url": "/zh-CN/ranking/new"}
+  ],
+  "searchList": "$[*]",
+  "searchName": "$.title",
+  "searchResult": "@tmpl:/zh-CN/comic/{{$.id}}",
+  "searchCover": "$.cover_url",
+  "exploreList": "a[href^='/zh-CN/comic/']",
+  "exploreName": "img@alt || h3@text",
+  "exploreResult": "@href",
+  "exploreCover": "img@src",
+  "detailTitle": "@xpath://meta[@property='og:title']/@content",
+  "detailAuthor": "a[href^='/zh-CN/author/']@text",
+  "detailIntro": "@xpath://meta[@property='og:description']/@content",
+  "detailCover": "@xpath://meta[@property='og:image']/@content",
+  "chapterList": "a[href*='/chapter-']",
+  "chapterName": "@text",
+  "chapterUrl": "@href",
+  "pageList": "$.pages[*].url",
+  "description": "官方 Web 中文游客入口，支持热门、最新、搜索、完整目录和游客标准画质。遵守站点游客配额；登录和高清画质待支持。"
+}

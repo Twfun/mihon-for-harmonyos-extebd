@@ -1,0 +1,40 @@
+{
+  "schema": "kazumi-comic-v1",
+  "id": "keiyoushi.zh.dm5",
+  "name": "动漫屋",
+  "lang": "zh",
+  "baseURL": "https://m.dm5.com",
+  "version": "1.0.0",
+  "versionCode": 1,
+  "contentFormat": "dm5-public",
+  "searchURL": "/search?title=@keyword&language=1&page=1",
+  "searchList": "ul.book-list > li",
+  "searchName": ".book-list-info-title@text",
+  "searchResult": "@dm5-public-work-url",
+  "searchCover": ".book-list-cover img@src",
+  "exploreCategories": [
+    {
+      "name": "人气榜",
+      "url": "/manhua-rank/"
+    },
+    {
+      "name": "最近更新",
+      "url": "/manhua-new/"
+    }
+  ],
+  "exploreList": "#rankList_1 > a,#updatedb0 > li",
+  "exploreName": ".rank-list-info-right-title@text || .manga-list-2-title@text",
+  "exploreResult": "@dm5-public-work-url",
+  "exploreCover": ".rank-list-cover img@src || .manga-list-2-cover img@src",
+  "detailTitle": ".detail-main-info-title@text",
+  "detailCover": ".detail-main-cover img@src",
+  "detailAuthor": ".detail-main-info-author a@text",
+  "detailIntro": ".detail-desc@text",
+  "detailStatus": ".detail-list-title-1@text",
+  "detailTags": ".detail-main-info-class a@text",
+  "chapterList": "a.chapteritem",
+  "chapterName": "@text",
+  "chapterUrl": "@href",
+  "pageList": "#cp_img img@src",
+  "description": "动漫屋官方移动站游客人气榜、最近更新、名称搜索、详情和公开章节。只读取站点公开的静态页图清单，验证每页归属。"
+}

@@ -1,0 +1,35 @@
+{
+  "schema": "kazumi-comic-v1",
+  "id": "keiyoushi.all.ahrigallery",
+  "name": "Ahri Gallery",
+  "lang": "all",
+  "baseURL": "https://ahri-gallery.com",
+  "version": "1.0.0",
+  "versionCode": 1,
+  "contentFormat": "ahri-gallery-public",
+  "headers": {
+    "Cookie": "lang_filter=All"
+  },
+  "searchURL": "/index.php?route=comic/list&sort=default&order=DESC&page=@page&search_key=@keyword",
+  "searchList": "@css:.gallery-group",
+  "searchName": "@css:h5.title a@title",
+  "searchResult": "@css:h5.title a@href",
+  "searchCover": "@css:.image-inner img@src",
+  "exploreCategories": [
+    {
+      "name": "熱門",
+      "url": "/index.php?route=comic/list&sort=fav&order=DESC&page=@page"
+    },
+    {
+      "name": "最新",
+      "url": "/index.php?route=comic/list&sort=default&order=DESC&page=@page"
+    }
+  ],
+  "detailTitle": "@css:.gallery_card .gallery_title@text",
+  "detailCover": "@css:.gallery_card img@src",
+  "chapterList": "@css:html",
+  "chapterName": "@css:.gallery_card .gallery_title@text",
+  "chapterUrl": "@css:.gallery_card a[href*=\"route=comic/reader\"]@href",
+  "pageList": "@css:script",
+  "description": "Ahri Gallery 全語言公開目錄與圖集。使用官網即時簽發的訪客閱讀連結和公開媒體清單。"
+}

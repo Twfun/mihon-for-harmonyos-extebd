@@ -1,0 +1,40 @@
+{
+  "schema": "kazumi-comic-v1",
+  "id": "keiyoushi.zh.92mh",
+  "name": "92漫画",
+  "lang": "zh",
+  "version": "1.0.0",
+  "versionCode": 1,
+  "baseURL": "https://www.92mh.com",
+  "contentFormat": "sin92-public",
+  "searchURL": "/search/?keywords=@keyword&page=@page",
+  "searchList": ".search_con li.list-comic",
+  "searchName": "p a@text",
+  "searchResult": "@tmpl:/manhua/{{@data-key}}/",
+  "searchCover": "img@src",
+  "searchAuthor": ".auth@text",
+  "exploreCategories": [
+    {
+      "name": "热门",
+      "url": "/list/click/?page=@page"
+    },
+    {
+      "name": "最新",
+      "url": "/list/update/?page=@page"
+    }
+  ],
+  "exploreList": ".list-view li.list-comic",
+  "exploreName": "h3 a@text",
+  "exploreResult": "@tmpl:/manhua/{{@data-key}}/",
+  "exploreCover": "img@src",
+  "detailTitle": ".comic_deCon h1@text",
+  "detailCover": ".comic_i_img img@src",
+  "detailAuthor": ".comic_deCon_liO li:first-child@text",
+  "detailIntro": ".comic_deCon_d@text",
+  "chapterList": "ul[id^=\"chapter-list-\"] li a",
+  "chapterName": ".list_con_zj@text",
+  "chapterUrl": "@href",
+  "chapterReverse": true,
+  "pageList": "img@src",
+  "description": "92漫画官网游客热门、最新、搜索及作品目录。读取官网允许游客免费阅读的页面图清单。"
+}
